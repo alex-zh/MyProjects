@@ -1,0 +1,4 @@
+namespace Robot.TradeApplication.Controls
+{
+   
+}

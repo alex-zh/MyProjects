@@ -1,0 +1,10 @@
+http://planetcalc.ru/484/
+
+http://stats.stackexchange.com/questions/798/calculating-optimal-number-of-bins-in-a-histogram-for-n-where-n-ranges-from-30
+
+
+‘ормула ‘ридмана ƒиакониса (Freedman and Diaconis, 1981)
+h=2(IQ)n^{-1/3}, где h - длина интервала, (IQ) - разница между верхним и нижним квартилем.
+
+ ¬ј–“»Ћ№
+(quartile) „етверта€ часть всей совокупности данных выборки, представленной в виде вариационного р€да.

@@ -1,0 +1,27 @@
+﻿Reasons of 400 response:
+
+Incufficient funds
+OrderId/ClientOrderId has been used
+
+[
+{"OrderId":"879452bc-35f0-4125-a029-650ab0cdefa7","SystemOrderId":null,"Symbol":"XRPU18","Size":1.0,"Price":7.34789E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":1.0}
+{"OrderId":"b813b042-338d-46b3-8769-4f2a8b427e12","SystemOrderId":null,"Symbol":"XRPU18","Size":2.0,"Price":7.3257800000000009E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":2.0}
+{"OrderId":"9e4e819e-f7f8-41f6-b358-25e8f582602a","SystemOrderId":null,"Symbol":"XRPU18","Size":4.0,"Price":7.30367E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":4.0}
+{"OrderId":"f203fc55-6e0e-4bce-a4ca-149f43dd37b3","SystemOrderId":null,"Symbol":"XRPU18","Size":8.0,"Price":7.28156E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":8.0}
+{"OrderId":"4cc3aa9f-fe6b-4588-a9a1-63acf6dc6cfc","SystemOrderId":null,"Symbol":"XRPU18","Size":16.0,"Price":7.25945E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":16.0}
+{"OrderId":"9ca6d00c-8618-4a3e-a8de-8710286deb7a","SystemOrderId":null,"Symbol":"XRPU18","Size":32.0,"Price":7.2373400000000007E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":32.0}
+{"OrderId":"23dbfcd2-e598-4482-bd76-a006b41b9e48","SystemOrderId":null,"Symbol":"XRPU18","Size":64.0,"Price":7.21523E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":64.0}
+{"OrderId":"7147aa6f-ea32-4bca-937d-a93cad268652","SystemOrderId":null,"Symbol":"XRPU18","Size":128.0,"Price":7.19312E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":128.0}
+{"OrderId":"f5fa2b54-7c32-4130-bf97-7d4b872f4d78","SystemOrderId":null,"Symbol":"XRPU18","Size":256.0,"Price":7.17101E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":256.0}
+{"OrderId":"278998b0-7c89-4fd2-b594-649382885d37","SystemOrderId":null,"Symbol":"XRPU18","Size":512.0,"Price":7.1489E-05,"OrderStatus":1,"OrderType":0,"Side":0,"DateTime":"0001-01-01T00:00:00","Balance":512.0}
+{"OrderId":"caa46a85-d559-4569-9b9b-4cc17ee4439b","SystemOrderId":null,"Symbol":"XRPU18","Size":1.0,"Price":7.3921099999999993E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":1.0}
+{"OrderId":"81d69ae7-ca59-4494-bc28-2cda185c3466","SystemOrderId":null,"Symbol":"XRPU18","Size":2.0,"Price":7.41422E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":2.0}
+{"OrderId":"1d71377f-dc7a-4ce9-8c1e-cf00aa93cbd4","SystemOrderId":null,"Symbol":"XRPU18","Size":4.0,"Price":7.43633E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":4.0}
+{"OrderId":"199165d9-9b5c-4e75-b0da-64e1cf94089a","SystemOrderId":null,"Symbol":"XRPU18","Size":8.0,"Price":7.45844E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":8.0}
+{"OrderId":"b682568e-498d-4a90-86d9-66f986d3b41b","SystemOrderId":null,"Symbol":"XRPU18","Size":16.0,"Price":7.48055E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":16.0}
+{"OrderId":"35bf66b0-cb06-4191-83ac-686b91f37fce","SystemOrderId":null,"Symbol":"XRPU18","Size":32.0,"Price":7.50266E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":32.0}
+{"OrderId":"31009cf1-102a-4d2f-be02-6aba861654d4","SystemOrderId":null,"Symbol":"XRPU18","Size":64.0,"Price":7.52477E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":64.0}
+{"OrderId":"ae0a07db-cd7c-408d-a954-460aab025945","SystemOrderId":null,"Symbol":"XRPU18","Size":128.0,"Price":7.54688E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":128.0}
+{"OrderId":"b1c8f062-9a66-48e0-b298-fb1d97705a45","SystemOrderId":null,"Symbol":"XRPU18","Size":256.0,"Price":7.56899E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":256.0}
+{"OrderId":"160e15e0-31f6-4cc9-b7bb-7c3271e23142","SystemOrderId":null,"Symbol":"XRPU18","Size":512.0,"Price":7.5911E-05,"OrderStatus":1,"OrderType":0,"Side":1,"DateTime":"0001-01-01T00:00:00","Balance":512.0}
+]

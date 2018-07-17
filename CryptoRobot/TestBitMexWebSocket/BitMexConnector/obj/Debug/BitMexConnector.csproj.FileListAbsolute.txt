@@ -1,0 +1,9 @@
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\obj\Debug\BitMexConnector.csprojResolveAssemblyReference.cache
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\BitMexConnector.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\BitMexConnector.pdb
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\Newtonsoft.Json.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\websocket-sharp.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\Newtonsoft.Json.xml
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\bin\Debug\websocket-sharp.xml
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\obj\Debug\BitMexConnector.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector\obj\Debug\BitMexConnector.pdb

@@ -1,0 +1,7 @@
+C:\MyProjects\Visualizer\IndicatorsLibrary\bin\Debug\Core.dll
+C:\MyProjects\Visualizer\IndicatorsLibrary\bin\Debug\Core.pdb
+C:\MyProjects\Visualizer\IndicatorsLibrary\bin\Debug\Common.dll
+C:\MyProjects\Visualizer\IndicatorsLibrary\bin\Debug\Common.pdb
+C:\MyProjects\Visualizer\IndicatorsLibrary\obj\Debug\IndicatorsLibrary.csprojResolveAssemblyReference.cache
+C:\MyProjects\Visualizer\IndicatorsLibrary\obj\Debug\Core.dll
+C:\MyProjects\Visualizer\IndicatorsLibrary\obj\Debug\Core.pdb

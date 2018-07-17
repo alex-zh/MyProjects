@@ -1,0 +1,28 @@
+﻿<Window x:Class="Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Viewer"
+        xmlns:controls="clr-namespace:Viewer.Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="780.483" Width="832.075">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Margin="6" Padding="6" Click="LoadMenuItem_OnClick">Load candles</Button>
+            <Label Margin="1,6" Padding="1, 6">Structure</Label>
+            <TextBox Margin="6" Padding="6" MinWidth="220" MaxLines="1"  x:Name="tbStartIndex"></TextBox>
+            <Button Margin="6" Padding="6" Click="StartAndShowPattern_OnClick" IsDefault="False">Start and Show pattern</Button>
+            <Button Margin="6" Padding="6" Click="FindStructures_OnClick" IsEnabled="True" IsDefault="False">Find and Save</Button>
+            <Button Margin="6" Padding="6" Click="BuildStatistics_OnClick" IsEnabled="True" IsDefault="False">Build Statistics</Button>
+            <Button Margin="6" Padding="6" Click="BuildAndShowSummary_OnClick" IsDefault="False">Build And Show Summary</Button>
+            <Button Margin="6" Padding="6" Click="ShowSummaryForCurrent_OnClick" IsDefault="False">Show Summary For Current</Button>
+            <TextBox IsReadOnly="True" Margin="6" Padding="6" MinWidth="220" MaxLines="1"  x:Name="tbResult" VerticalScrollBarVisibility="Auto"></TextBox>
+        </StackPanel>
+        <controls:CandlesViewer Margin="6" Grid.Row="1" x:Name="Viewer"></controls:CandlesViewer>
+    </Grid>
+</Window>

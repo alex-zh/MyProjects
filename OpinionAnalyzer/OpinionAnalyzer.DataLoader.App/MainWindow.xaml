@@ -1,0 +1,55 @@
+﻿<Window x:Class="OpinionAnalyzer.DataLoader.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="480" Width="640">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <GroupBox Margin="3" Padding="3,6"  >
+            <GroupBox.Header>
+                <TextBlock Text="Select Period " FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel Orientation="Horizontal">
+
+                <DatePicker Name="dpStartDate" Width="120" Height="24" BorderThickness="1" Margin="0,0,12,0" >
+                    <DatePicker.Resources>
+                        <Style TargetType="{x:Type DatePickerTextBox}">
+                            <Setter Property="Text" Value="Select start date"></Setter>
+                            <Setter Property="IsReadOnly" Value="True"></Setter>
+                            <Setter Property="BorderThickness" Value="1"></Setter>
+                        </Style>
+                    </DatePicker.Resources>
+                </DatePicker>
+                <DatePicker Name="dpEndDate" Width="120" Height="24" Margin="12,0,0,0" BorderThickness="1"  >
+                    <DatePicker.Resources>
+                        <Style TargetType="{x:Type DatePickerTextBox}">
+                            <Setter Property="Text" Value="Select end date"></Setter>
+                            <Setter Property="IsReadOnly" Value="True"></Setter>
+                            <Setter Property="BorderThickness" Value="1"></Setter>
+                        </Style>
+                    </DatePicker.Resources>
+                </DatePicker>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Margin="3" Padding="3,6"  Grid.Row="1" >
+            <GroupBox.Header>
+                <TextBlock Text="Path where to store loaded files" FontWeight="Bold"/>
+            </GroupBox.Header>
+            <StackPanel >
+                <TextBox Name="tbPath" Text="D:\MyProjects\TradeIdeasTester\OpinionAnalyzer\Data">                    
+                </TextBox>                
+            </StackPanel>
+            </GroupBox>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+            <Button Margin="6" Width="120" Content="Start Loading" Click="Button_Click" />                
+        </StackPanel>
+        
+        <TextBox Name="tbLog" Grid.Row="3" Height="auto" Width="auto" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"></TextBox>
+
+
+    </Grid>
+</Window>

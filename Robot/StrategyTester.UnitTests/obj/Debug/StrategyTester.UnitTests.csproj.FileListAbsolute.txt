@@ -1,0 +1,16 @@
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\StrategyTester.UnitTests.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\StrategyTester.UnitTests.pdb
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Common.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Accord.Math.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\AForge.Math.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\AForge.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Accord.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Common.pdb
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Accord.Math.xml
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\AForge.Math.xml
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\AForge.xml
+C:\MyProjects\Robot\StrategyTester.UnitTests\bin\Debug\Accord.xml
+C:\MyProjects\Robot\StrategyTester.UnitTests\obj\Debug\StrategyTester.UnitTests.csprojResolveAssemblyReference.cache
+C:\MyProjects\Robot\StrategyTester.UnitTests\obj\Debug\StrategyTester.UnitTests.dll
+C:\MyProjects\Robot\StrategyTester.UnitTests\obj\Debug\StrategyTester.UnitTests.pdb

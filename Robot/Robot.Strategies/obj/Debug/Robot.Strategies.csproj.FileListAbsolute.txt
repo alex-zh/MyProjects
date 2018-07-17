@@ -1,0 +1,15 @@
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Robot.Strategies.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Robot.Strategies.pdb
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Common.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Accord.Math.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\AForge.Math.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\AForge.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Accord.dll
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Common.pdb
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Accord.Math.xml
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\AForge.Math.xml
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\AForge.xml
+C:\MyProjects\Robot\Robot.Strategies\bin\Debug\Accord.xml
+C:\MyProjects\Robot\Robot.Strategies\obj\Debug\Robot.Strategies.csprojResolveAssemblyReference.cache
+C:\MyProjects\Robot\Robot.Strategies\obj\Debug\Robot.Strategies.dll
+C:\MyProjects\Robot\Robot.Strategies\obj\Debug\Robot.Strategies.pdb

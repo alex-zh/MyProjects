@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>  
+  <Item>
+    <Name> Market </Name>
+    <Value>
+      ( американск.{2,3} | зарубежн.{2,3} | западн.{2,3} | внешн.{2,3} ) ( рын.{1,3} | индекс.{0,1} )
+    </Value>
+  </Item>
+  <Item>
+    <Name>
+     OpeningDecline
+    </Name>
+    <Value>
+      
+    </Value>
+  </Item>
+  <Item>
+    <Name>
+      OpeningRaise
+    </Name>
+    <Value>
+      
+    </Value>
+  </Item>  
+</Items>

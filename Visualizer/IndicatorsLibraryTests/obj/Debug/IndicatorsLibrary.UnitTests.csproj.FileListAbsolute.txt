@@ -1,0 +1,10 @@
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\DataForTests\TrendTests.xlsx
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\IndicatorsLibraryTests.dll
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\IndicatorsLibraryTests.pdb
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\Common.dll
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\Core.dll
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\Common.pdb
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\bin\Debug\Core.pdb
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\obj\Debug\IndicatorsLibrary.UnitTests.csprojResolveAssemblyReference.cache
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\obj\Debug\IndicatorsLibraryTests.dll
+C:\MyProjects\Visualizer\IndicatorsLibraryTests\obj\Debug\IndicatorsLibraryTests.pdb

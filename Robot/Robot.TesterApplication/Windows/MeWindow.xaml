@@ -1,0 +1,9 @@
+﻿<Window x:Class="Robot.TesterApplication.Windows.MeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Visualizer.VisualControls.Controls;assembly=Visualizer.VisualControls"
+        Title="MFE" Height="640" Width="860" WindowStartupLocation="CenterOwner">
+    <Grid>
+       <controls:BivariateChart x:Name="BivariateChart"> </controls:BivariateChart>
+    </Grid>
+</Window>

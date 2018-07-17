@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="GraphicsLib.DataLoader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="6" ></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="cbSelectFormat"></ComboBox>
+
+        <Path Grid.Row="1" Grid.ColumnSpan="2" Stroke="Blue" StrokeThickness="1" Stretch="Fill">
+            <Path.Data>
+                <LineGeometry StartPoint="0,0" EndPoint="1,0" />
+            </Path.Data>
+        </Path>
+        
+        <TextBox IsReadOnly="True" MinWidth="120" Margin="3" Grid.Row="2" x:Name="tbSelectedFile">File is not selected</TextBox>
+        <Button Width="90" Margin="3" Grid.Column="3" Grid.Row="2" Click="btnSelect_Click">Select File</Button>
+        <Button  Height="40" Margin="3" Grid.Column="0" Grid.Row="3" Click="btnLoadData_Click" IsEnabled="False" x:Name="btnLoadData">Load Data</Button>
+    </Grid>
+</UserControl>

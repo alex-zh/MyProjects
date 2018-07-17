@@ -1,0 +1,108 @@
+﻿<Window x:Class="TestApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="825">
+
+    <Window.Resources>
+        <DataTemplate x:Key="ListBoxOrderBookItemTemplate">
+            <Border Margin="5" BorderThickness="1" BorderBrush="SteelBlue" CornerRadius="4" Width="370">
+                <Grid Margin="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock FontWeight="Bold" Text="{Binding Path=Price}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding Size}"/>
+                </Grid>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ListBoxOrderItemTemplate">
+            <Border Margin="5" BorderThickness="1" BorderBrush="SteelBlue" CornerRadius="4" Width="370">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="6">Price:</TextBlock>
+                    <TextBlock FontWeight="Bold" Text="{Binding Path=Price}"/>
+                    <TextBlock Margin="6">Size:</TextBlock>
+                    <TextBlock Margin="6" FontWeight="Bold" Text="{Binding Path=Size}"/>
+                    <TextBlock Margin="6">Status:</TextBlock>
+                    <TextBlock Margin="6" FontWeight="Bold" Text="{Binding Path=OrderStatus}"/>
+                </StackPanel>
+                
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ListBoxTradeItemTemplate">
+            <Border Margin="5" BorderThickness="1" BorderBrush="SteelBlue" CornerRadius="4" Width="370">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="6">Price:</TextBlock>
+                    <TextBlock FontWeight="Bold" Text="{Binding Path=Price}"/>
+                    <TextBlock Margin="6">Size:</TextBlock>
+                    <TextBlock Margin="6" FontWeight="Bold" Text="{Binding Path=Size}"/>
+                </StackPanel>
+
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="12">
+            
+            <TextBlock VerticalAlignment="Center" Padding="3">Size: </TextBlock>
+            <TextBox x:Name="Size" Width="80" Padding="3" VerticalAlignment="Center">1</TextBox>
+            <TextBlock VerticalAlignment="Center" Padding="3" >Price:</TextBlock>
+            <TextBox x:Name="Price" Width="80" Padding="3" VerticalAlignment="Center">7000</TextBox>
+            <TextBlock VerticalAlignment="Center" Padding="3" >Symbol:</TextBlock>
+            <TextBox x:Name="Symbol" Width="80" Padding="3" VerticalAlignment="Center">XBTUSD</TextBox>
+            <TextBlock VerticalAlignment="Center" Padding="3" >Client  Order Id:</TextBlock>
+            <TextBox x:Name="ClOrderId" Width="80" Padding="3" VerticalAlignment="Center">MyOrderId</TextBox>
+            
+            <Button Margin="3" Width="80" Click="SetOrderHandler">Set Order</Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="12" >
+
+            <TextBlock VerticalAlignment="Center" Margin="3" >Client  Order Id</TextBlock>
+            <TextBox x:Name="ClOrderIdToDelete" Width="80" Margin="3" VerticalAlignment="Center">MyOrderId</TextBox>
+
+            <Button Margin="3" Width="80" Click="DeleteOrderHandler">Delete Order</Button>
+            <Button Margin="3" Width="90" Click="DeleteOrdersHandler">Delete OrderS</Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Button Width="200" Padding="12"  Margin="6" Click="Connect_OnClick">Connect</Button>
+            <Button  Width="200" Margin="6" Click="Disconnect_OnClick">Disconnect</Button>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="3"  Orientation="Horizontal">
+            <ListBox x:Name="OrdersList" ItemTemplate="{StaticResource ListBoxOrderItemTemplate}">
+            </ListBox>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="4"  Orientation="Horizontal">
+            <ListBox x:Name="TradesList" ItemTemplate="{StaticResource ListBoxTradeItemTemplate}">
+            </ListBox>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="5"  Orientation="Horizontal">
+            <ListBox x:Name="Bids" ItemTemplate="{StaticResource ListBoxOrderBookItemTemplate}">
+            </ListBox>
+
+            <ListBox x:Name="Asks" ItemTemplate="{StaticResource ListBoxOrderBookItemTemplate}">
+            </ListBox>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

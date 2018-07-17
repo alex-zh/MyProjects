@@ -1,0 +1,52 @@
+﻿<Window x:Class="CryptoDataLoader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CryptoDataLoader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <DatePicker  Grid.Row="0" Grid.Column="0" Grid.RowSpan="1"  HorizontalAlignment="Left" Margin="6" Name="datePicker"
+/>
+
+        <Button x:Name="LoadCandles" Padding="12" Grid.RowSpan="2" Grid.Row="1" Click="LoadCandles_OnClick_OnClick" Margin="6">Load Candles</Button>
+
+        <TextBlock Grid.Column="1" VerticalAlignment="Center"  Margin="6">Connector:</TextBlock>
+
+        <ComboBox x:Name="comboboxConnector"  Grid.Row="0" Grid.Column="2"  Margin="6"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"  Margin="6">Path:</TextBlock>
+        <TextBox Grid.Column="2"  Grid.Row="1" x:Name="textboxPath" Margin="6">C:\CryptoData\Candles</TextBox>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"  Margin="6">Symbol:</TextBlock>
+        <ComboBox  Grid.Row="2" Grid.Column="2"  x:Name="comboboxSymbol" Margin="6"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" VerticalAlignment="Center"  Margin="6">Time frame:</TextBlock>
+        <TextBox Grid.Row="3" Grid.Column="2"  x:Name="textBoxTimeFrame" Margin="6">1h</TextBox>
+
+        <TextBlock Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"  Margin="6">Limit:</TextBlock>
+        <TextBox Grid.Row="4" Grid.Column="2"  x:Name="textBoxLimit" Margin="6">100</TextBox>
+
+        <TextBlock Grid.Row="5" Grid.Column="1" VerticalAlignment="Center"  Margin="6">Price correction:</TextBlock>
+        <TextBox Grid.Row="5" Grid.Column="2"  x:Name="textBoxPriceCorrection" Margin="6">1</TextBox>
+
+    </Grid>
+</Window>

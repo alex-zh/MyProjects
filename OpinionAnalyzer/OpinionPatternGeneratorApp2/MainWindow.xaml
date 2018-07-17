@@ -1,0 +1,24 @@
+﻿<Window x:Class="OpinionPatternGeneratorApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="655" Width="794">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"></RowDefinition>
+
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="30*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Name="tbText" Grid.Row="0" Margin="3" BorderThickness="1">
+        </TextBox>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Margin="6" Padding="9, 6" Click="Button_Click">Generate pattern</Button>
+            <Button Margin="6" Padding="9,6">Find matches</Button>
+        </StackPanel>
+        <TextBox Name="tbGeneratedPattern"  Grid.Row="2" Margin="3" BorderThickness="1">
+        </TextBox>
+        <TextBox Name="tbPattern"  Grid.Row="3" Margin="3" BorderThickness="1">
+        </TextBox>
+    </Grid>
+</Window>

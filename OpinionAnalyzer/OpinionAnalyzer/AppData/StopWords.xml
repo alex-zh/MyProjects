@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>  
+  <Item>    
+    <Value>
+      ( снижен.{1,3} | кор{1,3}екци.{1,3} | понижен.{1,3} | падени.{1,2} ) .{0,20} ( прибыли | рентабельности | цен нефти )
+    </Value>
+    <Tags>
+        Decline OpeningDecline
+    </Tags>
+  </Item>
+  <Item>    
+    <Value>
+      ( повышени.{1,3} | рост.{1,2} | подъем.{1,2} ) .{0,20} ( прибыли | рентабельности )
+    </Value>
+    <Tags>
+      Raise, OpeningRaise
+    </Tags>
+  </Item>
+  <Item>  
+    <Value>
+      МСФО | банк | ВТБ | Сбербанк | Роснефт | ФосАгро | Аэрофлот | Газпром
+    </Value>
+    <Tags>
+      #Global Market
+      </Tags>
+  </Item>
+  <Item>
+    <Value>
+      нейтральн.{2,3} ( значени.{1} | положени.{1} | состояни.{1} | отношени.{1} | точк.{1} зрения )
+    </Value>
+    <Tags>
+      Neutral
+    </Tags>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+  <Item>
+    <Value>
+
+    </Value>
+  </Item>
+</Items>

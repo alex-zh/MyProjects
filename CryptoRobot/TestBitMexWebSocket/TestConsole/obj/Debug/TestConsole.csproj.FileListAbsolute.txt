@@ -1,0 +1,6 @@
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\bin\Debug\TestConsole.exe.config
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\bin\Debug\TestConsole.exe
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\bin\Debug\TestConsole.pdb
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\obj\Debug\TestConsole.exe
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestConsole\obj\Debug\TestConsole.pdb

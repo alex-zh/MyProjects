@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomProcessEmulation", "RandomProcessEmulation\RandomProcessEmulation.csproj", "{07F3D4F7-80C1-4636-B932-7AB053EC50E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary.UnitTests", "ClassLibrary.UnitTests\ClassLibrary.UnitTests.csproj", "{19A6A9A6-A176-4F6B-B41C-66E3E152D115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicatorsLibrary", "IndicatorsLibrary\IndicatorsLibrary.csproj", "{80791D38-4F8B-4249-9341-D5FA9B855153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndicatorsLibrary.UnitTests", "IndicatorsLibraryTests\IndicatorsLibrary.UnitTests.csproj", "{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9ED0AFCB-7656-4DC8-AF59-6288ACBAC523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "Common.Tests\Common.Tests.csproj", "{4FB4E3B9-89DB-47E2-8493-CDD63931F267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer.Core", "Visualizer.Core\Visualizer.Core.csproj", "{DAC515C3-74A7-4DA6-9B5A-DE710A60BAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer", "Visualizer\Visualizer.csproj", "{D7BD5305-1B42-4144-A657-C325126C72BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Strategies", "..\Robot\Robot.Strategies\Robot.Strategies.csproj", "{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer.VisualControls", "Visualizer.VisualControls\Visualizer.VisualControls.csproj", "{BF011444-DB35-4FCA-852B-876DA26ECD17}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RandomProcessEmulation\\RandomProcessEmulation.csproj
+		SccProjectName1 = RandomProcessEmulation
+		SccLocalPath1 = RandomProcessEmulation
+		SccProjectUniqueName2 = ClassLibrary.UnitTests\\ClassLibrary.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = Visualizer.sln
+		SccProjectName2 = ClassLibrary.UnitTests
+		SccLocalPath2 = ClassLibrary.UnitTests
+		SccProjectUniqueName3 = IndicatorsLibrary\\IndicatorsLibrary.csproj
+		SccProjectName3 = IndicatorsLibrary
+		SccLocalPath3 = IndicatorsLibrary
+		SccProjectUniqueName4 = Common\\Common.csproj
+		SccProjectName4 = Common
+		SccLocalPath4 = Common
+		SccProjectUniqueName5 = IndicatorsLibraryTests\\IndicatorsLibrary.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName5 = Visualizer.sln
+		SccProjectName5 = IndicatorsLibraryTests
+		SccLocalPath5 = IndicatorsLibraryTests
+		SccProjectUniqueName6 = Common.Tests\\Common.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = Visualizer.sln
+		SccProjectName6 = Common.Tests
+		SccLocalPath6 = Common.Tests
+		SccProjectUniqueName7 = Visualizer.Core\\Visualizer.Core.csproj
+		SccProjectName7 = Visualizer.Core
+		SccLocalPath7 = Visualizer.Core
+		SccProjectUniqueName8 = Visualizer\\Visualizer.csproj
+		SccProjectName8 = Visualizer
+		SccLocalPath8 = Visualizer
+		SccProjectUniqueName9 = ..\\Robot\\Robot.Strategies\\Robot.Strategies.csproj
+		SccProjectName9 = ../Robot/Robot.Strategies
+		SccLocalPath9 = ..\\Robot\\Robot.Strategies
+		SccProjectUniqueName10 = Visualizer.VisualControls\\Visualizer.VisualControls.csproj
+		SccProjectName10 = Visualizer.VisualControls
+		SccLocalPath10 = Visualizer.VisualControls
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07F3D4F7-80C1-4636-B932-7AB053EC50E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F3D4F7-80C1-4636-B932-7AB053EC50E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F3D4F7-80C1-4636-B932-7AB053EC50E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F3D4F7-80C1-4636-B932-7AB053EC50E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A6A9A6-A176-4F6B-B41C-66E3E152D115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A6A9A6-A176-4F6B-B41C-66E3E152D115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A6A9A6-A176-4F6B-B41C-66E3E152D115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A6A9A6-A176-4F6B-B41C-66E3E152D115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80791D38-4F8B-4249-9341-D5FA9B855153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80791D38-4F8B-4249-9341-D5FA9B855153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80791D38-4F8B-4249-9341-D5FA9B855153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80791D38-4F8B-4249-9341-D5FA9B855153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB4E3B9-89DB-47E2-8493-CDD63931F267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB4E3B9-89DB-47E2-8493-CDD63931F267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB4E3B9-89DB-47E2-8493-CDD63931F267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB4E3B9-89DB-47E2-8493-CDD63931F267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC515C3-74A7-4DA6-9B5A-DE710A60BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC515C3-74A7-4DA6-9B5A-DE710A60BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC515C3-74A7-4DA6-9B5A-DE710A60BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC515C3-74A7-4DA6-9B5A-DE710A60BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BD5305-1B42-4144-A657-C325126C72BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BD5305-1B42-4144-A657-C325126C72BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BD5305-1B42-4144-A657-C325126C72BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BD5305-1B42-4144-A657-C325126C72BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AE4B46E-0DD6-4E56-8EE6-50F6840C61E4} = {9ED0AFCB-7656-4DC8-AF59-6288ACBAC523}
+		{19A6A9A6-A176-4F6B-B41C-66E3E152D115} = {9ED0AFCB-7656-4DC8-AF59-6288ACBAC523}
+		{4FB4E3B9-89DB-47E2-8493-CDD63931F267} = {9ED0AFCB-7656-4DC8-AF59-6288ACBAC523}
+	EndGlobalSection
+EndGlobal

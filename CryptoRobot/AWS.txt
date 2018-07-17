@@ -1,0 +1,12 @@
+https://blogs.mulesoft.com/dev/api-dev/how-to-implement-file-upload-rest-api/
+
+https://forums.aws.amazon.com/post!default.jspa?forumID=178
+
+
+Hi!
+
+There is a client that wants efficiently solve the following task:
+1. There are data (terrabytes) located in
+ 
+
+If you have some thoughts or ideas how to implement this it would be nice to hear. Thank you.

@@ -1,0 +1,142 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Core", "Robot\Robot.Core.csproj", "{3EC9FC74-6326-4E16-84C3-9E5FF6932172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.UnitTests", "Robot.UnitTests\Robot.UnitTests.csproj", "{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Visualizer\Common\Common.csproj", "{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{657B5323-2543-48A2-BF38-87B96FDD8762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Strategies", "Robot.Strategies\Robot.Strategies.csproj", "{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyTester.UnitTests", "StrategyTester.UnitTests\StrategyTester.UnitTests.csproj", "{ED7A6FAD-3C32-4F7C-B529-395D66072F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer.VisualControls", "..\Visualizer\Visualizer.VisualControls\Visualizer.VisualControls.csproj", "{BF011444-DB35-4FCA-852B-876DA26ECD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.UnitTests", "Common.UnitTests\Common.UnitTests.csproj", "{DB802390-2901-4DD0-A999-40AD4E8315A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{E30F5D30-E500-4334-8B6D-3273F6758DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Strategies.UnitTests", "Robot.Strategies.UnitTests\Robot.Strategies.UnitTests.csproj", "{C3112457-913F-4089-AEE2-71475F712A60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connectors", "Connectors", "{2530E58D-123F-4CA1-A54F-008E7C848475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMex.TradeApplication", "BitMex.TradeApplication\BitMex.TradeApplication.csproj", "{20868D63-85BA-4B5C-8920-ECBCBD043F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMexConnector", "..\BitMexconnector\BitMexConnector\BitMexConnector.csproj", "{5A76AC2E-7D91-452D-B2E1-711234DF733E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMex.Robot.DataLayer", "BitMex.Robot.DataLayer\BitMex.Robot.DataLayer.csproj", "{CE1432C7-2F24-4002-8053-B5377BB84944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMex.Robot.DataLayer.UnitTests", "BitMex.Robot.DataLayer.UnitTests\BitMex.Robot.DataLayer.UnitTests.csproj", "{AD7EBFD4-9357-43A1-84D6-038E42DE80EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20868D63-85BA-4B5C-8920-ECBCBD043F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20868D63-85BA-4B5C-8920-ECBCBD043F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20868D63-85BA-4B5C-8920-ECBCBD043F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20868D63-85BA-4B5C-8920-ECBCBD043F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1432C7-2F24-4002-8053-B5377BB84944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1432C7-2F24-4002-8053-B5377BB84944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1432C7-2F24-4002-8053-B5377BB84944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1432C7-2F24-4002-8053-B5377BB84944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7EBFD4-9357-43A1-84D6-038E42DE80EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7EBFD4-9357-43A1-84D6-038E42DE80EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7EBFD4-9357-43A1-84D6-038E42DE80EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7EBFD4-9357-43A1-84D6-038E42DE80EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{DB802390-2901-4DD0-A999-40AD4E8315A0} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{C3112457-913F-4089-AEE2-71475F712A60} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{AD7EBFD4-9357-43A1-84D6-038E42DE80EA} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/
+		SccProjectUniqueName0 = Robot.UnitTests\\Robot.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName0 = BitMex.Robot.sln
+		SccProjectName0 = Robot.UnitTests
+		SccAuxPath0 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath0 = Robot.UnitTests
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Visualizer\\Common\\Common.csproj
+		SccProjectName1 = ../Visualizer/Common
+		SccAuxPath1 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath1 = ..\\Visualizer\\Common
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Robot.Strategies\\Robot.Strategies.csproj
+		SccProjectName2 = Robot.Strategies
+		SccAuxPath2 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath2 = Robot.Strategies
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Robot\\Robot.Core.csproj
+		SccProjectName3 = Robot
+		SccAuxPath3 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath3 = Robot
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ..\\Visualizer\\Visualizer.VisualControls\\Visualizer.VisualControls.csproj
+		SccProjectName4 = ../Visualizer/Visualizer.VisualControls
+		SccAuxPath4 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath4 = ..\\Visualizer\\Visualizer.VisualControls
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = ..\\BitMexconnector\\BitMexConnector\\BitMexConnector.csproj
+		SccProjectName5 = ../BitMexconnector/BitMexConnector
+		SccAuxPath5 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath5 = ..\\BitMexconnector\\BitMexConnector
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

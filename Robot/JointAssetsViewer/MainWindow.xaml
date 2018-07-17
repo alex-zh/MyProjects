@@ -1,0 +1,62 @@
+﻿<Window x:Class="JointAssetsViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:Visualizer.VisualControls.Controls;assembly=Visualizer.VisualControls"
+        xmlns:local="clr-namespace:JointAssetsViewer.Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="1">
+
+            <TabItem Header="Summary" >
+                <local:QuikConnectionSummary x:Name="SummaryControl"></local:QuikConnectionSummary>
+            </TabItem>
+
+            <TabItem Header="Graph" Width="80" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    
+                    <controls:PlainChart  Grid.Row="1" x:Name="PlainChart" ></controls:PlainChart>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Scatterplot" Width="80" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox  Content="Logarithmic scale" x:Name="UseLocarithmicScale" Click="UseLocarithmicScale_OnClick"  Margin="6,8" FontWeight="Bold" ></CheckBox>
+                        <Label Content="First asset:" Margin="3" FontWeight="Bold" ></Label>
+                        <ComboBox x:Name="cbFirstAsset" Margin="3"></ComboBox>
+                        <Label Content="Second asset:" Margin="3" FontWeight="Bold"></Label>
+                        <ComboBox x:Name="cbSecondAsset" Margin="3" ></ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="6, 0" Grid.Row="1">
+                        <GroupBox Header="All">
+                            <local:BivariateChartInfo x:Name="allPointsBivariateChartInfo" Padding="3" ></local:BivariateChartInfo>
+                        </GroupBox>
+                        <GroupBox Header="Last 20">
+                            <local:BivariateChartInfo x:Name="last20PointsBivariateChartInfo" Padding="3" ></local:BivariateChartInfo>
+                        </GroupBox>
+                    </StackPanel>
+
+                    <controls:BivariateChart  Grid.Row="2" x:Name="BivariateChart" ></controls:BivariateChart>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

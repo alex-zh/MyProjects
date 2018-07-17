@@ -1,0 +1,27 @@
+﻿    <Window x:Class="BitMex.TradeApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="clr-namespace:Robot.TradeApplication.Controls"
+        xmlns:controls="clr-namespace:BitMex.TradeApplication.Controls"
+        Title="R" Height="768" Width="1600" BorderBrush="Silver" BorderThickness="1" Loaded="MainWindow_OnLoaded"
+        Icon="./Resources/wally.ico">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="1" >
+          
+            <TabItem Header="Summary" >
+                <controls:ConnectionSummaryControl x:Name="SummaryControl"></controls:ConnectionSummaryControl>
+            </TabItem>
+            <TabItem Header="NetThrower-075-XRP" >
+                <controls:RobotViewControl x:Name="RobotViewControl" > </controls:RobotViewControl>
+            </TabItem>
+            <TabItem Header="Logs" Width="80" >
+                <controls:LogsControl x:Name="LogsControl"></controls:LogsControl >
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

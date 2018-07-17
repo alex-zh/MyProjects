@@ -1,0 +1,4 @@
+﻿namespace Scatterplot.Core.Classes
+{
+  
+}

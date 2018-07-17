@@ -1,0 +1,11 @@
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\ClassLibrary.UnitTests.dll
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\ClassLibrary.UnitTests.pdb
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Visualizer.Core.dll
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Common.dll
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Core.dll
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Visualizer.Core.pdb
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Common.pdb
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\bin\Debug\Core.pdb
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\obj\Debug\ClassLibrary.UnitTests.csprojResolveAssemblyReference.cache
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\obj\Debug\ClassLibrary.UnitTests.dll
+C:\MyProjects\Visualizer\ClassLibrary.UnitTests\obj\Debug\ClassLibrary.UnitTests.pdb

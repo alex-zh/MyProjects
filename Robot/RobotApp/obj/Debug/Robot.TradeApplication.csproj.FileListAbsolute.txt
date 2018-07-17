@@ -1,0 +1,15 @@
+C:\MyProjects\Robot\RobotApp\obj\Debug\Robot.TradeApplication.csprojResolveAssemblyReference.cache
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\LogsControl.baml
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\OrdersGrid.baml
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\QuikConnectionSummaryControl.baml
+C:\MyProjects\Robot\RobotApp\obj\Debug\DataGridStyle.baml
+C:\MyProjects\Robot\RobotApp\obj\Debug\App.baml
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\LogsControl.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\OrdersGrid.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\RobotViewControl.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\Controls\QuikConnectionSummaryControl.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\MainWindow.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\App.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\MyProjects\Robot\RobotApp\obj\Debug\Robot.TradeApplication_MarkupCompile.cache
+C:\MyProjects\Robot\RobotApp\obj\Debug\Robot.TradeApplication_MarkupCompile.lref

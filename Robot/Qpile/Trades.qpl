@@ -1,0 +1,85 @@
+PORTFOLIO_EX Export_Trades;
+DESCRIPTION Все сделки;
+CLIENTS_LIST ALL_CLIENTS;
+FIRMS_LIST ALL_FIRMS;
+
+PROGRAM
+
+numberOfTrades = GET_NUMBER_OF("TRADES")
+
+DELETE_ALL_ITEMS()
+
+
+value=0
+
+for i from 1 to numberOfTrades
+
+	order = GET_ITEM ("TRADES", i)
+	
+	 number = GET_VALUE(order, "Number")
+	 date  = GET_VALUE(order, "Date")
+	 time  = GET_VALUE(order, "Time")
+	 operation = GET_VALUE(order, "Operation")
+	 price = GET_VALUE(order, "Price")
+	 quantity = GET_VALUE(order, "Quantity")	 
+	 orderNumber = GET_VALUE(order, "Order_Number")
+	 
+	output = CREATE_MAP()
+	
+	output = SET_VALUE(output, "Number", number)
+    output = SET_VALUE(output, "Date", date)
+	output = SET_VALUE(output, "Time", time)
+	output = SET_VALUE(output, "Operation", operation)
+	output = SET_VALUE(output, "Price", price)
+	output = SET_VALUE(output, "Quantity", quantity)	
+	output = SET_VALUE(output, "OrderNumber", orderNumber)
+	
+	ADD_ITEM(i, output)	  	
+	
+END FOR
+
+END_PROGRAM
+
+PARAMETER Number;
+PARAMETER_TITLE Номер;
+PARAMETER_DESCRIPTION Номер;
+PARAMETER_TYPE STRING(15);
+END
+
+PARAMETER Date;
+PARAMETER_TITLE Дата;
+PARAMETER_DESCRIPTION Дата;
+PARAMETER_TYPE STRING(30);
+END
+
+PARAMETER Time;
+PARAMETER_TITLE Время;
+PARAMETER_DESCRIPTION Время;
+PARAMETER_TYPE STRING(30);
+END
+
+PARAMETER Operation;
+PARAMETER_TITLE Операция;
+PARAMETER_DESCRIPTION Операция;
+PARAMETER_TYPE STRING(30);
+END
+
+PARAMETER Price;
+PARAMETER_TITLE Цена;
+PARAMETER_DESCRIPTION Цена;
+PARAMETER_TYPE NUMERIC(10,2);
+END
+
+PARAMETER Quantity;
+PARAMETER_TITLE Количество;
+PARAMETER_DESCRIPTION Количество;
+PARAMETER_TYPE NUMERIC(10,0);
+END
+
+PARAMETER OrderNumber;
+PARAMETER_TITLE Номер заяки для этой сделки;
+PARAMETER_DESCRIPTION Номер заяки для этой сделки;
+PARAMETER_TYPE STRING(15);
+END
+
+END_PORTFOLIO_EX

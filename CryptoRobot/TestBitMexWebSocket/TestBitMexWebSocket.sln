@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{348307D0-EB8A-426B-8AD9-DBE1C03BA6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMexConnector.UnitTests", "BitMexConnector.UnitTests\BitMexConnector.UnitTests.csproj", "{2DCAD366-55C1-49B1-A442-F61BA979A549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E93183BC-4B83-4FC4-B830-ADF6F128557D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{A409439B-231C-4010-BECE-919D43313914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMexConnector", "..\..\BitMexconnector\BitMexConnector\BitMexConnector.csproj", "{5A76AC2E-7D91-452D-B2E1-711234DF733E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\Visualizer\Common\Common.csproj", "{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{348307D0-EB8A-426B-8AD9-DBE1C03BA6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348307D0-EB8A-426B-8AD9-DBE1C03BA6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348307D0-EB8A-426B-8AD9-DBE1C03BA6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348307D0-EB8A-426B-8AD9-DBE1C03BA6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCAD366-55C1-49B1-A442-F61BA979A549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCAD366-55C1-49B1-A442-F61BA979A549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCAD366-55C1-49B1-A442-F61BA979A549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCAD366-55C1-49B1-A442-F61BA979A549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A409439B-231C-4010-BECE-919D43313914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A409439B-231C-4010-BECE-919D43313914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A409439B-231C-4010-BECE-919D43313914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A409439B-231C-4010-BECE-919D43313914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76AC2E-7D91-452D-B2E1-711234DF733E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DCAD366-55C1-49B1-A442-F61BA979A549} = {E93183BC-4B83-4FC4-B830-ADF6F128557D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/
+		SccProjectUniqueName0 = ..\\..\\BitMexconnector\\BitMexConnector\\BitMexConnector.csproj
+		SccProjectName0 = ../../BitMexconnector/BitMexConnector
+		SccAuxPath0 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath0 = ..\\..\\BitMexconnector\\BitMexConnector
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\Visualizer\\Common\\Common.csproj
+		SccProjectName1 = ../../Visualizer/Common
+		SccAuxPath1 = https://alexander-zhigalov.visualstudio.com
+		SccLocalPath1 = ..\\..\\Visualizer\\Common
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

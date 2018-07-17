@@ -1,0 +1,16 @@
+﻿<Window x:Class="Robot.TesterApplication.Windows.ExportResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Robot.TesterApplication.Controls"
+        Title="Export" Height="480" Width="920" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <controls:StrategyStatisticsInfo  x:Name="StatisticsInfo" Margin="6"></controls:StrategyStatisticsInfo>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Close" Margin="6" MinWidth="80" Click="ButtonBase_OnClick"></Button>
+            </StackPanel>
+    </Grid>
+</Window>

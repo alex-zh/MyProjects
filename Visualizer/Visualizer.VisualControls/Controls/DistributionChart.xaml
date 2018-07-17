@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="Visualizer.VisualControls.Controls.DistributionChart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <UserControl.Resources>
+        <Style x:Key="CopyLabel" TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="BorderThickness" Value="4"/>
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="IsReadOnly" Value="True" />
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="gridCanvas" SizeChanged="FrameworkElement_OnSizeChanged">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>        
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Style= "{StaticResource CopyLabel}" FontSize="16" FontWeight="Bold" Margin="6,3" Padding="3" x:Name="lblTitle"></TextBox>
+            <CheckBox Grid.Row="1" Content="Show Mean" x:Name="cbShowMean" VerticalAlignment="Center" Margin="9,3" Click="cbShowMean_Checked"></CheckBox>
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                <CheckBox Content="Show"  x:Name="cbShowSigma" VerticalAlignment="Center" Margin="3" Click="cbShowSigma_Checked"></CheckBox>
+                <TextBox MinWidth="20" Text="1" TextAlignment="Center" Margin="3" x:Name="tbSigmas"></TextBox>
+                <TextBlock Text="sigmas" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+            <CheckBox Grid.Row="2" Grid.Column="0" Content="Show Median" x:Name="cbShowMedian" VerticalAlignment="Center" Margin="9,3" Click="cbShowMeadian_Checked"></CheckBox>
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
+                <CheckBox Content="Show"  x:Name="cbShowMedianSigma" VerticalAlignment="Center" Margin="3" Click="cbShowMedianSigma_Checked"></CheckBox>
+                <TextBox MinWidth="20" Text="1" TextAlignment="Center" x:Name="tbMedianSigmas" Margin="3"></TextBox>
+                <TextBlock Text="median sigmas" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+        </Grid>
+            <Canvas Grid.Row="1" x:Name="ChartCanvas" Background="Transparent" Margin="3" ></Canvas>
+        
+    </Grid>
+</UserControl>

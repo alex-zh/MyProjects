@@ -1,0 +1,2312 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<!--eski.mobi--><script>!function(a,b,c,d,e){function g(a,c,d,e){var f=b.getElementsByTagName("script")[0];e.src?a.src=e.src:e.innerHTML&&(a.innerHTML=e.innerHTML),a.id=c,a.setAttribute("class",d),f.parentNode.insertBefore(a,f)}a.Mobify={points:[+new Date]};var f=/((; )|#|&|^)mobify=(\d)/.exec(location.hash+"; "+b.cookie);if(f&&f[3]){if(!+f[3])return}else if(!c())return;b.write('<plaintext style="display:none">'),setTimeout(function(){var c=a.Mobify=a.Mobify||{};c.capturing=!0;var f=b.createElement("script"),h=function(){var c=new Date;c.setTime(c.getTime()+18e5),b.cookie="mobify=0; expires="+c.toGMTString()+"; path=/",a.location=a.location.href};f.onload=function(){if(e){var a=b.createElement("script");if(a.onerror=h,"string"==typeof e)g(a,"main-executable","mobify",{src:e});else{var c="var main = "+e.toString()+"; main();";g(a,"main-executable","mobify",{innerHTML:c})}}},f.onerror=h,g(f,"mobify-js","mobify",{src:d})})}(window,document,function(){var ua=navigator.userAgent||navigator.vendor||window.opera,m=false;if(/mobile|phone/i.test(ua))m=true;if(/media\scenter|opera\smini|ipad/i.test(ua))m=false;return m;},"http://cloud.eski.mobi/eski.mobi.1.0.0.js","http://cloud.eski.mobi/finam.ru/mobi.js");</script><!--/eski.mobi-->
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<link href="/favicon.ico?2" rel="shortcut icon" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="print" href="/print.css?1" />
+<link rel="stylesheet" type="text/css" href="/layer.css">
+
+<script src="/js/jquery/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="/js/common_old.js?7" type="text/javascript"></script>
+<script src="/js/common.js?8" type="text/javascript"></script>
+<script src="/js/select.js?2" type="text/javascript"></script>
+<script src="/js/zingaya.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	imgNames = ['l.gif', 'ms.gif', 'mdot.gif', 'mh.gif', 'm.gif', 'r.gif', 'm_edu_2.gif', 'mh_edu_2.gif', 'ms_edu_2.gif'];   
+	preloadImg(imgNames, '/i/i/menu/');
+</script>
+
+<script src="/js/jquery/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+<script src="/js/jquery/ui/i18n/jquery.ui.datepicker-ru.js" type="text/javascript"></script>
+<script src="/js/jquery/jquery.ui.ipad.altfix.js" type="text/javascript"></script>
+<script src="/js/jquery/jquery.cookie.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$.datepicker.setDefaults($.datepicker.regional['ru']);
+</script>
+
+<style type="text/css">
+	@import url(/js/jquery/ui-lightness/jquery-ui-1.8.16.custom.css);
+	@import url(/css/finam-ui.css?1);
+	@import url(/css/flocks.css?v=2012-08-29);
+</style>
+
+<script src="/js/ext/modernizr.custom.min.js" type="text/javascript"></script>
+<script src="/js/finam/finam.utils.js?v=2012-11-21" type="text/javascript"></script>
+<script src="/js/finam/finam.utils.jquery.js?v=2012-11-21" type="text/javascript"></script>
+<script src="/js/finam/finam.form.utils.js?v=2012-11-09" type="text/javascript"></script>
+<script src="/js/finam/finam.ui.js?v=2012-08-29" type="text/javascript"></script>
+<script src="/js/finam/finam.user.js" type="text/javascript" encoding="windows-1251"></script>
+
+<script type="text/javascript">
+	Finam.User.OPEN_ALERT = false;
+	Finam.User.init({"id": 328077, "name": "alexxZh", "pass": "c7b92941bdae3c4ef32133c3428deffd", "email": "alexander.zhigalov@gmail.com", "monitor": 1, "client": false, "fio": "Zhigalov A A                                                                                                                                          ", "lastname": "Zhigalov", "firstname": "A", "middlename": "A", "phone": "", "mobile": "", "company": "", "position": ""});
+</script>
+
+<script src="/js/finam/finam.customer-review.js" type="text/javascript"></script>
+<script src="/js/finam/finam.news-belt.js?3" type="text/javascript"></script>
+
+<script src="/js/finam/finam.control.phone-checked.js?v=2012-08-29" type="text/javascript"></script>
+
+<script src="/scripts/zeroclipboard/ZeroClipboard.js" type="text/javascript"></script>
+<script src="/scripts/finam.blogpost.js?v=2011-11-01" type="text/javascript"></script>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+	@import url(/css/style-ie7.css?v=2012-08-29);
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style type="text/css">
+	@import url(/css/style-ie8.css?v=2012-08-29);
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<style type="text/css">
+	@import url(/css/style-ie9.css?v=2012-08-29);
+</style>
+<![endif]-->
+<title>Финам.ru - Стоимость акций на мировых фондовых рынках близка к справедливой, а разговоры о формировании "пузырей" безосновательны - Новости и комментарии</title>
+<meta property="og:title" content="Стоимость акций на мировых фондовых рынках близка к справедливой, а разговоры о формировании &quot;пузырей&quot; безосновательны" />
+<meta property="og:description" content="США, Китай и Европа готовятся к новому моменту Мински: грядут трудные времена для инвесторов, но и они несут с собой благоприятные возможности  По мнению Saxo Bank, специалиста в области онлайн-трейдинга и инвестиций, обратная сторона программ&amp;nbsp;..." />
+<meta property="og:image" content="http://www.finam.ru/img/finam-logo-200.png" />
+<meta name="google-site-verification" content="U-iwitjZLEknpQHydUDd2Z7dZcJi-ruWpNz8Rdh8Pmk" />
+<meta name="google-site-verification" content="bJL3Czrz_hZOE4u8MbvbbwgV1MHnQrRdnjJN9lry1FM" /><script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-307985-1']);
+	_gaq.push(['_setDomainName', '.finam.ru ']);
+	_gaq.push(['_setAllowHash', false]);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+</head>
+<body style="background: #fff url(/i/0.gif); background-attachment: fixed;" class="i-user_logged_yes i-user_client_no"> 
+
+<a name="_toppage"></a>
+<div id="hint_container"></div>
+<iframe frameborder="0" style="display:none;" id=loader name="loader" width=0 height=0></iframe>
+
+<div style="position: absolute; visibility: hidden"><!-- Rating@Mail.ru counter -->
+<script type="text/javascript">//<![CDATA[
+var _tmr = _tmr || [];
+_tmr.push({id: "14092", type: "pageView", start: (new Date()).getTime()});
+(function (d, w) {
+   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+   ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+//]]></script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=14092;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter --></div>
+
+	<div><div class='adv-top l-top'><script type="text/javascript" src="/js/AdRiver/adriver.core.2.js"></script><!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 1 BN: 1 -->
+<div id="adriver_banner_1644807375"></div>
+
+<script type="text/javascript">
+(function(n){
+    var l = window.location, a = l.hostname.split('.');
+    a.splice(a.length-2, 2);
+    window[n] = (a.length ? '/' + a.join('/') : '') + l.pathname + escape(l.search);
+})('sz');
+
+new adriver("adriver_banner_1644807375", {sid:189460, bt:52, sz:sz, bn:1, pz:1});
+</script>
+
+<!--  AdRiver code END  --></div></div>
+	<link href="/cache/header/finam/styles/finam-ui-header-latest.css" rel="stylesheet" type="text/css"><link href="/cache/header/finam/styles/timecity.css" rel="stylesheet" type="text/css"><script src="/cache/header/finam/scripts/finam-ui-header.js" type="text/javascript"></script><script src="/cache/header/finam/scripts/finam.headerTimer.js" type="text/javascript"></script><script src="/cache/header/finam/scripts/timecity.js" type="text/javascript"></script><script src="/cache/header/finam/scripts/finam-ui-header-submenu.js" type="text/javascript"></script>
+
+<header>
+	<div id="fui-header">
+		<div class="fui-top-menu-holder">
+			<div class="fui-layout">
+				<div id="fui-logo-folder">
+					<div id="fui-logo">
+						<a href="http://www.finam.ru"><span>
+													  </span></a>
+					</div>
+				</div>
+				<table id="fui-top-menu-table" border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<td valign="top" nowrap="nowrap">
+								<nav>
+									<ul class="fui-top-menu-list">
+						
+												<li class="active">
+													<a class="link">Финансы<div class="fui-header__timecity">
+	<div class="fui-header__timecity-selected-time"><span id="city_time"></span></div>
+	<div class="fui-header__timecity-select-folder">
+		<div class="fui-header__timecity-select" id="fui-header__timecity-select-id">
+			<span class="fui-header__timecity-select-link">
+				<u id="timecity_name">MSK</u>
+				<div class="fui-header__timecity-select-btn"></div>
+			</span>
+		</div>
+		<div class="fui-header__timecity__select-options" id="fui-header__timecity-select-options">
+				<div class="option">
+					<div value="TKO">TKO</div>
+				</div>
+				<div class="option">
+					<div value="MSK">MSK</div>
+				</div>
+				<div class="option">
+					<div value="LON">LON</div>
+				</div>
+				<div class="option">
+					<div value="NYC">NYC</div>
+				</div>
+			</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var dt;
+dt = Date.parse('Fri, 24 Oct 2014 15:53:23 +0400');
+	if ((!isNaN(dt)) && (typeof jQuery !== 'undefined') && (typeof Finam !== 'undefined')) {
+		new Finam.UI.Controls.HeaderTimer('fui-header__timecity-select-id', 'fui-header__timecity-select-options', function (value) {
+			switchCityTimeTo(value);
+			return true;
+		}).init();
+						
+setCityTime('Fri, 24 Oct 2014 15:53:23 +0400');
+		}
+	else {
+		document.getElementsByClassName("fui-header__timecity")[0].remove();
+	}
+</script>
+
+													</a>	
+													<PlaceHolder:serverDateTime />
+												</li>
+												<li><a class="fui-a-link" href="http://www.finam.ru/international/home">Мировые рынки</a></li>
+												<li><a class="fui-a-link" href="http://finam.info">Картина дня</a></li>
+												<li><a class="fui-a-link" href="http://whotrades.com/sites">WhoTrades</a></li>
+												<li><a class="fui-a-link" href="http://bonds.finam.ru">Облигации</a></li>
+												<li><a class="fui-a-link" href="http://forum.finam.ru">Форум</a></li>
+						
+											<li class="show-more">
+												<span class="link"><a href="#" class="arrow-down-white fui-top-menu-show-popup" id="fui-top-menu-show-more">Ещё</a></span>
+												<div class="fui-top-menu-show-more-folder" style="display: none;">
+													<ul class="fui-top-menu-show-more-list">
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://edox.finam.ru">Кабинет клиента</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://cabinet.finam.ru">Торговые роботы</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://www.comon.ru">Автоследование</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://finambank.ru">Банк</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://finamfx.ru">Валютный  рынок</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://pda.finam.ru">Финансы ПДА</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://www.fdu.ru">ПИФы</a></li>
+															<li class="fui-show-more-link"><a class="fui-a-link-more" href="http://finam.aero">Аэро</a></li>
+													</ul>
+												</div>	
+											</li>
+									</ul>
+					
+
+								</nav>
+							</td>
+							<td valign="top" nowrap="nowrap">
+								<div class="fui-top-menu-sign-in-folder" id="fui-submenu-holder">
+										<div class="fui-auth-menu">
+	<div id="user-informer-logged" class="i-user-logged-yes">
+		<ul class="fui-top-menu-list">
+			<li class="show-more">
+				<span class="link"><a href="#" id="user-informer-name" class="arrow-down-white fui-top-menu-show-popup">alexxZh</a></span>
+				<div class="fui-top-menu-show-more-folder" id="user-menu">
+					<ul class="fui-top-menu-show-more-list">
+						<li class="fui-show-more-link"><a class="fui-a-link-more" href="/home/Profile/">Настройки</a></li>
+						<li class="fui-show-more-link"><a class="fui-a-link-more" href="/home/subscribe/">Подписка</a></li>
+						<li class="user_old_portfolio_enabled fui-show-more-link"><a class="fui-a-link-more" href="/analysis/portfel/">Портфель</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a id="user-informer-logout" class="fui-user-menu-logout fui-a-link" style="padding-left: 0.2em" href="/home/Login00002/">выйти
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="user-informer-not-logged" class="i-user-logged-no">
+		<ul class="fui-top-menu-list">
+			<li><a href="/home/Profile/" class="fui-a-link" onclick="Finam.User.showRegister(); return false;">Регистрация</a></li>
+			<li><a href="/home/login/" class="pr0 fui-a-link" onclick="Finam.User.showLogin(); return false;">Войти</a></li>
+		</ul>
+	</div>
+</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="fui-top-submenu-holder">
+			<div class="fui-layout">
+				<div class="fui-top-submenu-list">
+						<nav class="fui-header__sub-menu">
+	<!--Submenu -->
+	<table class="fui-top-submenu-folder" cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<td>
+					<table class="fui-top-submenu-table menu_lvl_one" cellspacing="0" cellpadding="0">
+						<tbody>
+							<tr>
+								<td id="grf_GET_HOMEPAGE" class="first">
+									<a href="/" title="На главную страницу" class="to-home"><i></i></a>
+								</td>
+								<td id="menu_analitica" class="js-fui-menu-subable">
+									<a href="#"><span class="long-name">Про рынок</span><span class="short-name">Про рынок</span><span class="arrow-down-black"></span></a>
+								</td>
+								<td id="menu_uslugi" class="js-fui-menu-subable">
+									<a href="/services/OpenAccount/"><span class="long-name">Брокерские услуги</span><span class="short-name">Услуги</span><span class="arrow-down-black"></span></a>
+								</td>
+								<td id="menu_bank" class="js-fui-menu-subable">
+									<a href="#"><span class="long-name">Банк</span><span class="short-name">Банк</span><span class="arrow-down-black"></span></a>
+								</td>
+                                <td id="menu_manage" class="js-fui-menu-subable">
+									<a href="/services/AssetManagement/"><span class="long-name">Управление активами</span><span class="short-name">Управление активами</span><span class="arrow-down-black"></span></a>
+								</td>
+								<td id="menu_edu" class="js-fui-menu-subable">
+									<a href="/education/main/"><span class="long-name">Обучение</span><span class="short-name">Обучение</span><span class="arrow-down-black"></span></a>
+								</td>
+								<td id="menu_about" class="js-fui-menu-subable last">
+									<a href="/about/"><span class="long-name">О компании</span><span class="short-name">О компании</span><span class="arrow-down-black"></span></a>
+								</td>
+																
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				
+				<!-- -->
+				<td width="15">&nbsp;</td>
+				<td style="max-width: 145px">
+					<div id="moscow-select">
+						<div class="fui-header-submenu-phone-holder">
+							<span href="#citySelect" class="fui-header-submenu-city ssm toggle-by-id"><span class="arrow-down-grey" id="city_name">Москва</span></span><br>
+							<strong id="city_phone">+7 (495) 796-90-26</strong>
+							<a class="fui-header-submenu-call" href="javascript:zingayaWebCall('05914f0c0d64010641d301a42e64eac1',null,'poll:true');"><i></i></a>
+							<div class="fui-header-submenu-cities-list" style="display: none;"><ul><li><a href="" data-phone="+7 (495) 796-90-26" city-boid="1"><b>Москва</b></a></li><li><a href="" data-phone="+7(86137)37404" city-boid="5">Армавир</a></li><li><a href="" data-phone="+7(8182)422178" city-boid="6">Архангельск</a></li><li><a href="" data-phone="+7(8512)900800" city-boid="7">Астрахань</a></li><li><a href="" data-phone="+7(8453)440460" city-boid="104">Балаково</a></li><li><a href="" data-phone="+7(3852)625067" city-boid="80">Барнаул</a></li><li><a href="" data-phone="+7(4722)221942" city-boid="122">Белгород</a></li><li><a href="" data-phone="+7(3424)237810" city-boid="116">Березники</a></li><li><a href="" data-phone="+7(4162)221760" city-boid="136">Благовещенск</a></li><li><a href="" data-phone="+7(4832)749828" city-boid="88">Брянск</a></li><li><a href="" data-phone="+7(85594)40089" city-boid="58">Бугульма</a></li><li><a href="" data-phone="+7(81153)56666" city-boid="79">Великие Луки</a></li><li><a href="" data-phone="+7(4232)658190" city-boid="115">Владивосток</a></li><li><a href="" data-phone="+7(8672)541667" city-boid="8">Владикавказ</a></li><li><a href="" data-phone="+7(4922)451449" city-boid="9">Владимир</a></li><li><a href="" data-phone="+7(8442)532255" city-boid="2">Волгоград</a></li><li><a href="" data-phone="+7(8172)562563" city-boid="10">Вологда</a></li><li><a href="" data-phone="+7(473)2559525" city-boid="43">Воронеж</a></li><li><a href="" data-phone="+7(86132)58698" city-boid="17">Ейск</a></li><li><a href="" data-phone="+7(343)2137006" city-boid="44">Екатеринбург</a></li><li><a href="" data-phone="+7(4932)417553" city-boid="62">Иваново</a></li><li><a href="" data-phone="+7(3412)912822" city-boid="11">Ижевск</a></li></ul><ul><li><a href="" data-phone="+7(3412)912822" city-boid="11">Ижевск</a></li><li><a href="" data-phone="+7(3952)280858" city-boid="12">Иркутск</a></li><li><a href="" data-phone="+7(8362)640046" city-boid="63">Йошкар-Ола</a></li><li><a href="" data-phone="+7(843)2101818" city-boid="129">Казань, офис на Пушкина</a></li><li><a href="" data-phone="+7(843)2401901" city-boid="13">Казань, офис на Спартаковской</a></li><li><a href="" data-phone="+7(4012)534949" city-boid="42">Калининград</a></li><li><a href="" data-phone="+7(4842)790293" city-boid="64">Калуга</a></li><li><a href="" data-phone="+7(3842)348586" city-boid="54">Кемерово</a></li><li><a href="" data-phone="+7(8332)640156" city-boid="15">Киров</a></li><li><a href="" data-phone="+7(49232)63996" city-boid="138">Ковров</a></li><li><a href="" data-phone="+7(4942)314284" city-boid="78">Кострома</a></li><li><a href="" data-phone="+7(861)2555101" city-boid="16">Краснодар</a></li><li><a href="" data-phone="+7(391)2542121" city-boid="65">Красноярск</a></li><li><a href="" data-phone="+7(4712)770270" city-boid="142">Курск</a></li><li><a href="" data-phone="+7(3519)381818" city-boid="100">Магнитогорск</a></li><li><a href="" data-phone="+7(8722)632326" city-boid="52">Махачкала</a></li><li><a href="" data-phone="+7(3513)554643" city-boid="113">Миасс</a></li><li><a href="" data-phone="+7(8152)700509" city-boid="111">Мурманск</a></li><li><a href="" data-phone="+7(8552)514680" city-boid="18">Набережные Челны</a></li><li><a href="" data-phone="+7(8662)967990, 143" city-boid="120">Нальчик</a></li><li><a href="" data-phone="+7(8655)462140" city-boid="82">Невинномысск</a></li><li><a href="" data-phone="+7(3466)407010" city-boid="19">Нижневартовск</a></li></ul><ul><li><a href="" data-phone="+7(8555)308307" city-boid="87">Нижнекамск</a></li><li><a href="" data-phone="+7(831)4285214" city-boid="85">Нижний Новгород</a></li><li><a href="" data-phone="+7(8617)612612" city-boid="55">Новороссийск</a></li><li><a href="" data-phone="+7(383)3750500" city-boid="69">Новосибирск</a></li><li><a href="" data-phone="+7(3494)926906" city-boid="117">Новый Уренгой</a></li><li><a href="" data-phone="+7(3919)423052" city-boid="74">Норильск</a></li><li><a href="" data-phone="+7(3496)354499" city-boid="22">Ноябрьск</a></li><li><a href="" data-phone="+7(34767)44766" city-boid="102">Октябрьский</a></li><li><a href="" data-phone="+7(3812 )358560" city-boid="103">Омск</a></li><li><a href="" data-phone="+7(3532)765823" city-boid="4">Оренбург</a></li><li><a href="" data-phone="+7(8412)660114" city-boid="75">Пенза</a></li><li><a href="" data-phone="+7(342)2943955" city-boid="23">Пермь</a></li><li><a href="" data-phone="+7(8142)595759" city-boid="24">Петрозаводск</a></li><li><a href="" data-phone="+7(8112)724966" city-boid="112">Псков</a></li><li><a href="" data-phone="+7(8793)363690" city-boid="110">Пятигорск</a></li><li><a href="" data-phone="+7(863)2800085" city-boid="26">Ростов-на-Дону</a></li><li><a href="" data-phone="+7(4912)245072" city-boid="27">Рязань</a></li><li><a href="" data-phone="+7(846)2700690" city-boid="47">Самара</a></li><li><a href="" data-phone="+7(812)6677777" city-boid="29">Санкт-Петербург</a></li><li><a href="" data-phone="+7(8342)482020" city-boid="114">Саранск</a></li><li><a href="" data-phone="+7(8452)499535" city-boid="30">Саратов</a></li><li><a href="" data-phone="+7(4812)657874" city-boid="31">Смоленск</a></li></ul><ul><li><a href="" data-phone="+7(8622)648144" city-boid="81">Сочи</a></li><li><a href="" data-phone="+7(8652)300300" city-boid="32">Ставрополь</a></li><li><a href="" data-phone="+7(4725)481155" city-boid="49">Старый Оскол</a></li><li><a href="" data-phone="+7(3462)326818" city-boid="33">Сургут</a></li><li><a href="" data-phone="+7(8212)203692" city-boid="76">Сыктывкар</a></li><li><a href="" data-phone="+7(8634)323296" city-boid="34">Таганрог</a></li><li><a href="" data-phone="+7(4822)760108" city-boid="77">Тверь</a></li><li><a href="" data-phone="+7(8482)535030" city-boid="35">Тольятти</a></li><li><a href="" data-phone="+7(3822)468388" city-boid="36">Томск</a></li><li><a href="" data-phone="+7(4872)384922" city-boid="132">Тула</a></li><li><a href="" data-phone="+7(3452)396166" city-boid="3">Тюмень</a></li><li><a href="" data-phone="+7(8422)260000" city-boid="118">Ульяновск</a></li><li><a href="" data-phone="+7(347)2161122" city-boid="38">Уфа</a></li><li><a href="" data-phone="+7(8216)761063" city-boid="71">Ухта</a></li><li><a href="" data-phone="+7(4212)932390" city-boid="73">Хабаровск</a></li><li><a href="" data-phone="+7(34241)23950" city-boid="123">Чайковский</a></li><li><a href="" data-phone="+7(351)2390260" city-boid="40">Челябинск</a></li><li><a href="" data-phone="+7(8202)517675" city-boid="51">Череповец</a></li><li><a href="" data-phone="+7(8782)265500" city-boid="119">Черкесск</a></li><li><a href="" data-phone="+7(4112)423399" city-boid="133">Якутск</a></li><li><a href="" data-phone="+7(4852)201202" city-boid="41">Ярославль</a></li></ul><div class="clear"></div><div class="hotline"><strong>Единый номер: 8 (800) 200-44-00</strong> (бесплатно по России)</div></div>
+						</div>
+					</div>
+					
+				</td>
+				<!-- -->
+			</tr>
+		</tbody>
+	</table>
+	<!--начало меню Про рынок-->
+	<div class="fui-header-submenu-buble-menu" id="menu_analitica_buble_menu">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="/analysis/reviews/"><i class="icon-cup"></i>Самая свежая и актуальная информация в рассылке «Утренний обзор» </a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3>Компании и рынки</h3>
+                    <ul>
+                        <li><a href="/analysis/reviews/">Утренний обзор</a></li>
+						<li><a href="/analysis/today/">Сегодня</a></li>
+						<li><a href="/news/headline/">Главные новости</a></li>
+						<li><a href="/analysis/nslent/">Новости и&nbsp;комментарии</a></li>
+						<li><a href="/analysis/conews/">Новости компаний</a></li>
+						<li><a href="/analysis/forecasts/">Сценарии и&nbsp;прогнозы</a></li>
+						<li><a href="/analysis/weekmarket/">Неделя на&nbsp;рынке</a></li>
+						<li><a href="/analysis/united/">События и&nbsp;рынки</a></li>
+                    </ul>
+                    
+                    <h3><a href="/international/home/">Мировые рынки</a></h3>
+                    <ul>
+                        <li><a href="/international/advanced/">Новости мировых рынков</a></li>
+                        <li><a href="/international/imdaily/">Обзоры и&nbsp;идеи</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Инструментарий</h3>
+                    <ul>
+                        <li><a href="/analysis/profile00003/">Профиль инструмента</a></li>
+						<li><a href="/analysis/macroevent/">Календарь статистики</a></li>
+						<li><a href="/analysis/leaders/">Лидеры	<nobr>роста-падения</nobr></a></li>
+                        <li><a href="/analysis/volatility/">Лидеры инвестиционной привлекательности</a>&nbsp;<sup class="red">new</sup></li>
+                        <li><a href="/analysis/quotes/">Котировки</a></li>
+						<li><a href="/analysis/profile0000300005/">Теханализ</a> <span class="lightgrey">//</span> <a href="/analysis/jcharts/">java-версия</a></li>
+						<li><a href="/analysis/profile0000300006/?set=1">Графики совмещенные</a></li>
+						<li><a href="/analysis/profile041CA00007/">Экспорт данных</a></li>
+						<li><a href="/analysis/assembly/">Собрания акционеров</a></li>
+						<li><a href="/investments/sectors/">Отрасли и&nbsp;компании</a></li>
+						<li><a href="/investor/calcrisk/">Калькулятор плеча</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Персональное</h3>
+                    <ul>
+                        <li class="i-user-client-no"><a href="/home/upclient/" style="color: red;">Вы клиент?</a></li>
+						<li class="i-user-logged-no"><a onclick="Finam.User.showLogin(); return false;" href="/home/login/">Авторизация</a></li>
+						<li><a href="/home/subscribe/">Аналитика по&nbsp;подписке</a></li>
+						<li class="i-user-logged-yes"><a href="/home/Profile/">Настройки</a></li>
+						<li class="i-user-logged-yes"><a href="/home/Login00002/">Выход</a></li>
+                    </ul>
+                    
+                    <h3>Обсуждения</h3>
+                    <ul>
+                    	<li><a href="/discussions/">Дискуссии</a></li>
+                        <li><a href="/analysis/befly/">Разбор полетов</a></li>
+						<li><a href="/analysis/scsinfo/">Конференции и&nbsp;семинары</a></li>
+						<li><a href="/analysis/conf/">Онлайн-конференции</a></li>
+                        <li><a href="/analysis/investorquestion/">Вопрос эмитенту</a></li>
+                        <li><a href="http://forum.finam.ru/">Форум</a></li>
+                    </ul>
+                </td>
+            </tr></table>
+            <ul class="fui-header-submenu-bottomlinks clearfix">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологичные сервисы</h3>
+                        <ul>
+                            <li><a href="http://www.comon.ru/managers/?iaaf=True&ifs=False&io=False&pst=3&tm=1&tr=1">Автоследование</a></li>
+                            <li><a href="/howtotrade/special00010/">High Frequency Trading</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/?utm_source=menu&utm_medium=menu&utm_campaign=forex_50" target="_blank">Бонус 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/utm_source=menu&utm_medium=menu&utm_campaign=demo_lider" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Международный трейдинг</h3>
+                        <ul>
+                            <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+                            <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Рынки США</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-------------------------->
+
+	<!--начало меню Мировые рынки-->
+	<div class="fui-header-submenu-buble-menu" id="menu_bank_buble_menu" style="display: none;">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="https://www.finambank.ru/retail/creditcards/" target="_blank"><i class="icon-money"></i>Даем кредит на 55 дней под 0%</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3><a href="http://finambank.ru/" target="_blank">О банке</a></h3>
+                    <ul>
+                        <li><a href="http://finambank.ru/about/atm/" target="_blank">Банкоматы</a></li>
+						<li><a href="http://finambank.ru/about/branch/moscow/" target="_blank">Отделения</a></li>
+                        <li><a href="http://finambank.ru/about/financial-statements/" target="_blank">Финансовая отчётность</a></li>
+                        <li><a href="http://finambank.ru/about/today/license/" target="_blank">Лицензии и сертификаты</a></li>
+                        <li><a href="http://finambank.ru/about/today/deposit-insurance/" target="_blank">Система страхования вкладов</a></li>
+                        <li><a href="http://finambank.ru/about/today/registration-card/" target="_blank">Регистрационная карточка</a></li>
+                        <li><a href="http://finambank.ru/about/details/" target="_blank">Реквизиты</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3><a href="http://finambank.ru/legal/" target="_blank">Юридическим лицам</a></h3>
+                    <ul>
+                        <li><a href="http://finambank.ru/legal/deposits/" target="_blank">Вклады</a></li>
+						<li><a href="http://finambank.ru/legal/credits/" target="_blank">Кредиты</a></li>
+                        <li><a href="http://finambank.ru/legal/cards/" target="_blank">Зарплатные карты</a></li>
+                        <li><a href="http://finambank.ru/legal/credits/tenderguarantee/" target="_blank">Тендерная гарантия</a></li>
+                        <li><a href="http://finambank.ru/person/internet-bank/" target="_blank">Интернет-банк</a> / <a href="https://retail1.finambank.ru/" target="_blank">Войти</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3><a href="http://finambank.ru/person/" target="_blank">Частным лицам</a></h3>
+                    <ul>
+                        <li><a href="http://finambank.ru/person/cards/" target="_blank">Банковские карты</a></li>
+						<li><a href="http://finambank.ru/person/credits/" target="_blank">Кредиты</a></li>
+                        <li><a href="http://finambank.ru/person/deposits/" target="_blank">Вклады</a></li>
+                        <li><a href="http://finambank.ru/person/currency/" target="_blank">Операции с валютой</a></li>
+                        <li><a href="http://finambank.ru/person/internet-bank/" target="_blank">Интернет-банк</a> / <a href="https://ibank.finam.ru/" target="_blank">Войти</a></li>
+                    </ul>
+                </td>
+            </tr></table>
+            <ul class="fui-header-submenu-bottomlinks clearfix">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологичные сервисы</h3>
+                        <ul>
+                            <li><a href="http://www.comon.ru/managers/?iaaf=True&ifs=False&io=False&pst=3&tm=1&tr=1" target="_blank">Автоследование</a></li>
+                            <li><a href="/howtotrade/special00010/">High Frequency Trading</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/" target="_blank">Forex 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Международный трейдинг</h3>
+                        <ul>
+                            <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+                            <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Рынки США</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-------------------------->
+
+	<!--начало меню Обучение-->
+	<div class="fui-header-submenu-buble-menu" id="menu_edu_buble_menu" style="display: none;">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="/education/main/"><i class="icon-edu"></i>Расписание всех курсов</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3><a href="/education/timetable00001/">Очное обучение</a></h3>
+                    <ul>
+                        <li><a href="/education/main/?section=all&level=all&paytype=free">Бесплатные семинары</a></li>
+                        <li><a href="/education/main/?section=russia&amp;level=all&amp;paytype=all">Рынок РФ</a></li>
+						<li><a href="/education/main/?section=forex&amp;level=all&amp;paytype=all">Валютный рынок</a></li>
+						<li><a href="/education/main/?section=world&amp;level=all&amp;paytype=all">Мировые рынки</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3><a href="/education/timetable00002/">Дистанционное обучение</a></h3>
+                    <ul>
+                        <li><a href="http://whotrades.com/learning/" target="_blank">Интерактивное обучение</a></li>
+						<li><a href="/webinar/main/">Видеосеминары</a></li>
+						<li><a href="/investor/skype/" target="_blank">Семинары по SKYPE</a></li>
+                        <li><a href="/howtotrade/demos/">Тренируйтесь на Демо-счете</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3><a href="/education/about/">Об учебном центре</a></h3>
+                    <ul>
+                        <li><a href="/investor/lecturers/">Наши преподаватели</a></li>
+						<li><a href="/investor/library/">Библиотека трейдера</a></li>
+                        <li><a href="/investor/offero/">Публичная оферта</a></li>
+                    </ul>
+                </td>
+            </tr></table>
+            <ul class="fui-header-submenu-bottomlinks clearfix">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологичные сервисы</h3>
+                        <ul>
+                            <li><a href="http://www.comon.ru/managers/?iaaf=True&ifs=False&io=False&pst=3&tm=1&tr=1" target="_blank">Автоследование</a></li>
+                            <li><a href="/howtotrade/special00010/">High Frequency Trading</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/" target="_blank">Forex 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Международный трейдинг</h3>
+                        <ul>
+                            <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+                            <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Рынки США</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-------------------------->
+
+	<!--начало меню Управление активами -->
+	<div class="fui-header-submenu-buble-menu" id="menu_manage_buble_menu" style="display: none;">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="/services/AssetManagement/"><i class="icon-manag"></i>Управление активами от&nbsp;профессионалов</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3>Российский рынок</h3>
+                    <ul>
+                        <li><a href="/services/trustmanaging00001/">Доверительное управление &laquo;Лайт&raquo;</a></li>
+                        <li><a href="/services/trustmanaging/">Доверительное управление &laquo;Премиум&raquo;</a></li>
+                        <li><a href="/services/trustmanaging00004/#trast-rus">Управление активами &laquo;А. Герчик / Россия&raquo;</a></li>
+						<li><a href="/services/trustmanaging00005/">Авторские стратегии</a> <sup class="red">new</sup></li>
+                        <li><a href="http://www.fdu.ru/" target="_blank">Паевые инвестиционные фонды</a></li>
+                    </ul>
+                    
+                    <h3>Структурный продукт</h3>
+                    <ul>
+                        <li><a href="/services/indexing/">Структурный продукт</a></li>
+                        <li><a href="/services/options/">Черный лебедь</a></li>
+                    </ul>
+                    
+                    <h3>Помощь управляющих</h3>
+                    <ul>
+                        <li><a href="https://tc.finam.ru/" target="_blank">Trade Center</a></li>
+                        <li><a href="/services/FullService00001/">Личный консультант VIP</a></li>
+                        <li><a href="/services/FullService00002/">Персональный консультант</a></li>
+
+                        <li><a href="/algoritm/trading00002/">Торговые роботы</a></li>
+                        <li><a href="http://www.comon.ru/" target="_blank">Стратегии трейдеров  соцсети Comon.ru</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Мировой рынок</h3>
+                    <ul>
+                        <li><a href="/services/trustmanaging00004/">Управление активами &laquo;А. Герчик / USA&raquo;</a></li>
+                        <li><a href="/international/trustmanaging/">Доверительное управление на&nbsp;мировых рынках</a></li>
+                        <li><a href="/services/trustmanaging00001/">Доверительное управление &laquo;Лайт&raquo;</a></li>
+                    </ul>
+                    
+                    <h3>Консультационное управление</h3>
+                    <ul>
+                        <li><a href="/services/trustmanaging00004/#consult-usa">Консультационное управление на&nbsp;рынке США</a></li>
+                        <li><a href="/international/portfolio/">Модельные портфели на&nbsp;рынках Европы</a></li>
+                    </ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Валютный рынок</h3>
+                    <ul>
+                        <li><a href="http://whotrades.com/strategies/v3" target="_blank">Автоследование</a></li>
+                    </ul>
+                    
+                    <h3>Дополнительно</h3>
+                    <ul>
+                        <li><a href="/services/hedging/">Страхование от роста курса доллара</a></li>
+                    </ul>
+                </td>
+            </tr></table>
+            <div class="fui-header-submenu-firstplace">
+            	<i></i>
+                Наши консультанты лучшие на рынке<br />
+                <em class="lightgrey">&mdash; по&nbsp;версии <a href="http://www.finam.ru/about/newsitem75DEC/default.asp">bfm.ru</a></em>
+            </div>
+            <ul class="fui-header-submenu-bottomlinks clearfix" style="border-top: none">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологичные сервисы</h3>
+                        <ul>
+                            <li><a href="http://www.comon.ru/managers/?iaaf=True&ifs=False&io=False&pst=3&tm=1&tr=1" target="_blank">Автоследование</a></li>
+                            <li><a href="/howtotrade/special00010/">High Frequency Trading</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/" target="_blank">Forex 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Международный трейдинг</h3>
+                        <ul>
+                            <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+                            <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Рынки США</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-------------------------->
+
+	<!--начало меню Услуги -->
+	
+	<div class="fui-header-submenu-buble-menu" id="menu_uslugi_buble_menu" style="display: none;">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="/services/BasicInvestment/"><i class="icon-finamsign"></i>101 причина выбрать Финам</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3><a href=/services/BasicInvestment/>Российский рынок</a></h3>
+                    <ul>
+						<li><a href="https://edox.finam.ru/" target="_blank">Личный кабинет</a></li>
+                    	<li><span class="lightgrey">Тарифы:</span></li>
+                        <li><a href="/services/BasicInvestment00007/">Фондовый рынок</a></li>
+                        <li><a href="/services/BasicInvestment00009/">Срочный рынок</a></li>
+                        <li><a href="/services/BasicInvestment00008/">Валютный рынок</a></li>
+                    </ul>
+                    <ul>
+                    	<li><span class="lightgrey">Условия:</span></li>
+                        <li><a href="/services/CommissionRates/#marj">Список маржинальных бумаг</a></li>
+                        <li><a href="/services/OpenAccount0000A/">Документы</a></li>
+                        <li><a href="/services/deposit/">Услуги депозитария</a></li>
+                    </ul>
+                    
+                    <h3>Поддержка профессионалов</h3>
+                    <ul>
+                        <li><a href="/services/FullService00001/">Личный консультант VIP</a></li>
+                        <li><a href="/services/FullService00002/">Персональный консультант</a></li>
+                    </ul>
+                    
+                    <h3>Защита капитала</h3>
+                    <ul>
+                        <li><a href="/services/hedging/">Страхование от&nbsp;снижения курса рубля</a></li>
+                        <li><a href="/services/insuredshares/">Страховка от&nbsp;снижения цен на&nbsp;акции</a></li>
+                    </ul>
+                    
+                    <a href="/services/packages0000100001/" class="fui-header-submenu-constructor">
+                    	<i></i>Конструктор услуг для&nbsp;российского рынка
+                    </a>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Мировой рынок</h3>
+                    <ul>
+						<li><a href="/international/firsttime/">С чего начать?</a></li>
+                        <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+<!--                        <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Прямой доступ на&nbsp;рынки США</a></li>-->
+                        <li><a href="/international/dma/">DMA для институционных клиентов</a></li>
+                    </ul>
+                    <h3>Доступ на рынки США</h3>
+                    <ul>
+                        <li><a href="http://whotrades.com/ru/services/usmarkets/ltd " target="_blank">Через американского брокера </a></li>
+                        <li><a href="/services/promo00027/" target="_blank">Через российского брокера</a></li>
+
+                    </ul>
+
+                    <h3>Поддержка профессионалов</h3> 
+                    <ul>
+                        <li><a href="/international/personalmanager/">Консультационное управление на&nbsp;рынке США</a></li>
+                        <li><a href="/international/portfolio/">Модельные портфели на&nbsp;рынках Европы</a></li>
+                        <li><a href="/international/comingipo/">Участие в глобальных IPO</a></li>
+                    </ul>
+                    
+                    <h3>Дополнительные возможности</h3>
+                    <ul>
+                        <li><a href="/international/xetra/">Xetra через Transaq</a></li>
+                        <li><a href="/international/rox/">Рынки США через Rox</a></li>
+                        <li><a href="http://finamfx.ru/forex/fme/" target="_blank">Платформа FinamMultiExchange</a></li>
+                    </ul>
+                    
+                    <a href="/services/packages0000300001/" class="fui-header-submenu-constructor">
+                    	<i></i>Конструктор услуг для&nbsp;мирового рынка
+                    </a>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Валютный рынок</h3>
+					<!--<h3><a href="http://finamfx.ru/" target="_blank">Валютный рынок</a></h3>-->
+                    <ul>
+						<li><a href="http://whotrades.com/services/forex/ltd" target="_blank">Валютный рынок через MetaTrader</a></li>
+                        <li><a href="http://whotrades.com/services/forex/accounts/ltd " target="_blank">Типы счетов</a></li>
+                        <li><a href="http://whotrades.com/services/forex/io/ltd" target="_blank">Ввод/вывод денег</a></li>
+                        <li><a href="http://whotrades.com/services/forex/platforms/ltd" target="_blank">Платформы</a></li>
+                        <li><a href="http://whotrades.com/services/forex/bonus/ltd" target="_blank">Бонусы</a></li>
+                    </ul>
+                    
+                    <h3>Информация и аналитика</h3>
+                    <ul>
+                        <li><a href="http://finamfx.ru/forex/newslist/" target="_blank">Новости</a></li>
+                        <li><a href="http://finamfx.ru/forex/monitor/" target="_blank">Монитор</a></li>
+                        <li><a href="http://finamfx.ru/forex/techanalysis/" target="_blank">Технический анализ</a></li>
+                        <li><a href="http://finamfx.ru/forex/macroevent/" target="_blank">Календарь событий</a></li>
+                    </ul>
+                    
+                    <a href="/services/packages0000200001/" class="fui-header-submenu-constructor">
+                    	<i></i>Конструктор услуг для&nbsp;валютного рынка
+                    </a>
+                </td>
+            </tr></table>
+            <ul class="fui-header-submenu-bottomlinks clearfix">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологии</h3>
+                        <ul>
+                            <li><a href="/algoritm/trading00002/">Торговые роботы</a></li>
+                            <li><a href="/howtotrade/Welcome/">Программы для торговли</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/" target="_blank">Forex 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Для эмитентов</h3>
+                        <ul>
+                            <li><a href="/services/corpfin/">Рынки капитала</a></li>
+                            <li><a href="/services/corpfin00004/">InvestorRelations</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+
+	<!-------------------------->
+
+	<!--начало меню О компании -->
+	<div class="fui-header-submenu-buble-menu" id="menu_about_buble_menu" style="display: none;">
+		<div class="fui-header-submenu-buble-borders">
+			<div class="fui-header-submenu-toplink">
+            	<a href="/20let/"><i class="icon-finamsign"></i>20 лет на&nbsp;финансовом рынке</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+            	<td class="fui-header-submenu-col">
+                	<h3><a href=/about/whyfinam/>О компании</a></h3>
+					<ul>
+						<li><a href="/about/CompanyStructure/">Структура холдинга</a></li>
+						<li><a href="/about/history/">История холдинга</a></li>
+						<li><a href="/about/awards/">Награды и достижения</a></li>
+						<li><a href="/about/license/">Лицензии</a></li>
+						<li><a href="/about/Management/">Финам в регионах</a></li>
+                        <li><a href="/about/projects/">Спецпроекты</a></li>
+						<li><a href="http://forum.finam.ru/index.php?showforum=95" target="_blank">Спросить на форуме</a></li>
+						<li><a href="/about/partnership/">Совместный бизнес</a></li>
+						<li><a href="/about/tenders/">Тендеры</a></li>
+						<li><a href="/home/contacts/">Контакты</a></li>
+						<li><a href="/about/proposals/">Обратная связь</a></li>
+			                        <li><a href="/about/career/">Открытые вакансии</a></li>
+					</ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Годовой отчет</h3>
+                    <ul>
+                        <li><a href="/about/annualreport00003/#reportbody">2013 год</a></li>
+                        <li><a href="/about/annualreport/">Все годовые отчеты</a></li>
+                    </ul>
+                    
+                    <h3>Раскрытие информации ЗАО Финам</h3>
+					<ul>
+						<li><a href="http://zaoik.finam.ru/about/ownfunds/" target="_blank">Собственные средства</a></li>
+						<li><a href="http://zaoik.finam.ru/about/insideinfo/" target="_blank">Перечень инсайдерской информации</a></li>
+                        <li><a href="/files/politic270613.docx">Политика в отношении обработки персональных данных</a></li>
+					</ul>
+                </td>
+                <td class="fui-header-submenu-col">
+                	<h3>Пресс-центр</h3>
+					<ul>
+						<li><a href="/about/proposals/?theme=ps">Получить комментарий</a></li>
+						<li><a href="/about/companynews/">Новости компании</a></li>
+						<li><a href="/about/presabout/">Публикации в прессе</a></li>
+					</ul>
+                    
+                    <h3><a href="/about/projects/">Спецпроекты</a></h3>
+					<ul>
+						<li><a href="/about/finamsyst/">Газета ФинамSyst</a></li>
+						<li><a href="/about/projects/#end_project">История спец проектов</a></li>
+					</ul>
+                </td>
+            </tr></table>
+            <ul class="fui-header-submenu-bottomlinks clearfix">
+            	<li>
+                	<div>
+                    	<i class="icon-tech"></i>
+                        <h3>Технологичные сервисы</h3>
+                        <ul>
+                            <li><a href="http://www.comon.ru/managers/?iaaf=True&ifs=False&io=False&pst=3&tm=1&tr=1" target="_blank">Автоследование</a></li>
+                            <li><a href="/howtotrade/special00010/">High Frequency Trading</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-cal"></i>
+                        <h3>Акции и конкурсы</h3>
+                        <ul>
+                            <li><a href="http://finamfx.ru/forex/order/" target="_blank">Forex 50</a></li>
+                            <li><a href="http://www.finamfx.ru/forex/demolid/" target="_blank">Демо-лидер 2014</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                	<div>
+                    	<i class="icon-world"></i>
+                        <h3>Международный трейдинг</h3>
+                        <ul>
+                            <li><a href="http://whotrades.com/services/mma/ltd" target="_blank">Единый счет (ММА)</a></li>
+                            <li><a href="http://whotrades.com/services/usmarkets/ltd" target="_blank">Рынки США</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+		</div>
+		<div class="fui-header-submenu-buble-menu-shadow">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td class="left-shadow">&nbsp;</td>
+						<td class="center-shadow">&nbsp;</td>
+						<td class="right-shadow">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!-------End submenu------------------->
+	<!-- XX block -->
+	<style>
+		.xx-overlay { position: fixed; width: 100%; height: 100%; left: 0; top: 0; background: #111b29; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75); -moz-opacity: 0.75; -khtml-opacity: 0.75; opacity: 0.75; z-index: 100}
+		.xx-banner { width: 557px; height: 557px; background: url(/i/xx/xx-banner.png); position: absolute; top: 50%; /*margin-top: -277px;*/ left: 50%; margin-left:
+		 -277px; z-index: 101}
+		.xx-banner-close { display: block; width: 56px; height: 56px; background: url(/i/xx/xx-banner-close.png); position: absolute; right: 0; top: 30px; z-index: 102}
+		.xx-banner-link { position: absolute; display: block; width: 100%; height: 100% }
+		#fui-logo { background-image: url(/i/xx/finam-xx_logo.gif)}
+		.xx-to-home { font-size: 14px; font-weight: bold; position: absolute ; left: 0; width: 100%; text-align: center; top: 580px}
+			.xx-to-home > a {color: #fff !important; text-decoration: none;}
+		.xx-to-home > a > i { display: inline-block; width: 16px; height: 16px; background-image: url(/i/xx/f-home.png); position: relative; right: 7px; top: 2px}
+		
+	</style>
+	<div class="xx-overlay" style="display: none"></div> 
+    <div class="xx-banner" style="display: none">
+		<a href="" class="xx-banner-close"></a>  
+        <a href="/20let/" class="xx-banner-link"></a> 
+        <div class="xx-to-home">
+        	<a href="/"><i></i>На главную</a>
+        </div>
+    </div> 
+    <script>
+		$(".xx-banner-close").click(function(e) {
+			$(".xx-banner").fadeOut();
+			$(".xx-overlay").fadeOut();
+            return false;
+        });
+		
+		$("#fui-logo a").click(function(e) {
+            $(".xx-banner").fadeIn();
+			$(".xx-overlay").fadeIn();
+            return false;
+        });
+	</script>
+	
+	<script>
+	jQuery(document).ready(function() {
+   
+		if (jQuery.cookie("menu-selected-city-boid") != null) {
+			if (jQuery(".fui-header-submenu-cities-list A:[city-boid='" + jQuery.cookie("menu-selected-city-boid") + "']").text().length > 15)
+				jQuery("#city_name").text(jQuery(".fui-header-submenu-cities-list A:[city-boid='" + jQuery.cookie("menu-selected-city-boid") + "']").text().substring(0, 15) + "...");
+			else
+				jQuery("#city_name").text(jQuery(".fui-header-submenu-cities-list A:[city-boid='" + jQuery.cookie("menu-selected-city-boid") + "']").text());
+			jQuery("#city_phone").text(jQuery(".fui-header-submenu-cities-list A:[city-boid='" + jQuery.cookie("menu-selected-city-boid") + "']").attr("data-phone"));
+		}
+
+		jQuery(".fui-header-submenu-city").click(function (e) {
+			jQuery(".fui-header-submenu-cities-list").toggle();
+		});
+
+
+		jQuery(".fui-header-submenu-cities-list a").click(function (e) {
+			if (jQuery(this).text().length > 15)
+				jQuery("#city_name").text(jQuery(this).text().substring(0, 15) + "...");
+			else
+				jQuery("#city_name").text(jQuery(this).text());
+			jQuery("#city_phone").text(jQuery(this).attr("data-phone"));
+			jQuery(".fui-header-submenu-cities-list").hide();
+			jQuery.cookie("menu-selected-city-boid", jQuery(this).attr("city-boid"));
+			return false;
+		});
+	});
+	</script>
+	
+	
+
+
+
+				</div>
+			</div>
+		</div>
+		<div class="fui-clear"></div>
+	</div>
+
+</header>
+
+
+
+<div class="content">
+	<div class="layout">
+		<table class="main" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr valign="top">
+			
+				<td id="sidebar" valign="top" class="pr8px">
+					<div id="news-belt-sidebar"><select id="news-belt-sidebar-sections" style="display: none; "><option value="1" selected="selected" url="/analysis/united/">События и рынки</option><option value="4" url="/analysis/investorquestion/">Вопрос эмитенту</option><option value="5" url="/news/headline/">Главные новости</option><option value="7" url="/international/imdaily/">Мировые рынки: Обзоры и идеи</option><option value="8" url="/international/advanced/">Международные рынки</option><option value="2" url="/analysis/conews/">Новости компаний</option><option value="3" url="/analysis/nslent/">Новости и комментарии</option></select><table cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom: 1em; " id="news-belt-sidebar-header"><tr><td><span class="ibutton icon arrdown block-selector" id="news-belt-sidebar-selector-arrow"><i></i></span><a class="ibutton fr" id="chat-link" href="/analysis/currentnews/#topnsl">ЧАТ</a><h2 id="news-belt-sidebar-selector"><span id="news-belt-sidebar-selector-title" class="title">События и рынки</span></h2></td></tr></table><div id="news-belt-sidebar-list"><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:44</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a href="/analysis/newsitem/gosduma-v-pervom-chtenii-prinyala-proekt-federalnogo-byudzheta-na-2015-god-i-planovyiy-period-2016-2017-godov-20141024-1529/" class="f-fake-url"><span class="f-fake-url__t">Госдума в первом чтении приняла проект федерального бюджета на 2015 год </span><span class="f-fake-url__u">и плановый период 2016-2017 годов</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:42</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a class="lightgrey noline" href="/analysis/newsitem/fitch-snizhenie-cen-chernogo-zolota-yavlyaetsya-sledstviem-rosta-dobycha-slancevoiy-nefti-20141024-1538/"><img src="http://www.finam.ru/sp/=&0=14596&1=42.gif" width=80" height="60" /></a><a href="/analysis/newsitem/fitch-snizhenie-cen-chernogo-zolota-yavlyaetsya-sledstviem-rosta-dobycha-slancevoiy-nefti-20141024-1538/" class="f-fake-url"><span class="f-fake-url__t">Fitch: Снижение цен "черного золота" является следствием </span><span class="f-fake-url__u">роста добыча сланцевой нефти в США</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:36</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/v-noyabre-dekabre-rossiiyskiiy-rynok-mozhet-prodemonstrirovat-rost-a-poka-indeks-mmvb-naxoditsya-v-ponizhatelnom-trende-20141024-1535/" class="f-fake-url"><span class="f-fake-url__t">В ноябре-декабре российский рынок может продемонстрировать рост, а пока индекс ММВБ </span><span class="f-fake-url__u">находится в понижательном тренде</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:18</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/international/advanced/">Международные рынки</a></span><div class="mt05"><a class="lightgrey noline" href="/international/newsitem/braziliya-vale-zafiksirovala-3-1-nyiy-rost-kvartalnyx-ob-emov-proizvodstva-20141024-1518/"><img src="http://www.finam.ru/sp/=&0=38197&1=42.gif" width=80" height="60" /></a><a href="/international/newsitem/braziliya-vale-zafiksirovala-3-1-nyiy-rost-kvartalnyx-ob-emov-proizvodstva-20141024-1518/" class="f-fake-url"><span class="f-fake-url__t">Бразилия: Vale зафиксировала 3,1%-ный рост </span><span class="f-fake-url__u">квартальных объемов производства</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:16</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/texnicheskix-priznakov-okonchaniya-dvizheniya-rossiiyskoiy-valyuty-vniz-poka-net-20141024-1515/" class="f-fake-url"><span class="f-fake-url__t">Технических признаков окончания движения </span><span class="f-fake-url__u">российской валюты вниз пока нет</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:07</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="http://bonds.finam.ru/news/" target="_blank">FinamBonds Новости</a></span><div class="mt05"><a href="http://bonds.finam.ru/news/item2CF21/" class="f-fake-url"><span class="f-fake-url__t">ЦБ РФ зарегистрировал выпуск облигаций </span><span class="f-fake-url__u">"НьюХауТрейд" объемом 6 млрд рублей</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:06</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/befly/">Разбор полетов</a></span><div class="mt05"><a class="lightgrey noline" href="/analysis/newsitem/promezhutochnye-dividendy-aukcion-nevidannoiy-shedrosti-20141024-1343/"><img src="http://www.finam.ru/sp/=&0=57107&1=42.gif" width=80" height="60" /></a><a href="/analysis/newsitem/promezhutochnye-dividendy-aukcion-nevidannoiy-shedrosti-20141024-1343/" class="f-fake-url"><span class="f-fake-url__t">Промежуточные дивиденды: </span><span class="f-fake-url__u">аукцион невиданной щедрости</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:04</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a href="/analysis/newsitem/loukoster-aeroflota-mozhet-priiyti-vo-vnukovo-20141024-1504/" class="f-fake-url"><span class="f-fake-url__t">Лоукостер "Аэрофлота" </span><span class="f-fake-url__u">может прийти во "Внуково"</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">15:04</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/international/advanced/">Международные рынки</a></span><div class="mt05"><a href="/international/newsitem/ceny-na-zoloto-prodolzhili-padenie-v-chetverg-20141024-1502/" class="f-fake-url"><span class="f-fake-url__t">Фондовый рынок США продолжил восстанавливаться, </span><span class="f-fake-url__u">а цены на золото снизились</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:57</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/investorquestion/">Вопрос эмитенту</a></span><div class="mt05"><a href="/analysis/investorquestion00001/rossiyane-ne-zakupayut-produkty-vprok-vvidu-nevysokoiy-effektivnosti-takix-strategiiy-vkupe-s-razlichnymi-izderzhkami-20141024-1440/" class="f-fake-url"><span class="f-fake-url__u">Россияне не хотят покупать впрок</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:48</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/news/headline/">Главные новости</a></span><div class="mt05"><a class="lightgrey noline" href="/news/headline0000F01935/"><img src="http://www.finam.ru/sp/=&0=262898&1=39.gif" width=80" height="60" /></a><a href="/news/headline0000F01935/" class="f-fake-url"><span class="f-fake-url__t">Негативная динамика будет сопровождать рынок РФ до появления хороших новостей, а пока участники </span><span class="f-fake-url__u">предпочитают фиксировать позиции</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:35</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/" class="f-fake-url"><span class="f-fake-url__t">Стоимость акций на мировых фондовых рынках близка к справедливой, а разговоры о формировании </span><span class="f-fake-url__u">"пузырей" безосновательны</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:32</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/international/advanced/">Международные рынки</a></span><div class="mt05"><a href="/international/newsitem/franciya-prodazhi-essilor-international-za-pervye-devyat-mesyacev-goda-vyrosli-na-10-20141024-1432/" class="f-fake-url"><span class="f-fake-url__t">Франция: продажи Essilor International </span><span class="f-fake-url__u">за 9 месяцев выросли на 10%</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:28</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/investorquestion/">Вопрос эмитенту</a></span><div class="mt05"><a href="/analysis/investorquestion00001/zapusk-birzhevyx-torgov-gazom-pomozhet-opredelit-spravedlivuyu-cenu-gaza-na-vnutrennem-rynke-20141024-1420/" class="f-fake-url"><span class="f-fake-url__t">Запуск биржевых торгов газом поможет определить справедливую </span><span class="f-fake-url__u">цену газа на внутреннем рынке</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:23</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/competition/">Прогнозы "Ленты Финама"</a></span><div class="mt05"><a class="lightgrey noline" href="/analysis/competition/"><img src="http://www.finam.ru/sp/=&0=13906&1=42.gif" width=80" height="60" /></a><a href="/analysis/competition/" class="f-fake-url"><span class="f-fake-url__t">Акции "Газпрома" будут торговаться по 137,6 </span><span class="f-fake-url__u">рубля к 1 декабря. Ваше мнение?</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:15</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/slabyiy-rubl-skompensiruet-nedostatok-pritoka-neftedollarov-v-byudzhet-strany-pri-tekushix-cenax-na-neft-20141024-1415/" class="f-fake-url"><span class="f-fake-url__t">Слабый рубль скомпенсирует недостаток притока нефтедолларов в бюджет </span><span class="f-fake-url__u">страны при текущих ценах на нефть</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:05</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/international/advanced/">Международные рынки</a></span><div class="mt05"><a href="/international/newsitem/segodnya-v-ssha-ozhidaetsya-prodazhi-novogo-zhilya-a-takzhe-ryad-otchetnosteiy-20141024-1403/" class="f-fake-url"><span class="f-fake-url__t">Сегодня в США выйдут данные по продажам нового жилья за сентябрь, отчетности Colgate-Palmolive, </span><span class="f-fake-url__u">Ford Motor, Moody's</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">14:00</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/webinar/main/">Видеосеминары	</a></span><div class="mt05"><a class="lightgrey noline" href="/webinar/list00001019A2/"><img src="http://www.finam.ru/sp/=&0=29558&1=42.gif" width=80" height="60" /></a><a href="/webinar/list00001019A2/" class="f-fake-url"><span class="f-fake-url__t">Вебинар "Биржевая сводка с Сергеем </span><span class="f-fake-url__u">Погудиным"  начнётся в 14:00 мск</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:56</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/rubl-poka-ignoriruet-podderzhku-so-storony-cb-tak-chto-oslablenie-rossiiyskoiy-valyuty-mozhet-prodolzhitsya-20141024-1355/" class="f-fake-url"><span class="f-fake-url__t">Рубль пока игнорирует поддержку со стороны ЦБ, так что ослабление российской </span><span class="f-fake-url__u">валюты может продолжиться</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:54</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a href="/analysis/newsitem/cb-rf-perenosit-vvedenie-pokazatelya-kratkosrochnoiy-likvidnosti-na-iyul-2015-goda-20141024-1354/" class="f-fake-url"><span class="f-fake-url__t">ЦБ РФ переносит введение показателя краткосрочной </span><span class="f-fake-url__u">ликвидности на июль 2015 года</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:42</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/investorquestion/">Вопрос эмитенту</a></span><div class="mt05"><a href="/analysis/investorquestion00001/akcii-magnita-ostayutsya-naibolee-privlekatelnymi-v-rossiiyskom-potrebsektore-20141024-1340/" class="f-fake-url"><span class="f-fake-url__t">Акции "Магнита" остаются наиболее привлекательными </span><span class="f-fake-url__u">в российском потребсекторе</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:39</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/pri-cene-na-neft-80-rosneft-soxranit-svobodnyiy-denezhnyiy-potok-vyshe-5-za-barrel-a-pomosh-iz-fnb-reshit-problemu-dolgov-20141024-1335/" class="f-fake-url"><span class="f-fake-url__t">Государству, возможно, придется отложить приватизацию "Роснефти" до стабилизации цен на нефть </span><span class="f-fake-url__u">на уровне выше $100 за баррель</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:30</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/webinar/main/">Видеосеминары</a></span><div class="mt05"><a class="lightgrey noline" href="/webinar/list000010199C/"><img src="http://www.finam.ru/sp/=&0=51971&1=42.gif" width=80" height="60" /></a><a href="/webinar/list000010199C/" class="f-fake-url"><span class="f-fake-url__t">Вебинар "Пульс рынка с Юлией </span><span class="f-fake-url__u">Афанасьевой" начнётся в 13:30 мск</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:25</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a href="/analysis/newsitem/fitch-podtverdilo-reiyting-operatora-aeroporta-domodedovo-na-urovne-bbplus-so-stabilnym-prognozom-20141024-1325/" class="f-fake-url"><span class="f-fake-url__t">Fitch подтвердило рейтинг оператора аэропорта "Домодедово" на уровне </span><span class="f-fake-url__u">"BB+" со "стабильным" прогнозом</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:24</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/v-sluchae-soxraneniya-investicionnoiy-kategorii-rossii-rubl-imeet-vse-shansy-otygrat-poteri-poslednix-dneiy-20141024-1315/" class="f-fake-url"><span class="f-fake-url__t">В случае сохранения инвестиционного рейтинга России, рубль имеет все шансы </span><span class="f-fake-url__u">отыграть потери последних дней</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:15</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/international/advanced/">Международные рынки</a></span><div class="mt05"><a class="lightgrey noline" href="/international/newsitem/para-eur-usd-nastroena-na-konsolidaciyu-20141024-1245/"><img src="http://www.finam.ru/sp/=&0=54995&1=42.gif" width=80" height="60" /></a><a href="/international/newsitem/para-eur-usd-nastroena-na-konsolidaciyu-20141024-1245/" class="f-fake-url"><span class="f-fake-url__t">Пара </span><span class="f-fake-url__u">EUR/USD настроена на консолидацию</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:13</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/conews/">Новости компаний</a></span><div class="mt05"><a href="/analysis/newsitem/vyruchka-vsex-divizionov-rusagro-za-3-kvartal-2014-goda-uvelichilas-na-65-do-16-6-mlrd-rubleiy-20141024-1312/" class="f-fake-url"><span class="f-fake-url__t">Выручка всех дивизионов "Русагро" за 3 квартал 2014 года увеличилась </span><span class="f-fake-url__u">на 65% - до 16,6 млрд рублей</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:09</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="/analysis/nslent/">Новости и комментарии</a></span><div class="mt05"><a href="/analysis/marketnews/pri-blagopriyatnyx-vneshnix-usloviyax-indeks-mmvb-mozhet-predprinyat-popytku-vyxoda-k-urovnyu-1400-punktov-20141024-1300/" class="f-fake-url"><span class="f-fake-url__t">При благоприятных внешних условиях индекс ММВБ может предпринять попытку </span><span class="f-fake-url__u">выхода к уровню 1400 пунктов</span></a>
+</div></div><div class="news-belt-sidebar-item" style="display: ; "><span class="ssm  date">13:08</span>&nbsp;<span class="ssm lightgrey"><a class="lightgrey noline" href="http://bonds.finam.ru/comments/" target="_blank">FinamBonds Комментарии</a></span><div class="mt05"><a class="lightgrey noline" href="http://bonds.finam.ru/comments/item2CF1E/default.asp" target="_blank"><img src="http://www.finam.ru/sp/=&0=15700&1=42.gif" width=80" height="60" /></a><a href="http://bonds.finam.ru/comments/item2CF1E/default.asp" class="f-fake-url"><span class="f-fake-url__t">Если S&P решится снизить рейтинг РФ до "мусорного" уровня, российские </span><span class="f-fake-url__u">активы ждет волна распродаж</span></a>
+</div></div></div><div id="news-belt-sidebar-more" class="bggrey p10 grey-border-top mt10" align="center"><button class="ibutton"><span>Ещё новости</span></button></div></div>
+				</td>
+				<td class="split" width="2%">&nbsp;</td>
+			
+				<td id="content-block" class="inside-container content pl8px" style="">
+<!--<style type="text/css">
+.main .content .united-lent { font-size: 85% !important}
+.main .content .united-lent H2 {font: 150% Arial,sans-serif; margin-top: 0.5em; text-align: left}
+.main .content .united-lent H2 A { color: #000; text-decoration: none}
+.main .content .news-date A { color: #000}
+.main .content .news-date A:hover, .news-tools small A:hover { color: #dd0000}
+H3 {text-align: left !important;}
+.news-tools { margin-top: 2em; line-height: 1.4em; font-size: 100%;}
+.news-tools TD { padding-right: 1em}
+.news-tools SMALL, .news-tools SMALL A { color: #767676}
+.news-tools SMALL { font-size: 80%}
+.news-tools .socnets { float: right; padding: 0.4em 0.55em 0; background-color: #F6F6F6; margin-top: -0.3em; white-space: nowrap}
+.bggray { background-color: f6f6f6; padding: 1.8em; margin-top: 1.5em; margin-bottom: 1em;}
+.chat { background-color: #fff; padding: 0 0.5em}
+.chat IMGz { display: none}
+.voting { margin-top: 0.1em}
+.voting A IMG { margin-right: 0.2em}
+.voting A.selected { padding: 0; background: none}
+.voting A.selected IMG { margin-right: 0.2em}
+.bggray .section { display: inline-block; margin-top: 0.3em}
+.bggray TABLE TD { padding: 0.5em 0 1em; line-height: 135%;}
+.bggray TABLE TD SMALL { font-size: 90%;  position:relative}
+.bggray A.section {font: normal 8pt/7pt Arial, sans-serif; letter-spacing: 3px; color: #777777; text-decoration: none;}
+.bggray A.section:hover { text-decoration: underline}
+.comment-form .bggray { margin: 1em 0 0; padding: 0; //width: 95%;}
+.comment-form .bggray TD { padding: 0;}
+</style>-->
+<div id="news-item">
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td valign="top">
+
+<div id="newsitem541884">
+<div class="fr ml20 mb20 right-float-block">
+	<script src="/js/jquery/autocomplete/jquery.autocomplete.js" type="text/javascript"></script>
+	<link href="/js/jquery/autocomplete/jquery.autocomplete.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" language="javascript">
+			var $ = jQuery.noConflict();
+	</script>
+	<form action="/analysis/search/" method="get">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" class="finsearch">
+		<tr>
+			<td>
+				<input id="searchtext" class="text mid pale w100" type="text"  name="searchtext" value="" maxlength="50" />
+			</td>
+			<td width="22">&nbsp;</td>
+			<td width="80">
+				<input id="s" type="submit" class="ibutton yellow-button w100" value="Найти" name="s" value="" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"> <div style="background: transparent; position: relative; padding: 0 8px; width: 100%" class="search-input-holder"></div></td>
+		</tr>
+		</table>
+	</form>
+	<script type="text/javascript">
+		initInputPlaceholder($z('searchtext'), 'Как купить Юань на Московской бирже?', 'text mid w100', 'text mid pale w100 ac_input');
+		$(document).ready(function () {
+			//$("#searchtext").autocomplete("/scripts/search/search.asp?autocomplete=1", {width:286, scroll:false});
+			var rnd_title;
+			rnd_title = "Как торговать акциями и валютой в одном месте?"; 		
+			initInputPlaceholder($z('searchtext'), rnd_title, 'text mid w100', 'text mid pale w100 ac_input');
+			$("#searchtext").autocomplete("/scripts/search/search.asp?autocomplete=1");
+		});
+	</script>
+	
+	<div class="bggrey p10 grey-border-top grey-border-bottom mt10 mb10" align="center">
+		<!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 2 BN: 3 -->
+<div id="adriver_banner_876363405"></div>
+
+<script type="text/javascript">
+(function(n){
+    var l = window.location, a = l.hostname.split('.');
+    a.splice(a.length-2, 2);
+    window[n] = (a.length ? '/' + a.join('/') : '') + l.pathname + escape(l.search);
+})('sz');
+
+new adriver("adriver_banner_876363405", {sid:189460, bt:52, sz:sz, bn:3, pz:2});
+</script>
+
+<!--  AdRiver code END  -->
+	</div>
+	
+</div>
+
+<h2>Стоимость акций на мировых фондовых рынках близка к справедливой</h2>
+
+<div class="sm lightgrey mb20 mt15">24.10.2014 14:35
+&nbsp;&nbsp;<a href="/analysis/nslent/">Новости и комментарии</a></div>
+
+<div class="handmade mid">
+Текст комментария!
+</div>
+<div class="clear"></div>
+<p class="grey-dotted-border-top mid">
+<!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 2 BN: 18 -->
+<div id="adriver_banner_143702139"></div>
+<script type="text/javascript">
+new adriver("adriver_banner_143702139", {sid:189460, bt:52, bn:18, pz:2});
+</script>
+</p>
+<!--  AdRiver code END  -->
+
+
+<div class="grey-border-bottom grey-dotted-border-top mb10 mt10 pt10 pb10">
+<table cellpadding="0" cellspacing="0" border="0" width="100%"><tr valign="top">
+	<td class="sm" width="28%">
+		<strong><a href="/analysis/rating/?f=user&d=2&u=1227">Аналитики</a></strong>  (Saxo Bank)
+					<br /><div class="pale" style="margin-top: 3px">участник <a href="/analysis/rating/">рейтинга</a></div>
+					
+	</td>
+	<td width="2%">&nbsp;</td>
+	<td class="sm rating" width="20%">
+	<script language='JavaScript'>
+function showList() {
+	var showlist=1;
+	if (!showlist) { alert('Пока никто не голосовал!');return; }
+	width=200
+	height=250
+	if (screen){
+		aLeft=Math.floor((screen.width-width)/2)
+		aTop=Math.floor((screen.height-height)/2)
+	}else{
+		aLeft=0
+		aTop=0
+	}
+	str="win=window.open('/Rating.asp?f=list&r=541884&t=1', 'RatingList', 'resizable=0,left=" +aLeft+"px,top="+aTop+"px,width="+width+"px,height="+height+"px,scrollbars=1')"
+	eval(str);
+	win.focus();
+	}
+</script>
+<table class="customer-rating"  cellspacing="0" border="0" cellpadding="0"><tr valign="top">
+	<td nowrap="nowrap">
+			<strong>Ваша оценка:</strong>
+			<span class="stars star00">
+					<ul>
+							<li id="1star" rate="1"><a title='Совершенно не нравится' href='/analysis/marketnews844BC/?v=1&i=541884'></a></li>
+							<li id="2star" rate="2"><a title='Не нравится' href='/analysis/marketnews844BC/?v=2&i=541884'></a></li>
+							<li id="3star" rate="3"><a title='Посредственно' href='/analysis/marketnews844BC/?v=3&i=541884'></a></li>
+							<li id="4star" rate="4"><a title='Хорошо' href='/analysis/marketnews844BC/?v=4&i=541884'></a></li>
+							<li id="5star" rate="5"><a title='Отлично' href='/analysis/marketnews844BC/?v=5&i=541884'></a></li>
+					</ul>
+					<script>
+							jQuery(".stars li").hover(function (){
+									var bp_x = jQuery(this).attr("rate")*14-70 + "px";
+									var bp = bp_x + " 0";
+									jQuery(this).parent().parent().css("background-position", bp);
+							},
+							function (){
+									jQuery(this).parent().parent().removeAttr("style");
+							})
+					</script>
+			</span>
+			
+		
+		<div class="pale" style="margin-top: 3px">
+			
+				<a href="" onClick='showList(); return false;'>2&nbsp;пользователя</a> оценили материал на 2,5.
+			
+		</div>
+	</td>
+</tr></table>
+
+	</td>
+	<td width="2%">&nbsp;</td>
+	<td align="right" class="likes">
+		<link href="/css/social-likes.css" rel="stylesheet" />
+<ul class="social-likes">
+	<li class="facebook"><a class="facebook" href="" title="Опубликовать ссылку на Фейсбуке"></a></li>
+	<li class="twitter"><a class="twitter" href="" data-via="finam_blog" data-related="finam_blog:Инвестиционный холдинг ФИНАМ" title="Опубликовать ссылку в Твиттере"></a></li>
+	<li class="vkontakte"><a class="vk" href="" title="Опубликовать ссылку во Вконтакте"></a></li>
+	<li class="odnoklassniki"><a class="odnoklassniki" href="" title="Опубликовать ссылку в Одноклассниках"></a></li>
+	<li class="livejournal"><form action="http://www.livejournal.com/update.bml" method="post" target="_blank">
+		<input type="hidden" name="mode" value="full">
+		<input type="hidden" name="subject" value="п»їРЎС‚РѕРёРјРѕСЃС‚СЊ Р°РєС†РёР№ РЅР° РјРёСЂРѕРІС‹С… С„РѕРЅРґРѕРІС‹С… СЂС‹РЅРєР°С… Р±Р»РёР·РєР° Рє СЃРїСЂР°РІРµРґР»РёРІРѕР№, Р° СЂР°Р·РіРѕРІРѕСЂС‹ Рѕ С„РѕСЂРјРёСЂРѕРІР°РЅРёРё&amp;nbsp;...">
+		<input type="hidden" name="event" value="http://www.finam.ru/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/">
+		<input type="submit" value="" title="Опубликовать ссылку в ЖЖ">
+	</form></li>
+</ul>
+<script src="/js/social-likes.js"></script>
+	</td>
+	<td width="120">
+		
+<span id="marketnews541884-blogpost-show" class="show-blog-post">
+	<a href="#" class="show-blog-post ibutton" onclick="return false;">В мой блог</a>
+</span>
+<div id="marketnews541884-blogpost" class="blog-post" style="display: none; ">
+	<div href="#" class="close">&nbsp;</div>
+	<div class="post">
+		<div style="border: solid 1px #ccc; background: #fff; padding: 5px; "><table cellspacing="0" cellpadding="5" border="0"><tr><td valign="bottom"><a href="http://www.finam.ru/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/" target="_blank" style="color: #0053a0; font-size: 14px; font-weight: bold; ">Стоимость акций на мировых фондовых рынках близка к справедливой, а разговоры о формировании "пузырей" безосновательны - Новости и комментарии</a></td><td align="right"><a href="http://www.finam.ru" target="_blank"><img src="http://www.finam.ru/i/i/logo-small.gif" width="72" height="45" alt="ЗАО ФИНАМ, Холдинг FINAM" border="0" /></a></td></tr><tr><td colspan="2"><p style="margin: 10px 0; font-size: 12px; ">США, Китай и Европа готовятся к новому моменту Мински: грядут трудные времена для инвесторов, но и они несут с собой благоприятные возможностиПо мнению Saxo Bank, специалиста в области онлайн-трейдинга и инвестиций, обратная сторона программ количественного смягчения - это огромные долги, наводнившие мировую экономику за последние несколько лет.В&nbsp;...</p><p style="margin: 10px 0 0 0; text-align: right; font-size: 12px; clear: left; "><a href="http://www.finam.ru/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/" target="_blank" style="color: #0053a0; ">Читать целиком</a></p></td></tr></table></div>
+	</div>
+	<div class="html">
+		<textarea cols="40" rows="6"><div style="border: solid 1px #ccc; background: #fff; padding: 5px; "><table cellspacing="0" cellpadding="5" border="0"><tr><td valign="bottom"><a href="http://www.finam.ru/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/" target="_blank" style="color: #0053a0; font-size: 14px; font-weight: bold; ">Стоимость акций на мировых фондовых рынках близка к справедливой, а разговоры о формировании "пузырей" безосновательны - Новости и комментарии</a></td><td align="right"><a href="http://www.finam.ru" target="_blank"><img src="http://www.finam.ru/i/i/logo-small.gif" width="72" height="45" alt="ЗАО ФИНАМ, Холдинг FINAM" border="0" /></a></td></tr><tr><td colspan="2"><p style="margin: 10px 0; font-size: 12px; ">США, Китай и Европа готовятся к новому моменту Мински: грядут трудные времена для инвесторов, но и они несут с собой благоприятные возможностиПо мнению Saxo Bank, специалиста в области онлайн-трейдинга и инвестиций, обратная сторона программ количественного смягчения - это огромные долги, наводнившие мировую экономику за последние несколько лет.В&nbsp;...</p><p style="margin: 10px 0 0 0; text-align: right; font-size: 12px; clear: left; "><a href="http://www.finam.ru/analysis/marketnews/stoimost-akciiy-na-mirovyx-fondovyx-rynkax-blizka-k-spravedlivoiy-a-razgovory-o-formirovanii-puzyreiy-bezosnovatelny-20141024-1435/" target="_blank" style="color: #0053a0; ">Читать целиком</a></p></td></tr></table></div></textarea>
+	</div>
+	<div class="buttons">
+		<div id="marketnews541884-blogpost-copy" class="copy" style="position: relative; ">
+			<div id="marketnews541884-blogpost-button">Скопировать</div>
+		</div>
+		<a href="#" class="js cancel" onclick="return false; ">Закрыть</a>
+	</div>
+	<div class="info">При полном или частичном использовании материалов ссылка на Finam.ru обязательна. <a href="http://www.finam.ru/about/copyright/">Подробнее об использовании информации</a> и <a href="http://www.finam.ru/about/quotes/">котировок</a>.</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		new Finam.BlogPost('marketnews541884-blogpost');
+		$(".show-blog-post").removeClass("js");
+	});
+</script>
+
+	</td>
+</tr></table>
+</div>
+<div id="smi2adblock_39719">
+	<a href="http://finance.comon.ru/">Новости finance.comon.ru</a>
+</div>
+
+<script type="text/javascript" charset="windows-1251">
+	(function() {
+	var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+	sc.src = 'http://js.finance.comon.ru/data/js/39719.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+	}());
+</script>
+	<div id="customer-review-comments" data-news-id="541884" data-news-type="0" data-reviews-id="1" data-mode="full">
+		<a name = 'topnsl'></a>
+<div class="bggrey grey-border-top grey-border-bottom chat-holder">
+
+		<!--<br />
+		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td width="32%"><strong>Комментарии</strong></td>
+				<td width="38%">&nbsp;</td>
+				<td width="30%"><a href="/analysis/currentnews/#topnsl">Чат ФИНАМа</a></td>
+			</tr>
+		</table>-->
+		
+	<table cellspacing="0" border="0" width="100%" class="customer-review-table"><tr>
+		<td>
+			
+				<div id="customer-review-comment-form-top" class="customer-review mb05">
+					<a name="_reviewform"></a>
+					<div id="comment_form" class="comment-form">
+						<form class="m00" action="/analysis/marketnews844BC/#_reviewlist" name="addReview" method="post">
+							<input type='hidden' name='hnID' value="541884">
+<table id="topnsl" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+	<td>
+		
+		<textarea wrap='virtual' style='width: 100%; height: 1.3em; -webkit-border-radius: 3px; border-radius: 3px; ' id='review' class="review" name='review' rows="1" cols="30" data-error="false">Ваше сообщение</textarea>
+			<div class="customer-block" style="display: none">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" class="customer-block-table">
+				<tr>
+					<td class="pale sm customer-block-user-name">
+						От <strong id="customer-review-comment-form-user-name">alexxZh</strong></span>
+					</td>
+					<td class="pale pr10 customer-block-whom">
+						<input type='checkbox' id='sendadmin1' class="sendadmin" name='sendadmin' style="display: none" />
+						<div class="posr">
+							<a href="#" class="noline pale arrow-down-grey whom">Написать в&nbsp;чат</a>
+								<div class="choose" style="display: none">
+									<a href="" class="whom-chat">Написать в&nbsp;чат</a>
+									<a href="" class="whom-admin">Отправить админу</a>
+								</div>
+						</div>
+					</td>
+					<td width="120" class="customer-block-send">
+						<div class="posr"><input type='submit' class='ibutton yellow-button w100' name='addreview' value='Отправить' /></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+	<td width="45"></td>
+</tr></table>
+
+						</form>
+					</div>
+				</div>
+				
+		</td>
+		<td width="25" class="customer-review-table-sep-top">&nbsp;</td>
+		
+		<td valign="top" width="195" align="right" nowrap="nowrap">
+		<table cellspacing="0" cellpadding="0" border="0" class="tools">
+	<tr>
+		<td width="195">
+			<form name='f_topnsl' action='/analysis/marketnews844BC/?c=False#topnsl' method="POST" class="chat-refresh">
+				<a class="ibutton" href='/analysis/marketnews844BC/?c=False#topnsl' onclick='document.f_topnsl.submit();event.returnValue = false;'>Обновить</a>
+			</form>
+			<div class="chat-tools" style="padding: 0.65em 0; float: right;">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td class="chat-rules"> 
+							<a href="" title="Правила чата"></a>
+						</td>
+						
+						<td class="chat-view grey-border-left">
+							<a href="#"></a>
+						</td>
+						
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+	
+		<tr>
+			<td colspan="2">
+				<div class="posr">
+					<div id = "chat-view-div" class="chat-view-div choose" style="display: none; left: -135px">
+						<a href="/analysis/currentnews/">Альтернативный вид ленты</a>
+						<a href="/analysis/nslent/" style="font-weight: bold; " onclick="$(this).parent().hide(); return false;">Обычный вид ленты</a>
+					</div>
+				</div>	
+			</td>
+		</tr>
+	
+</table>
+
+<script>
+	$(".toolChatURL").click(function (e) {
+		jQuery(this).parent().children(".choosetoolChatURL").slideDown("fast");
+		return false;
+	});
+	$(".chat-view A").click(function () {
+		$(this).parents(".tools").find(".chat-view-div").slideDown("fast");
+		return false;
+	});
+</script>
+
+		</td>
+	</tr></table>
+	<a name="_reviewlist"></a>
+<style type="text/css">
+	/*.chat { font-size: 85%; line-height: 125% }*/
+	.chat .split { border-bottom: 1px dotted #CCCCCC; margin-top: 0.8em; padding-bottom: 1.0em }
+	.chat .split .date { font-size: 85%; color: #555555; background-color: #EEEEEE; padding: 0 2px; }
+	.chat .split IMG { position: relative; margin: -0.2em 0 0 -24px; cursor: pointer; }
+	.chat .our-post { background-color: #f2f2f2; }
+</style>
+<div class="chat">
+<div id="comment12784144" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time1" class="date m0">24.10 14:35</span>
+			</td>
+			<td align="left">
+			<b id="user1">дворник</b>:евразийцы в тюбетейках <br />на верблюдах и овечках<br />смело киев воевали<br />и грозили миру газом<br />в телогрейках и с бутылкой<br />что топорщится в кармане <br />даже в аэропортах<br />они грозно утверждают <br />что пришли спасти планету<br />от неведомого кукла с цукербергом<br />в вашингтоне<div id="reply1" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 1); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784145" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time2" class="date m0">24.10 14:35</span>
+			</td>
+			<td align="left">
+			<b id="user2">гу-га</b>:В соответствии с выводами экспертов МВФ получается, что семь наиболее крупных так называемых «растущих экономик» мира, включая нашу страну, обошли по совокупному ВВП «семерку» промышленно развитых западных стран.<br /><br />«Возникает принципиально новая картина мира, которая не укладывается в устоявшееся за несколько столетий представление о доминировании Запада в мировой экономике, финансах и политике», – тихо укладывает Лавров тяжеловесные слова, будто кирпичи, в фундамент новой картины мира. И одновременно забивает гвозди в гроб старого миропорядка.<div id="reply2" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 2); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784146" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time3" class="date m0">24.10 14:35</span>
+			</td>
+			<td align="left">
+			<b id="user3">душманы</b>:на той неделе БАКСЫ-43<div id="reply3" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 3); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784148" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time4" class="date m0">24.10 14:36</span>
+			</td>
+			<td align="left">
+			<b id="user4">дворник</b>:&gt; 14:31 Сенька-Жиган, <br />даидитанукуй вместе со своейротиной<div id="reply4" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 4); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784149" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time5" class="date m0">24.10 14:38</span>
+			</td>
+			<td align="left">
+			<b id="user5">гу-га</b>:Запад спешит, срываясь в истерику, мы – нет. Лавров издевательски предупреждает: «Период, наступивший в наших отношениях, будет длительным еще и потому, что общая переоценка американцами своего места в мире, проблема осознания ими произошедшего за последние десятилетия, безальтернативности дальнейшего укрепления тенденции к полицентричности и укреплению новых центров экономической, финансовой мощи и политического влияния займет какое-то время. Но эти процессы идут».<br />Когда слушаешь подобное и ставишь себя на место западных финансовых воротил, возомнивших себя богами, понимаешь эту жуткую нескрываемую досаду, которая проявляется в истерике Саманты Пауэр, трагикомических перлах Псаки и пафосных восклицаниях Обамы. Они просто не знают, что с нами делать.<div id="reply5" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 5); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784150" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time6" class="date m0">24.10 14:38</span>
+			</td>
+			<td align="left">
+			<b id="user6">гот на рынке</b>:душный проснулся... скоророст<div id="reply6" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 6); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784151" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time7" class="date m0">24.10 14:39</span>
+			</td>
+			<td align="left">
+			<b id="user7">дворник</b>:крах эрэфии неизбежен<br />предпринимайте меры<div id="reply7" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 7); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784152" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time8" class="date m0">24.10 14:39</span>
+			</td>
+			<td align="left">
+			<b id="user8">Сенька-Жиган</b>:&gt; 14:35 дворник, ))) Не лопни-) Ты так долго не проживёшь:-), пожалей себя-)))<div id="reply8" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 8); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784153" class="chat-item our-post">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time9" class="date m0">24.10 14:40</span>
+			</td>
+			<td align="left">
+			<a href='/analysis/investorquestion/'>Вопрос эмитенту:</a>&nbsp;Максим Клягин, аналитик УК «Финам Менеджмент»: Лишь сравнительно небольшая часть россиян сейчас активно практикует формирование долгосрочных крупных продовольственных запасов. И это, на мой взгляд, прямо свидетельствует об ограниченной целесообразности подобных стратегий. Высокая доступность продуктов питания в розничной сети, отсутствие дефицита и в целом умеренные темпы роста цен на базовые виды продукции создают условия, при которых покупка продуктов впрок не формирует значительной выгоды.&nbsp;<a href='/analysis/investorquestion00001/rossiyane-ne-zakupayut-produkty-vprok-vvidu-nevysokoiy-effektivnosti-takix-strategiiy-vkupe-s-razlichnymi-izderzhkami-20141024-1440/'><font color="green">Подробнее &gt;&gt;</font></a><div id="reply9" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 9); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784155" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time10" class="date m0">24.10 14:40</span>
+			</td>
+			<td align="left">
+			<b id="user10">гу-га</b>:Но откуда такая уверенность России? Только ли в изменяющейся пропорции долей стран Запада и не-Запада в мировой экономике? Трудно в это поверить. Объективные процессы – это, конечно, значимая сила, но нередко направление объективных процессов меняется волевым усилием субъектов.<br /><br />Не исключено, что наряду с учетом направления течения международной политики Россия обладает и несколькими мощными козырями, которые пока ждут своего часа – в финансовой, идеологической и военной сферах. Впрочем, нет более сильного козыря России, чем непредсказуемость и парадоксальность поведения.<br /><br />Подытоживая, необходимо констатировать, что горизонт видения Кремля уходит далеко за пределы Киева и современного конфликта в Донбассе. Принимая решения здесь и сейчас, Россия следит за направлением течения международной политики и видит, как выдыхается тот, кто гребет против него.<div id="reply10" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 10); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784156" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time11" class="date m0">24.10 14:41</span>
+			</td>
+			<td align="left">
+			<b id="user11">Сенька-Жиган</b>:&gt; 14:36 дворник, ))) ОоооЙ-)))<div id="reply11" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 11); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784157" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time12" class="date m0">24.10 14:42</span>
+			</td>
+			<td align="left">
+			<b id="user12">гу-га</b>:Исходя из этого, Россия воспринимает все военные преступления США и НАТО, провокации, санкции и цветные революции как попытки Запада хоть как-то притормозить процесс потери гегемонии и формирования многополярного мира. Попытки сколь болезненные и кровавые, столь и бесполезные в исторической перспективе.<div id="reply12" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 12); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784161" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time13" class="date m0">24.10 14:44</span>
+			</td>
+			<td align="left">
+			<b id="user13">If IsPostBack return</b>:Южноафриканский уголь, который Украина начала покупать из-за дефицита собственного, стоит 86 долларов за тонну. Об этом рассказал министр Юрий Продан, пишет РБК-Украина.<div id="reply13" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 13); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784162" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time14" class="date m0">24.10 14:45</span>
+			</td>
+			<td align="left">
+			<b id="user14">кишкомот</b>:3 долбоящера на РБК уговаривают ослов в перепроданности и дешевизне )))<div id="reply14" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 14); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784163" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time15" class="date m0">24.10 14:45</span>
+			</td>
+			<td align="left">
+			<b id="user15">If IsPostBack return</b>:СБУ сорвала план ФСБ по дестабилизации выборов. Задержан ряд диверсионных групп, - Наливайченко (Цензор.Нет)<div id="reply15" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 15); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784164" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time16" class="date m0">24.10 14:45</span>
+			</td>
+			<td align="left">
+			<b id="user16">кпрф</b>:&gt; 14:39 дворник, чем выше доллар, тем ниже потребление западной продукции, тем выше финансовая дисциплина каждого человека, тем выше прибыль экспортных компаний (в рублях) ....и т.п. и т.д....<div id="reply16" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 16); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784165" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time17" class="date m0">24.10 14:46</span>
+			</td>
+			<td align="left">
+			<b id="user17">If IsPostBack return</b>:А скока стоит уголь у Мечела?<div id="reply17" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 17); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784166" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time18" class="date m0">24.10 14:46</span>
+			</td>
+			<td align="left">
+			<b id="user18">Сенька-Жиган</b>:&gt; 14:40 дворник, Слушай, начальник метлы, ты не больно тут шустри, меру знай:-)<div id="reply18" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 18); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784167" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time19" class="date m0">24.10 14:47</span>
+			</td>
+			<td align="left">
+			<b id="user19">дворник</b>:&gt; 14:45 кпрф, <br />мне покую на ваш пекинско махачкалинско ташкентский улус)<div id="reply19" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 19); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784169" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time20" class="date m0">24.10 14:48</span>
+			</td>
+			<td align="left">
+			<b id="user20">Бармен из Твери</b>:Слава России!<div id="reply20" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 20); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784170" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time21" class="date m0">24.10 14:49</span>
+			</td>
+			<td align="left">
+			<b id="user21">кпрф</b>:&gt; 14:47 дворник, раз пофиг, что так причитаешь, только &quot;чернила&quot; тратишь<div id="reply21" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 21); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784172" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time22" class="date m0">24.10 14:50</span>
+			</td>
+			<td align="left">
+			<b id="user22">i cho</b>:эх, хорошо звучит:в *исторической перспективе*.союз с кыргизстаном, узбекистаном и прочими ..станами конечно основная движущая сила прогресса))* в исторической перспективе*))))<div id="reply22" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 22); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784173" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time23" class="date m0">24.10 14:51</span>
+			</td>
+			<td align="left">
+			<b id="user23">кпрф</b>:&gt; 14:48 Бармен из Твери, только без фанатизма<div id="reply23" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 23); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784175" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time24" class="date m0">24.10 14:52</span>
+			</td>
+			<td align="left">
+			<b id="user24">Бармен из Твери</b>:&gt; 14:51 кпрф, <br /><br />а какой фанатизм? ну просто надоело здесь нытье от одних и тех же персонажей - жизнь-то прекрасна<div id="reply24" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 24); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784176" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time25" class="date m0">24.10 14:52</span>
+			</td>
+			<td align="left">
+			<b id="user25">гу-га</b>:чмо-человек морально опущенный-только в интернете ему пока не могут запретить вякать<div id="reply25" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 25); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784177" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time26" class="date m0">24.10 14:53</span>
+			</td>
+			<td align="left">
+			<b id="user26">Сенька-Жиган</b>:&gt; 14:48 дворник, ))) Оооой!-))) Сходи, выпей стопочку, не ровён час.., будь добр, прислушайся к моему совету.<div id="reply26" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 26); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784178" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time27" class="date m0">24.10 14:55</span>
+			</td>
+			<td align="left">
+			<b class="bgrich">_NewsRobot_</b>:&nbsp;<a href='/analysis/marketnews844BE/default.asp' class=hx><font color=red>Господа, на нашем сайте опубликован новый комментарий! </font>&gt;&gt;&gt;</a><div id="reply27" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 27); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784179" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time28" class="date m0">24.10 14:55</span>
+			</td>
+			<td align="left">
+			<b id="user28">кпрф</b>:&gt; 14:52 Бармен из Твери, согласен, нытики надоели<div id="reply28" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 28); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+<div id="comment12784192" class="chat-item">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr valign="top">
+			<td width="90">
+				<span id="time29" class="date m0">24.10 14:58</span>
+			</td>
+			<td align="left">
+			<b id="user29">НИКОЛЯ ни двора</b>:&gt; 14:35 душманы:на той неделе БАКСЫ-43<br /><br />На той, что БЫЛА или что БУДЕТ????<div id="reply29" style="clear: both; width: 100%; display: none; " class="comment-form"></div>
+			</td>
+			<td width="40" align="right"><a onclick="Finam.CustomerReview.replyForm(this, 29); return false" href="" class="ibutton icon edit"><i></i></a></td>
+		</tr>
+	</table>
+</div>
+
+</div>
+
+			<table cellspacing="0" border="0" width="100%" id="customer-reviews-form-bottom"><tr>
+				<td>
+					
+						<div id="customer-review-comment-form-bottom" class="customer-review mt05">
+							<a name="_reviewform"></a>
+							<div id="comment_form2" class="comment-form">
+								<form class="m00" action="/analysis/marketnews844BC/#_reviewlist" name="addReview" method="post">
+									<input type='hidden' name='hnID' value="541884">
+<table id="botnsl" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+	<td>
+		
+		<textarea wrap='virtual' style='width: 100%; height: 1.3em; -webkit-border-radius: 3px; border-radius: 3px; ' id='review' class="review" name='review' rows="1" cols="30" data-error="false">Ваше сообщение</textarea>
+			<div class="customer-block" style="display: none">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" class="customer-block-table">
+				<tr>
+					<td class="pale sm customer-block-user-name">
+						От <strong id="customer-review-comment-form-user-name">alexxZh</strong></span>
+					</td>
+					<td class="pale pr10 customer-block-whom">
+						<input type='checkbox' id='sendadmin1' class="sendadmin" name='sendadmin' style="display: none" />
+						<div class="posr">
+							<a href="#" class="noline pale arrow-down-grey whom">Написать в&nbsp;чат</a>
+								<div class="choose" style="display: none">
+									<a href="" class="whom-chat">Написать в&nbsp;чат</a>
+									<a href="" class="whom-admin">Отправить админу</a>
+								</div>
+						</div>
+					</td>
+					<td width="120" class="customer-block-send">
+						<div class="posr"><input type='submit' class='ibutton yellow-button w100' name='addreview' value='Отправить' /></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+	<td width="45"></td>
+</tr></table>
+
+								</form>
+							</div>
+						</div>
+						
+				</td>
+				<td width="45" class="customer-review-table-sep-bottom">&nbsp;</td>
+				<td valign="top" width="195" align="right" class="bottom">
+					<table cellspacing="0" cellpadding="0" border="0" class="tools">
+	<tr>
+		<td width="195">
+			<form name='f_botnsl' action='/analysis/marketnews844BC/?c=False#botnsl' method="POST" class="chat-refresh">
+				<a class="ibutton" href='/analysis/marketnews844BC/?c=False#botnsl' onclick='document.f_botnsl.submit();event.returnValue = false;'>Обновить</a>
+			</form>
+			<div class="chat-tools" style="padding: 0.65em 0; float: right;">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td class="chat-rules"> 
+							<a href="" title="Правила чата"></a>
+						</td>
+						
+						<td class="chat-view grey-border-left">
+							<a href="#"></a>
+						</td>
+						
+					</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+	
+		<tr>
+			<td colspan="2">
+				<div class="posr">
+					<div id = "chat-view-div" class="chat-view-div choose" style="display: none; left: -135px">
+						<a href="/analysis/currentnews/">Альтернативный вид ленты</a>
+						<a href="/analysis/nslent/" style="font-weight: bold; " onclick="$(this).parent().hide(); return false;">Обычный вид ленты</a>
+					</div>
+				</div>	
+			</td>
+		</tr>
+	
+</table>
+
+<script>
+	$(".toolChatURL").click(function (e) {
+		jQuery(this).parent().children(".choosetoolChatURL").slideDown("fast");
+		return false;
+	});
+	$(".chat-view A").click(function () {
+		$(this).parents(".tools").find(".chat-view-div").slideDown("fast");
+		return false;
+	});
+</script>
+
+				</td>
+			</tr></table>
+			
+</div>
+
+	<div id="dialog-chat-rules" title="Правила чата" style="display: none">
+		<p class="mt0">
+		Уважаемые господа!
+		<br>Напоминаем, что вы находитесь в "Ленте комментариев". Просим вас ознакомиться с правилами чата и придерживаться их при общении.
+		<br>В чате <b>не разрешается:</b>
+		</p><ul>
+		<li>Употреблять ненормативную лексику 
+		</li><li>Некорректно отзываться об авторах размещенных на сайте материалов и участниках чата 
+		</li><li>Копировать чужие никнеймы 
+		</li><li>Использовать в качестве никнейма нецензурные слова и выражения, которые могут оскорбить участников чата. 
+		</li><li>Давать ссылки на другие сайты или рекламировать какой-либо ресурс 
+		</li><li>Повторять сообщения аналогичного содержания без разумной необходимости 
+		</li></ul>
+		Администратор оставляет за собой право без предупреждения закрывать доступ на сайт посетителям, нарушающим правила чата.
+		<br><br>Если по каким-либо причинам вам не удается оставить комментарий, просьба связаться с <a href="mailto:webmaster@finam.ru">администратором.</a>
+	</div>
+
+
+	<script>
+		$(".chat-rules A").click(function() {
+			$( "#dialog-chat-rules" ).dialog({
+				modal: true,
+				width: 600,
+					buttons: {
+						Закрыть: function() {
+							$( this ).dialog( "close" );
+						}
+					}
+				});
+		return false;
+		});
+		
+	</script>
+	
+	</div>
+	
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+<script>
+function setForeOneValue (cp, value) {
+	$('#foridiv2' + cp).html('Ваша версия: <b>' + value.toString() + '</b>, <span class="js" onclick="$(\'#forecast' + cp + '\').slideToggle(); ">изменить</span>');
+	$('#foritext' + cp).val(value);
+	//zoom('forecast' + cp);
+	$('#forecast' + cp).slideUp();
+}
+function setForeMSelValue (cp, value, ivalue) {
+	$('#foridiv2' + cp).html('Ваша версия: <b>' + value.toString() + '</b>, <span class="js" onclick="$(\'#forecast' + cp + '\').slideToggle(); ">изменить</span>');
+	//var d = $z('forul' + cp.toString())
+	$('#foridiv' + cp + ' A').removeClass('b').removeClass('pale');
+	//if (d) {
+	//	d = d.getElementsByTagName('A');  
+	//	for(var i=0, l=d.length; i<l; i++) d[i].className = '';
+	//} 
+	$('#foriah' + cp + '_' + ivalue).addClass('p').addClass('pale');
+	$('#forecast' + cp).slideUp();
+	//d = $z('foriah'+cp.toString()+'_'+ivalue.toString())
+	//if (d) d.className = 'b pale';
+	//zoom('forecast'+cp.toString());
+}
+</script>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" class="lined-header mt20 mb20">
+	<tbody>
+		<tr>
+			<td class="hline">&nbsp;</td>
+			<td width="300" align="center">
+				<h3><a href="/analysis/competition/">Прогнозы «Ленты Финама»</a></h3>
+				<div class="mt05">
+					<a href="/analysis/competition/" class="light sm ml05 mr05">Текущие</a>
+					<a href="/analysis/competition00001/" class="light sm ml05 mr05">Архив</a>
+					<a href="/analysis/competition00003/" class="light sm ml05 mr05">Рейтинг участников</a>
+				</div>
+			</td>
+			<td class="hline">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="mb20" class="no-mobile"><tr valign="top"><td width="30%">
+			<div class="posr">
+				<div class="forecast-item no-mobile">
+					<div class="forecast-essence sm"><i class="left"></i><i class="right"></i>
+						<a href="#" onclick="javascript:window.open('/compet_ratelist.asp?compet=298','rateList','toolbar=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=yes,width=480,height=320');return false;">86,15</a>
+					</div>
+					<div class="forecast-header mid"><strong>
+						Нефть Brent<br>на 15&nbsp;ноября
+					</strong></div>
+					<div class="forecast-footer sm pale">
+						
+								<div id="foridiv298"><div id="foridiv2298"><span class="js" onClick="$('#forecast298').slideToggle(); ">Ваша версия</span>
+									</div>
+									<div id="forecast298" style="display: none; float: right; margin-left: 10px;"><div class="forecast-item-rate"><form target="loader" action=/analysis/competition/ method="get"><input type=hidden name='fif' value='1'><input type=hidden name='compet' value='298'>
+<div><input type=text id="foritext298" name='rateValue' value="85,92" size=5 maxlength=15 class='in' style='margin-right: 5px'><input type=submit name='rateOk' value='ОК' class='button'></div>
+</form>
+</div>
+
+									</div>
+								</div>
+								
+					</div>
+				</div>
+				<div class="forecast-bottom"></div>
+			</div>
+	</td><td width="4%">&nbsp;</td><td width="30%">
+			<div class="posr">
+				<div class="forecast-item no-mobile">
+					<div class="forecast-essence sm"><i class="left"></i><i class="right"></i>
+						<a href="#" onclick="javascript:window.open('/compet_ratelist.asp?compet=271','rateList','toolbar=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=yes,width=480,height=320');return false;">137,8</a>
+					</div>
+					<div class="forecast-header mid"><strong>
+						Газпром<br>на 1&nbsp;декабря
+					</strong></div>
+					<div class="forecast-footer sm pale">
+						
+								<div id="foridiv271"><div id="foridiv2271"><span class="js" onClick="$('#forecast271').slideToggle(); ">Ваша версия</span>
+									</div>
+									<div id="forecast271" style="display: none; float: right; margin-left: 10px;"><div class="forecast-item-rate"><form target="loader" action=/analysis/competition/ method="get"><input type=hidden name='fif' value='1'><input type=hidden name='compet' value='271'>
+<div><input type=text id="foritext271" name='rateValue' value="133,0" size=5 maxlength=15 class='in' style='margin-right: 5px'><input type=submit name='rateOk' value='ОК' class='button'></div>
+</form>
+</div>
+
+									</div>
+								</div>
+								
+					</div>
+				</div>
+				<div class="forecast-bottom"></div>
+			</div>
+	</td><td width="4%">&nbsp;</td><td width="30%">
+			<div class="posr">
+				<div class="forecast-item no-mobile">
+					<div class="forecast-essence sm"><i class="left"></i><i class="right"></i>
+						<a href="#" onclick="javascript:window.open('/compet_ratelist.asp?compet=294','rateList','toolbar=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=yes,width=480,height=320');return false;">21,9</a>
+					</div>
+					<div class="forecast-header mid"><strong>
+						Мечел (ао)<br>на 31&nbsp;октября
+					</strong></div>
+					<div class="forecast-footer sm pale">
+						<span> голосование окончено</span>
+					</div>
+				</div>
+				<div class="forecast-bottom"></div>
+			</div>
+	</td>
+</tr></table>
+
+
+<div class="clear"></div>
+
+
+
+<script type="text/javascript" src="/js/jquery/easyslider/easySlider1.7.js"></script>
+<link href="/js/jquery/easyslider/screen.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" class="lined-header mt20 mb20">
+	<tbody>
+		<tr>
+			<td class="hline">&nbsp;</td>
+			<td class="hline">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="mb20">
+	<tr valign="top">
+		<td width="30%">
+			<div class="posr"><div class="forecast-item recomended slider-holder"><div class="forecast-essence"><i class="left"></i><i class="right"></i><i class="yellowline-icon icon-video"></i></div><div id="slider1"><ul><li><a href="/webinar/list00001019B2/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_05_skulatov.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Валюты: </span><span class="black">Анализ глобальных рынков на основе волновой теории Эллиотта</span></div><div class="forecast-footer lightgrey">24.10.2014 17:00:00 <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="/webinar/list0000101967/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_07_akchurin.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Торговая неделя с Дамиром Акчуриным: подведение итогов</span></div><div class="forecast-footer lightgrey">24.10.2014 18:15:00 <span class="red">ПЛАТНО</span></div></a></li><li><a href="/webinar/list0000101999/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_07_afanasieva.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Online- курс «Начинающий»! День 5</span></div><div class="forecast-footer lightgrey">24.10.2014 19:00:00 <span class="red">ПЛАТНО</span></div></a></li><li><a href="/webinar/list00001019D8/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_02_borodaj.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">On-line курс «Финансовые рынки – торгуем прибыльно! » День 2</span></div><div class="forecast-footer lightgrey">24.10.2014 19:00:00 <span class="red">ПЛАТНО</span></div></a></li><li><a href="/webinar/list00001019B4/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_02_pogudin.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Секреты профессиональных управляющих: методы, идеи, советы</span></div><div class="forecast-footer lightgrey">24.10.2014 19:00:00 <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="/webinar/list00001018FD/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_02_belov.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Обзор рынка: технический анализ</span></div><div class="forecast-footer lightgrey">27.10.2014 9:30:00 <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="/webinar/list000010190B/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_05_dvoeglazov.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Карта рынка. Торговые идеи на предстоящую неделю</span></div><div class="forecast-footer lightgrey">27.10.2014 10:15:00 <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="/webinar/list000010198F/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_07_solabuto.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Предторговый брифинг Школы трейдинга Николая Солабуто</span></div><div class="forecast-footer lightgrey">27.10.2014 10:15:00 <span class="red">ПЛАТНО</span></div></a></li><li><a href="/webinar/list000010190F/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_05_plehanov.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Рынок РФ: </span><span class="black">Российские акции – технический отбор!</span></div><div class="forecast-footer lightgrey">27.10.2014 11:00:00 <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="/webinar/list0000101913/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_webinar"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/webinar/big/webinar_01_borodaj.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Валюты: </span><span class="black">Календарное чтиво</span></div><div class="forecast-footer lightgrey">27.10.2014 12:00:00 <span class="green">БЕСПЛАТНО</span></div></a></li></ul></div></div></div>
+		</td>
+        <td width="4%">&nbsp;</td>
+        <td width="30%">
+			<div class="posr"><div class="forecast-item recomended slider-holder"><div class="forecast-essence"><i class="left"></i><i class="right"></i><i class="yellowline-icon icon-cursor"></i></div><div id="slider2"><ul><li><a href="http://whotrades.com/learning/course/view/5?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_do"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/anonced-001.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Быстрый старт: </span><span class="black">первые сделки на российском фондовом рынке</span></div><div class="forecast-footer lightgrey"> <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="http://whotrades.com/learning/course/view/13?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_do"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/anonced-002.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Быстрый старт: </span><span class="black">первые сделки на рынке</span></div><div class="forecast-footer lightgrey"> <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="http://whotrades.com/learning/course/view/4?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_do"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/anonced-003.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">: </span><span class="black">Технический анализ рынка FOREX</span></div><div class="forecast-footer lightgrey"> <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="http://whotrades.com/learning/course/view/21?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_do"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/anonced-004.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Основы классического технического анализа: </span><span class="black"></span></div><div class="forecast-footer lightgrey"> <span class="green">БЕСПЛАТНО</span></div></a></li><li><a href="http://whotrades.com/learning/course/view/11?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_do"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/images/anonced-005.jpg" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Основы теории Эллиотта: </span><span class="black"></span></div><div class="forecast-footer lightgrey"> <span class="green">БЕСПЛАТНО</span></div></a></li></ul></div></div></div>
+		</td>
+        <td width="4%">&nbsp;</td>
+        <td width="30%">
+			<div class="posr"><div class="forecast-item recomended slider-holder"><div class="forecast-essence"><i class="left"></i><i class="right"></i><i class="yellowline-icon icon-info"></i></div><div id="slider3"><ul><li><a href="/analysis/newsfile00af5/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_finam_ru"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/sp/=&0=541507&1=7.gif" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Анонс: </span><span class="black">ПРИКАЗ № ФИН/ПР/141021/1 от 21.10.2014 Москва. Об утверждении новых редакций депозитарных документов</span></div><div class="forecast-footer lightgrey">01.11.2014 23:47:00</div></a></li><li><a href="http://finambank.ru/person/sales/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_finam_ru"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/sp/=&0=539645&1=7.gif" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Анонс: </span><span class="black">Банк "ФИНАМ" улучшил условия по акции "Опции в подарок"!</span></div><div class="forecast-footer lightgrey">30.11.2014 23:59:00</div></a></li><li><a href="/analysis/newsitem/finam-ru-predstavil-versiyu-portala-dlya-mobilnyx-ustroiystv-20141015-1155/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_finam_ru"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/sp/=&0=541706&1=7.gif" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Анонс: </span><span class="black">Finam.ru представил версию портала для мобильных устройств!</span></div><div class="forecast-footer lightgrey">01.12.2014 23:59:00</div></a></li><li><a href="/about/newsitem/zao-bank-finam-povysilo-stavki-po-vkladam-20141023-1212/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_finam_ru"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/sp/=&0=541770&1=7.gif" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Анонс: </span><span class="black">ЗАО "Банк "ФИНАМ" повысило ставки по вкладам</span></div><div class="forecast-footer lightgrey">03.12.2014 23:59:00</div></a></li><li><a href="http://finambank.ru/person/cards/20years/?utm_source=tizer_und_article&utm_medium=cpc&utm_campaign=to_finam_ru"><div class="forecast-pic"><div class="forecast-pic-wrap"><img src="/sp/=&0=538183&1=7.gif" alt="" /></div></div><div class="forecast-header mid"><span class="blue">Анонс: </span><span class="black">Банк "ФИНАМ" представил ограниченную серию юбилейных банковских карт с функцией Cash Back</span></div><div class="forecast-footer lightgrey">31.01.2015 23:59:00</div></a></li></ul></div></div></div>
+		</td>
+	</tr>
+</table>
+<script type="text/javascript">
+	$("#slider1").easySlider({
+		auto: true,
+		continuous: true,
+		nextId: "slider1next",
+		prevId: "slider1prev"
+	});
+	$("#slider2").easySlider({
+		auto: true,
+		continuous: true,
+		nextId: "slider2next",
+		prevId: "slider2prev"
+	});
+	$("#slider3").easySlider({
+		auto: true,
+		continuous: true
+	});
+	jQuery("#slider1").mouseenter(function (e) {
+		over = true;
+	});
+	jQuery("#slider1").mouseleave(function (e) {
+		over = false;
+	});
+
+	/*
+	$(window).load(function () {
+		$(".forecast-pic-wrap img").each(function (index, element) {
+			$(this).css("margin-top", -$(this).height() / 2);
+		});
+	});
+	*/
+
+</script>
+
+</td></tr></table></div></div><!--<div id="blocks-bottom"></div> -->
+<!-- footer -->
+<style>
+	.fbnew {background:url(/images/iconfb_new.png) no-repeat; line-height: 16px; padding-left: 22px;} 
+	.twnew {background:url(/images/icontwit_new.png) no-repeat; line-height: 16px; padding-left: 22px;} 
+	.vknew {background:url(/images/iconvk_new.png) no-repeat; line-height: 16px; padding-left: 22px;} 
+	.tsnew {background:url(/images/iconts_new.png) no-repeat; line-height: 16px; padding-left: 22px;} 
+	#connect-to-profi { border-radius:10px; background-color:#f0f0f0; text-align:center; padding:10px; margin-top:-7px; }
+</style>
+<div class="footer">
+	<div class="layout">
+		<div class="grey-border-top pale sm">
+			<div class="copyrights layout">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr valign="top">
+						<td width="21%">
+							<div>&copy;&nbsp;1999&ndash;2014 Finam.ru</div>
+							<div>Дизайн&nbsp;&mdash;&nbsp;&laquo;<a href="http://www.lipka.ru/">Липка и друзья</a>&raquo;, 2012</div>
+							<div><a href="/about/copyright/">Редакция</a></div>
+						</td>
+						<td width="23%">
+							<div><a href="/home/contacts/">Контактная информация</a></div>
+							<div><a href="/home/affiliate/">Размещение рекламы</a></div>
+							<div><a href="https://edox.finam.ru/" target="_blank">Личный кабинет</a></div>
+						</td>
+						<td width="15%">
+							<div><a href="/about/partnership/">Стать партнёром</a></div>
+							<div><a href="http://zaoik.finam.ru/about/ownfunds/">Раскрытие информации</a></div>
+							<div><a href="/about/tenders/">Тендеры</a></div>
+						</td>
+						<td width="25%">
+							<div id="connect-to-profi">
+								<span style="font-size:85%;color:#000;">Присоединяйтесь только к профессиональным сообществам</span>
+								<center>
+								<table border="0" cellpadding="2">
+									<tr>
+										<td nowrap="nowrap" align="left">
+											<div class="fbnew"><a href="http://www.facebook.com/finam.ru">Финам в Facebook</a></div>
+											<div class="twnew"><a href="http://twitter.com/finam_blog">Финам в Twitter</a></div>
+										</td>
+										<td>&nbsp;&nbsp;</td>
+										<td nowrap="nowrap" align="left">
+											<div class="vknew"><a href="http://vk.com/finam_ru">Финам в Вконтакте</a></div>
+											<div class="tsnew"><a href="https://twitter.com/finamalert">Торговые сигналы</a></div>
+										</td>
+									</tr>
+								</table>
+							</center>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+
+	<div>
+		<div class="news-block layout sm grey-border-top">
+			<!-- 140px -->
+<!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 3 BN: 10 -->
+<div id="adriver_banner_401646831" class="nomobile"></div>
+
+<script type="text/javascript">
+new adriver("adriver_banner_401646831", {sid:189460, bt:52, bn:10, pz:3});
+</script>
+<!--  AdRiver code END  -->
+
+
+<!-- background -->
+<!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 0 BN: 13 -->
+<div id="adriver_banner_1839849795"></div>
+<script type="text/javascript"> (function(){   var custom = []; /* custom params */
+/* end of custom params */
+var width = screen.width, height = screen.height;  
+var std = {width:110, height:111},i;for(i in std){try{custom[std[i]]=eval(i)}catch(e){}}
+new adriver("adriver_banner_1839849795", {sid:189460, bt:52, bn:13, custom: custom});
+})();
+</script>
+<!--  AdRiver code END  -->
+
+
+
+		</div>
+	</div>
+	
+<div class="footer-co"> 
+	<div class="copynotice layout  ssm grey-dotted-border-top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="67%" class="light">
+					При полном или частичном использовании материалов ссылка на Finam.ru обязательна. <a href="/about/copyright/">Подробнее об использовании информации</a> и <a href="/about/quotes/">котировок</a>.  Редакция не несет ответственности за достоверность информации, опубликованной в рекламных объявлениях.&nbsp;&nbsp;&nbsp;18+
+				</td>
+				<td width="33%"><div class="counters fr"><div style='float: left;' class=pl05><!-- Rating@Mail.ru logo --><a href="http://top.mail.ru/jump?from=14092"><img src="//top-fwz1.mail.ru/counter?id=14092;t=418;l=1" style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a><!-- //Rating@Mail.ru logo --></div><div style='float: left;' class=pl05><a target=_blank href="http://www.yandex.ru/cy?base=0&host=www.finam.ru"><img src="http://www.yandex.ru/cycounter?www.finam.ru" width=88 height=31 alt="Яндекс цитирования" border=0></a></div><div style='float: left;' class=pl05><!--begin of Top100 logo--><div id="rtop100counters"></div><!--end of Top100 logo --></div><!--start rambler-->
+<script type="text/javascript">
+var _top100q = _top100q || [];
+
+_top100q.push(["setAccount", "35046"]);
+_top100q.push(["trackPageviewByLogo", document.getElementById("rtop100counters")]);
+
+
+(function(){
+ var top100 = document.createElement("script"); top100.type = "text/javascript";
+
+ top100.async = true;
+ top100.src = ("https:" == document.location.protocol ? "https:" : "http:") + "//st.top100.ru/top100/top100.js";
+ var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(top100, s);
+})();
+</script>&nbsp;<a href="http://www.rambler.ru/">Партнер Рамблера</a><div style='float: left;' class=pl05><!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=10279138&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/10279138/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:10279138,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter10279138 = new Ya.Metrika({id:10279138,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/10279138" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></div>
+<!-- Google Code for &#1056;&#1077;&#1084;&#1072;&#1088;&#1082;&#1077;&#1090;&#1080;&#1085;&#1075;-&#1044;&#1077;&#1084;&#1086;-&#1089;&#1095;&#1077;&#1090; -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1041855282;
+var google_conversion_label = "c1bqCNrJiAMQsubl8AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1041855282/?value=0&amp;label=c1bqCNrJiAMQsubl8AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</div></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="relinker light"> 
+    <div class="layout tline" style="padding: 1.5em 15px 2em">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="ssm">
+            <col width="19%" /><col width="1%" />
+            <col width="19%" /><col width="1%" />
+            <col width="19%" /><col width="1%" />
+            <col width="19%" /><col width="1%" />
+            <col width="19%" /> 
+            <tr valign="top">
+                <td class="grey-dotted-border-right">
+                    <strong>Bonds.Finam.Ru</strong>
+                    <div>узнайте, что такое <a class="light" href="http://bonds.finam.ru/materials/bulletins0801a00002/rqdate7D80617/default.asp">дисконтная облигация</a></div>
+                </td>
+                <td></td>
+                <td class="grey-dotted-border-right">
+                    <strong>WhoTrades.com</strong>
+                    <div><a class="light" href="http://whotrades.com/services/usmarkets/ltd">Прямой доступ на рынок США</a></div>
+                </td>
+                <td></td>
+                <td class="grey-dotted-border-right">
+                    <strong>Finam.Info</strong>
+                    <div><a class="light" href="http://finam.info/">популярно-экономическое Интернет-издание</a></div>
+                </td>
+                <td></td>
+                <td>
+                    <strong>www.Finam.aero</strong>
+                    <div><a class="light" href="http://www.finam.aero/">Аэродром, Бизнес-авиация, Путешествия</a></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</div>
+<!-- end footer --><!-- FullScreen -->
+<!--  AdRiver code START. Type:AjaxJS Site: finam.ru PZ: 0 BN: 12 -->
+<div id="adriver_banner_1230510969"></div>
+
+<script type="text/javascript">
+new adriver("adriver_banner_1230510969", {sid:189460, bt:52, bn:12});
+</script>
+
+<!--  AdRiver code END  -->
+</body>
+</html>

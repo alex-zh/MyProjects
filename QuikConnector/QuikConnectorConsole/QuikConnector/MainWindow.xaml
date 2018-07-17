@@ -1,0 +1,22 @@
+﻿<Window x:Class="QuikConnector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"> </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="btnRegister" Padding="6px" Margin="6px" Click="BtnRegister_OnClick">Register</Button>
+            <Button Name="btnUnregister" Padding="6px" Margin="6px" Click="BtnUnregister_OnClick">Unregister</Button>
+            <Button Name="btnOpenCandles" Padding="6px" Margin="6px" Click="BtnOpenCandles_OnClick">Open Candles Window</Button>
+            <Button Name="btnStart" Padding="6px" Margin="6,5,6,7" Click="BtnStart_OnClick">Start</Button>
+            <Button Name="btnStop" Padding="6px" Margin="6,5,6,7" Click="BtnStop_OnClick">Stop</Button>
+            <Button Name="btnSendOrder" Padding="6px" Margin="6,5,6,7" Click="BtnSendOrder_OnClick">Send order</Button>
+            <Button Name="btnKillOrder" Padding="6px" Margin="6,5,6,7" Click="BtnKillOrder_OnClick">Kill order</Button>
+            <Button Name="btnClearLog" Padding="6px" Margin="6,5,6,7" Click="BtnClearLog_OnClick">Clear log</Button>
+        </StackPanel>
+        <TextBox VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Row="1" Name="tbLog"></TextBox>
+    </Grid>
+</Window>

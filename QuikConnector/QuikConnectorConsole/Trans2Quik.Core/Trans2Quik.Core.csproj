@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F251A20-6A98-405C-9861-1D307F2E204A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trans2Quik.Core</RootNamespace>
+    <AssemblyName>Trans2Quik.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Transaction\Order\ActiveTime.cs" />
+    <Compile Include="Entities\Transaction\Order\ExpiryDate.cs" />
+    <Compile Include="Entities\Transaction\Order\ProfitCondition.cs" />
+    <Compile Include="Entities\Transaction\Order\Security.cs" />
+    <Compile Include="Entities\Transaction\Order\OrderTradeParams.cs" />
+    <Compile Include="Entities\Direction.cs" />
+    <Compile Include="Entities\Transaction\Order\ExecCondition.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfo.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoDetails.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoEventArgs.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoMode.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoPeriod.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoStatus.cs" />
+    <Compile Include="Entities\OrderInfo\OrderInfoTimeType.cs" />
+    <Compile Include="Entities\Transaction\Order\StopOrderTradeParams.cs" />
+    <Compile Include="Entities\Transaction\Order\StopOrderKind.cs" />
+    <Compile Include="Entities\Transaction\Order\StopPriceCondition.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfo.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoDetails.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoEventArgs.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoKind.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoMode.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoPeriod.cs" />
+    <Compile Include="Entities\TradeInfo\TradeInfoTimeType.cs" />
+    <Compile Include="Entities\Transaction\Order\Order.cs" />
+    <Compile Include="Entities\Transaction\Order\StopOrder.cs" />
+    <Compile Include="Internals\TransactionBuilder.cs" />
+    <Compile Include="Entities\Transaction\TransactionEventArgs.cs" />
+    <Compile Include="Entities\Transaction\Order\Units.cs" />
+    <Compile Include="Gateway.cs" />
+    <Compile Include="Internals\EntryPoint.cs" />
+    <Compile Include="Internals\ExtensionHelper.cs" />
+    <Compile Include="Internals\OrderEntryPoint.cs" />
+    <Compile Include="Internals\TradeEntryPoint.cs" />
+    <Compile Include="Internals\TypeConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnValues\CallResult.cs" />
+    <Compile Include="ReturnValues\ReturnValue.cs" />
+    <Compile Include="Entities\Transaction\TransactionCallResult.cs" />
+    <Compile Include="Components\ConnectionListener.cs" />
+    <Compile Include="Components\OrderInfoListener.cs" />
+    <Compile Include="Components\TradeInfoListener.cs" />
+    <Compile Include="Components\TransactionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TRANS2QUIK.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TRANS2QUIK.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

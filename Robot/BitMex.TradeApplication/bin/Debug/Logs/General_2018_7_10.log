@@ -1,0 +1,1140 @@
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531279344,"20dce8ef70ad59436ec9fa96b1914b8b1a900f2665162df066e88d1ed6c5479d"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+06:22:24: E: Table attribute is not present in data
+06:22:24: E: Table attribute is not present in data
+06:22:24: E: Table attribute is not present in data
+06:22:24: E: Table attribute is not present in data
+06:22:24: E: Table attribute is not present in data
+06:22:40: E: An error occurred while sending the request.
+06:22:48: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:22:56: E: An error occurred while sending the request.
+06:23:31: E: An error occurred while sending the request.
+06:24:58: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:25:18: E: An error occurred while sending the request.
+06:25:52: E: An error occurred while sending the request.
+06:25:57: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:26:05: E: An error occurred while sending the request.
+06:28:14: E: An error occurred while sending the request.
+06:29:13: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:29:29: E: Response status code does not indicate success: 400 (Bad Request).
+06:29:50: E: Response status code does not indicate success: 400 (Bad Request).
+06:29:59: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:30:06: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531280181,"a9f101afd6f3cba98efa8e2f2b5d3715cdc3c9dde5577263566aaa16dc9a488a"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+06:36:21: E: Table attribute is not present in data
+06:36:21: E: Table attribute is not present in data
+06:36:21: E: Table attribute is not present in data
+06:36:21: E: Table attribute is not present in data
+06:36:21: E: Table attribute is not present in data
+06:37:12: E: Response status code does not indicate success: 400 (Bad Request).
+06:37:16: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:37:23: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531280418,"5c4e708d1da355ddbd8bbb0fd58f54cccd5654096c2dd576739188033488324b"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+06:40:18: E: Table attribute is not present in data
+06:40:18: E: Table attribute is not present in data
+06:40:18: E: Table attribute is not present in data
+06:40:18: E: Table attribute is not present in data
+06:40:18: E: Table attribute is not present in data
+06:40:41: E: Response status code does not indicate success: 400 (Bad Request).
+06:40:44: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:40:51: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531280688,"d3b8849fd2c7c5d3ec8958991f5b2032b11d2bd9d12fde2172b29a0bfce84a3b"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+06:44:48: E: Table attribute is not present in data
+06:44:48: E: Table attribute is not present in data
+06:44:48: E: Table attribute is not present in data
+06:44:48: E: Table attribute is not present in data
+06:44:49: E: Table attribute is not present in data
+06:45:08: E: Response status code does not indicate success: 400 (Bad Request).
+06:45:11: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+06:45:18: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531333265,"5d0cd6df4bcb7de67dab91c32445866eb2e01631a07771e367438f71f87d12f8"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+21:21:05: E: Table attribute is not present in data
+21:21:05: E: Table attribute is not present in data
+21:21:06: E: Table attribute is not present in data
+21:21:06: E: Table attribute is not present in data
+21:21:06: E: Table attribute is not present in data
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531334510,"afa9f60c56fb0a2d33cfe13a3ede5966100bb0afbe0db559e5555f30bc864698"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+21:41:50: E: Table attribute is not present in data
+21:41:51: E: Table attribute is not present in data
+21:41:51: E: Table attribute is not present in data
+21:41:51: E: Table attribute is not present in data
+21:41:51: E: Table attribute is not present in data
+21:42:18: E: An error occurred while sending the request.
+21:42:18: E: An error occurred while sending the request.
+21:42:18: E: An error occurred while sending the request.
+21:42:18: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:19: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:20: E: An error occurred while sending the request.
+21:42:21: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:26: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:27: E: An error occurred while sending the request.
+21:42:28: E: An error occurred while sending the request.
+21:42:28: E: An error occurred while sending the request.
+21:42:28: E: An error occurred while sending the request.
+21:42:28: E: An error occurred while sending the request.
+21:42:28: E: An error occurred while sending the request.
+21:42:28: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+21:42:33: E: An error occurred while sending the request.
+21:42:34: E: An error occurred while sending the request.
+21:42:34: E: An error occurred while sending the request.
+21:42:34: E: An error occurred while sending the request.
+21:42:34: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:35: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:36: E: An error occurred while sending the request.
+21:42:37: E: An error occurred while sending the request.
+21:42:37: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:42: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:43: E: An error occurred while sending the request.
+21:42:44: E: An error occurred while sending the request.
+21:42:44: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:49: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:42:50: E: An error occurred while sending the request.
+21:43:04: E: An error occurred while sending the request.
+21:43:05: E: An error occurred while sending the request.
+21:43:06: E: An error occurred while sending the request.
+21:43:07: E: An error occurred while sending the request.
+21:43:07: E: An error occurred while sending the request.
+21:43:34: E: An error occurred while sending the request.
+21:43:35: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+21:43:40: E: An error occurred while sending the request.
+21:48:21: E: An error occurred while sending the request.
+21:48:34: E: An error occurred while sending the request.
+21:49:20: E: An error occurred while sending the request.
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531334994,"dd0f75be629aec2c1026ab2b3b82679a74efffb33ef54312f6989030202e378d"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+21:49:54: E: Table attribute is not present in data
+21:49:54: E: Table attribute is not present in data
+21:49:54: E: Table attribute is not present in data
+21:49:54: E: Table attribute is not present in data
+21:49:54: E: Table attribute is not present in data
+21:50:32: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrder>d__6.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrder>d__3.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 27
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531335433,"c5c0678a52c01cd263fa59c6acdee4a925430d74e919a32e48a25fe0e5150dd5"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+21:57:13: E: Table attribute is not present in data
+21:57:13: E: Table attribute is not present in data
+21:57:13: E: Table attribute is not present in data
+21:57:13: E: Table attribute is not present in data
+21:57:13: E: Table attribute is not present in data
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531337083,"f4f8946617747f2ab49fc7951d2a4676ad298eef79e008b7e3aedf85933d04e9"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+22:24:43: E: Table attribute is not present in data
+22:24:43: E: Table attribute is not present in data
+22:24:44: E: Table attribute is not present in data
+22:24:44: E: Table attribute is not present in data
+22:24:44: E: Table attribute is not present in data
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:01: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:02: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:03: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:09: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:09: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:10: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:11: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:16: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:16: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:16: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:17: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:18: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:19: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:19: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:19: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:24: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:24: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:24: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:24: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:24: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:24: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:25: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:26: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:27: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:32: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:32: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:33: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:34: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:34: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:34: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:34: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:34: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:39: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:39: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:39: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:39: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:40: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:41: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:25:47: E: Response status code does not indicate success: 400 (Bad Request).
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:47: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:48: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.
+22:25:49: E: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlServerCe.SqlCeException: An overflow occurred while converting to datetime.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at System.Data.Entity.SqlServerCompact.SqlCeMultiCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at BitMex.Robot.DataLayer.Repositories.RobotRepository.Update(String robotId, RobotState robotState) in C:\MyProjects\Robot\BitMex.Robot.DataLayer\Repositories\RobotRepository.cs:line 122
+   at BitMex.TradeApplication.RobotController.StateManagerOnStateChanged(Object sender, EventArgs e) in C:\MyProjects\Robot\BitMex.TradeApplication\RobotController.cs:line 115
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at Common.Robots.Common.RobotStateManager.OnRobotStateChanged(EventArgs args) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 141
+   at Common.Robots.Common.RobotStateManager.UpdateOrder(LimitOrder order) in C:\MyProjects\Visualizer\Common\Robots\Common\RobotStateManager.cs:line 42
+   at Robot.Core.NetThrowerRobotOperationExecutor.UpdateOrders(List`1 ordersParams) in C:\MyProjects\Robot\Robot\NetThrowerRobotOperationExecutor.cs:line 33
+   at Robot.Core.NetThrowerRobot.SetupOrders() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 90
+   at Robot.Core.NetThrowerRobot.IterateInternal() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 84
+   at Robot.Core.NetThrowerRobot.Iterate() in C:\MyProjects\Robot\Robot\NetThrowerRobot.cs:line 74
+   at Robot.Core.RobotExecutor.Start(IExecutableRobot robot) in C:\MyProjects\Robot\Robot\RobotExecutor.cs:line 53
+22:26:00: E: Error converting value {null} to type 'System.Double'. Path 'data[0].lastQty', line 1, position 272.

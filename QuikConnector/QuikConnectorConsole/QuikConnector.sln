@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuikConnector", "QuikConnector\QuikConnector.csproj", "{A278C089-7600-4409-A0B1-C4CFD34E7397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuikConnector.Common", "QuikConnector.Common\QuikConnector.Common.csproj", "{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trans2Quik.Core", "Trans2Quik.Core\Trans2Quik.Core.csproj", "{9F251A20-6A98-405C-9861-1D307F2E204A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trans2Quik.Tests", "Trans2Quik.Tests\Trans2Quik.Tests.csproj", "{508CC478-B0E2-4FA5-A60E-9E025C512015}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QuikConnector\\QuikConnector.csproj
+		SccProjectName1 = QuikConnector
+		SccLocalPath1 = QuikConnector
+		SccProjectUniqueName2 = QuikConnector.Common\\QuikConnector.Common.csproj
+		SccProjectName2 = QuikConnector.Common
+		SccLocalPath2 = QuikConnector.Common
+		SccProjectUniqueName3 = Trans2Quik.Core\\Trans2Quik.Core.csproj
+		SccProjectName3 = Trans2Quik.Core
+		SccLocalPath3 = Trans2Quik.Core
+		SccProjectUniqueName4 = Trans2Quik.Tests\\Trans2Quik.Tests.csproj
+		SccProjectName4 = Trans2Quik.Tests
+		SccLocalPath4 = Trans2Quik.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A278C089-7600-4409-A0B1-C4CFD34E7397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A278C089-7600-4409-A0B1-C4CFD34E7397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A278C089-7600-4409-A0B1-C4CFD34E7397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A278C089-7600-4409-A0B1-C4CFD34E7397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508CC478-B0E2-4FA5-A60E-9E025C512015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508CC478-B0E2-4FA5-A60E-9E025C512015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508CC478-B0E2-4FA5-A60E-9E025C512015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508CC478-B0E2-4FA5-A60E-9E025C512015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

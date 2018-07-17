@@ -1,0 +1,25 @@
+﻿<local:HeatMapChart  x:Class="Visualizer.VisualControls.Controls.HeatMaps.DayToHourHeatMapChart"
+                        x:TypeArguments="system:DateTime,system:Int32"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"              
+             xmlns:local="clr-namespace:Visualizer.VisualControls.Controls.HeatMaps"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="14" FontWeight="SemiBold" x:Name="lblTitle" Padding="3,3,9,3"></Label>
+            <StackPanel Orientation="Horizontal" x:Name="legendsPanel" ></StackPanel>
+        </StackPanel>
+        <Grid  Grid.Row="1"  x:Name="Grid"  >
+            <Canvas  Name="mainCanvas"  Margin="6"></Canvas>
+            <Canvas  Name="overlayCanvas" Margin="6"></Canvas>
+        </Grid>
+    </Grid>
+</local:HeatMapChart>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item>
+    <Regex>
+      Expect .{0,10} Opening .{0,50} ( Insignificant изменени.{2,3} | без .{0,20} изменен.{2} | в нейтральном ключе | около нулевых отметок )
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( Opening | неделя ( в России)? ) .{0,60} Begin .{0,30} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .* Expect .* Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>  
+  <Item>
+    <Regex>
+      Expect .{0,20} Market Begin .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,60} Opening .{0,60} Market .{0,60} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,60} Neutral .{0,60} Opening 
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} ( DayOfWeek ) Market продолжит консолидироваться в пределах вчерашних уровней
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item><Regex>
+      Сегодня Market Begin .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+       AtOpening .{0,40} Expect консолидац.{2} индексов
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( AtOpening | в первой половине дня ) Market ( перейдет | провед.{2} ) в состояни. боково.{1,2} движен.{2}
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( AtOpening | в первой половине дня | на старте недели ) Market ( вряд ли ) покаж.{2} Significant изменени.
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+     AtOpening Market ( перейдет | провед.{2} ) в состояни. боково.{1,2} движен.{2}
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( DayOfWeek | Market ) .{0,20} Begin .{0,20} ( торги | торговую сессию | сессию | день | торговаться ) Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} ( может открыться | откроется | начнут ).{0,20} ( в близи нуля | ( в близи | на уровн.{1,2} ) .{0,20} закрытия )
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( DayOfWeek | Market ) .{0,20} Begin .{0,40} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} AtOpening .{0,20} ( перейд.{2} к консолидации | будут .{0,20} консолидироваться )
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      DayOfWeek Expect Opening .* NeutralZone
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .{0,60} Formed .{0,20} Neutral Background
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .* ( сложился | сформировался ).{0,20} Neutral Background
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening  Background ( Formed )? .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,20} BeforeOpening .* можно ( оценить | назвать | определить )  ( как )? Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,20} BeforeOpening .* ( носит | имеет ) Neutral характер
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background ( BeforeOpening )? Neutral
+    </Regex>
+    <Weight> 1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening Background .* можно ( оценить | назвать | определить ) ( как )? .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,30} BeforeOpening .* ( Formed )? .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background  .* Formed .{0,20} Neutral BeforeOpening
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background сегодня .* Formed .{0,20} Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .* ( Formed )? .{0,20} Neutral Background
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background ( в | во ) ( DayOfWeek ) ( выглядит | сложился | складывается ) Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( Сегодня | день ) Background ( выгляд.{2} | сложил.{2,3} | складыва.{4} ) Neutral
+    </Regex>
+    <Weight> 0 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+</Items>

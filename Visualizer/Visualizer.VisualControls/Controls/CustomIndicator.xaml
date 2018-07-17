@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Visualizer.VisualControls.Controls.CustomIndicator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:Visualizer.VisualControls.Controls"
+             mc:Ignorable="d" d:DesignWidth="62" d:DesignHeight="107" 
+        >
+
+    <Grid x:Name="grid"  >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <controls:TimeGraphChart ChartTimeRange="Minute" WidthOffset="0" Margin="0" UseZeroY="False"  Grid.Row="0" x:Name="TimeGraphChart" ></controls:TimeGraphChart>
+
+    </Grid>
+
+</UserControl>

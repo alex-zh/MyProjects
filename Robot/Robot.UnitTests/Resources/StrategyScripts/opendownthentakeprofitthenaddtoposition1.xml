@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Iterations>
+  <Iteration index ="0">
+    <ShouldOpen>
+      <Direction>Down</Direction>
+    </ShouldOpen>
+  </Iteration>
+  <Iteration index ="1">    
+    <ShouldOpen>
+      <Direction>Up</Direction>
+    </ShouldOpen>        
+  </Iteration>
+  <Iteration index ="2">
+    <ShouldTakeProfit>
+      <Direction>Up</Direction>      
+    </ShouldTakeProfit>
+  </Iteration>
+  <Iteration index ="3">
+    <ShouldTakeProfit>
+      <Direction>Up</Direction>
+    </ShouldTakeProfit>
+  </Iteration>  
+</Iterations>

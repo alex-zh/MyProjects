@@ -1,0 +1,7 @@
+fileName = "27_01_2015"
+path = paste("C:/Users/aaz/Documents/My Projects/TradeIdeasTester/RegessionAnalisys/RegessionAnalisys/AppData/Points",fileName, sep="/")
+data = read.table(path, header=T)
+cor(data)
+plot(data$Usd~data$Br)
+
+

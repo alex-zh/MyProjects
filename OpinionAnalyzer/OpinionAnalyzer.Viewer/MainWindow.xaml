@@ -1,0 +1,81 @@
+﻿<Window x:Class="OpinionAnalyzer.Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:OpinionAnalyzer.Viewer.Controls"
+        Title="MainWindow" Height="640" Width="1024" Loaded="MainWindow_OnLoaded">
+    <Grid>
+        <Grid ZIndex="1000" Visibility="Hidden" Name="grLoading">
+            <controls:LoadingAnimation x:Name="ctrAnimation" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Name="grMain"  IsEnabled="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="3,0">
+                
+                <Calendar Name="CalendarFirstDate" MouseDoubleClick="CalendarFirstDate_OnMouseDoubleClick" PreviewMouseUp="CalendarFirstDate_OnPreviewMouseUp" IsTodayHighlighted="False" Margin="0,0,0,3" />
+                                
+                <DockPanel HorizontalAlignment="Left" >
+                    <Button Name="btnLoad" Content="Load"  Width="120" Height="34" Margin="3" Click="Load_Click"/>
+                </DockPanel>
+                
+                <TextBox Name="tbPath" Width="180px">
+                    C:\Users\aaz\Documents\My Projects\TradeIdeasTester\OpinionAnalyzer\Data
+                </TextBox>
+            </StackPanel>
+            <Grid Grid.Column ="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="50*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <ListView Grid.Row="0" Name="lvLoadedArticles" BorderThickness="1" Foreground="Black" Margin="3" MouseDoubleClick="LvLoadedArticles_OnMouseDoubleClick">
+                    <ListView.View>
+                        <GridView>                            
+                            <GridViewColumn Header="Date/Time" Width="140" DisplayMemberBinding="{Binding PublishDate}" />
+                            <GridViewColumn Header="Author" Width="160" DisplayMemberBinding="{Binding Author}" />
+                            <GridViewColumn Header="Company" Width="180" DisplayMemberBinding="{Binding Company}" />
+                            <GridViewColumn Header="Title" Width="520" DisplayMemberBinding="{Binding Title}" />
+                            
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <StackPanel Grid.Row="1" Orientation="Horizontal"   >
+                    
+                    <Button x:Name="btnCheck" Padding="3" Width="110"  Margin="6,3" Click="btnFindMatch_Click" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock VerticalAlignment="Center" Margin="6,0" >Find match</TextBlock>
+                            <Image Height="24" Width="24"  Source="Icons/Find.png" DockPanel.Dock="Left" />
+                        </StackPanel>
+                    </Button>
+                    <CheckBox x:Name="cbCheckAutomatically" IsChecked="true" VerticalAlignment="Center"  Content="Auto" FlowDirection="RightToLeft" HorizontalAlignment="Right" />
+                    <CheckBox x:Name="cbFindMarket" IsChecked="true" Margin="9,3" VerticalAlignment="Center"  Content="Match Market" FlowDirection="RightToLeft" HorizontalAlignment="Right" />
+                    <CheckBox x:Name="cbFindExpect" IsChecked="true" Margin="9,3" VerticalAlignment="Center"  Content="Match Expect" FlowDirection="RightToLeft" HorizontalAlignment="Right" />
+                    <StackPanel Orientation="Horizontal"  Margin="9,3" >
+                        <TextBlock VerticalAlignment="Center">Direction:</TextBlock>
+                        <Image Name="imgDirection" Height="24" Margin="6,3" Width="24"  Source="Icons/Question.png" DockPanel.Dock="Left" />
+                        <!--<TextBlock Visibility="Hidden" VerticalAlignment="Center" Margin="6,0">Weight:</TextBlock>-->
+                        
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  Margin="3,3" >
+                        <TextBlock VerticalAlignment="Center">Weight:</TextBlock>
+                        <TextBlock VerticalAlignment="Center" Name="tbWeight" Margin="6" FontWeight="Bold">Unknown</TextBlock>
+                        
+                        <!--<TextBlock Visibility="Hidden" VerticalAlignment="Center" Margin="6,0">Weight:</TextBlock>-->
+
+                    </StackPanel>
+
+                </StackPanel>
+                <DockPanel Grid.Row="2"  LastChildFill="True" Margin="6,3">                    
+                    <TextBox Padding="3"  IsReadOnly="True" Name="tbRegexPattern" BorderThickness="0" ></TextBox>
+                </DockPanel >                
+                <RichTextBox Grid.Row="3" Margin="3" Name="rtbArticleContent" FontFamily="Segoe UI"  IsReadOnly="True"
+                         BorderThickness="1" Foreground="Black" VerticalScrollBarVisibility="Auto" AutoWordSelection="False"
+                         />
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>

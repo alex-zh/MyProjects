@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.Core", "OpinionAnalyzer\OpinionAnalyzer.Core.csproj", "{97EAF852-0F80-45DD-9DB6-8403BDFF7BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.UnitTests", "OpinionAnalyzer.UnitTests\OpinionAnalyzer.UnitTests.csproj", "{BF59EA47-8121-4818-8249-CDA0F0514DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.PatternGeneratorApp", "PatternGenerationHelperApp\OpinionAnalyzer.PatternGeneratorApp.csproj", "{7C35353E-75A7-4344-84CE-6D3563091CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.DataLoader", "DataLoader\OpinionAnalyzer.DataLoader.csproj", "{A771428C-3091-48C5-BE38-8A47E1B0FF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.DataLoader.UnitTests", "OpinionAnalyzer.DataLoader.UnitTests\OpinionAnalyzer.DataLoader.UnitTests.csproj", "{659A1600-799A-4370-A1BA-B20EF6479A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.PatternCheckerApp", "OpinionAnalyzer.Viewer\OpinionAnalyzer.PatternCheckerApp.csproj", "{5FC14F67-5A73-41E1-8259-B1E2EE18FB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI.Common", "GUI.Common\GUI.Common.csproj", "{F1946408-6329-45EA-8E37-7D7663E77158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.DataLoader.Cmd", "OpinionAnalyzer.DataLoaderCmd\OpinionAnalyzer.DataLoader.Cmd.csproj", "{F39D5D0D-BE88-4F19-A6D2-48A14EBE8F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionAnalyzer.DataLoader.App", "OpinionAnalyzer.DataLoader.App\OpinionAnalyzer.DataLoader.App.csproj", "{1076869C-E23D-497D-8183-9C1D76AB2790}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OpinionAnalyzer.UnitTests\\OpinionAnalyzer.UnitTests.csproj
+		SccProjectName1 = OpinionAnalyzer.UnitTests
+		SccLocalPath1 = OpinionAnalyzer.UnitTests
+		SccProjectUniqueName2 = OpinionAnalyzer\\OpinionAnalyzer.Core.csproj
+		SccProjectName2 = OpinionAnalyzer
+		SccLocalPath2 = OpinionAnalyzer
+		SccProjectUniqueName3 = PatternGenerationHelperApp\\OpinionAnalyzer.PatternGeneratorApp.csproj
+		SccProjectName3 = PatternGenerationHelperApp
+		SccLocalPath3 = PatternGenerationHelperApp
+		SccProjectUniqueName4 = DataLoader\\OpinionAnalyzer.DataLoader.csproj
+		SccProjectName4 = DataLoader
+		SccLocalPath4 = DataLoader
+		SccProjectUniqueName5 = OpinionAnalyzer.DataLoader.UnitTests\\OpinionAnalyzer.DataLoader.UnitTests.csproj
+		SccProjectName5 = OpinionAnalyzer.DataLoader.UnitTests
+		SccLocalPath5 = OpinionAnalyzer.DataLoader.UnitTests
+		SccProjectUniqueName6 = GUI.Common\\GUI.Common.csproj
+		SccProjectName6 = GUI.Common
+		SccLocalPath6 = GUI.Common
+		SccProjectUniqueName7 = OpinionAnalyzer.DataLoaderCmd\\OpinionAnalyzer.DataLoader.Cmd.csproj
+		SccProjectName7 = OpinionAnalyzer.DataLoaderCmd
+		SccLocalPath7 = OpinionAnalyzer.DataLoaderCmd
+		SccProjectUniqueName8 = OpinionAnalyzer.DataLoader.App\\OpinionAnalyzer.DataLoader.App.csproj
+		SccProjectName8 = OpinionAnalyzer.DataLoader.App
+		SccLocalPath8 = OpinionAnalyzer.DataLoader.App
+		SccProjectUniqueName9 = OpinionAnalyzer.Viewer\\OpinionAnalyzer.PatternCheckerApp.csproj
+		SccProjectName9 = OpinionAnalyzer.Viewer
+		SccLocalPath9 = OpinionAnalyzer.Viewer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EAF852-0F80-45DD-9DB6-8403BDFF7BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EAF852-0F80-45DD-9DB6-8403BDFF7BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EAF852-0F80-45DD-9DB6-8403BDFF7BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EAF852-0F80-45DD-9DB6-8403BDFF7BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF59EA47-8121-4818-8249-CDA0F0514DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF59EA47-8121-4818-8249-CDA0F0514DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF59EA47-8121-4818-8249-CDA0F0514DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF59EA47-8121-4818-8249-CDA0F0514DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C35353E-75A7-4344-84CE-6D3563091CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C35353E-75A7-4344-84CE-6D3563091CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C35353E-75A7-4344-84CE-6D3563091CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C35353E-75A7-4344-84CE-6D3563091CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A771428C-3091-48C5-BE38-8A47E1B0FF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A771428C-3091-48C5-BE38-8A47E1B0FF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A771428C-3091-48C5-BE38-8A47E1B0FF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A771428C-3091-48C5-BE38-8A47E1B0FF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659A1600-799A-4370-A1BA-B20EF6479A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659A1600-799A-4370-A1BA-B20EF6479A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659A1600-799A-4370-A1BA-B20EF6479A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659A1600-799A-4370-A1BA-B20EF6479A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC14F67-5A73-41E1-8259-B1E2EE18FB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC14F67-5A73-41E1-8259-B1E2EE18FB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC14F67-5A73-41E1-8259-B1E2EE18FB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC14F67-5A73-41E1-8259-B1E2EE18FB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1946408-6329-45EA-8E37-7D7663E77158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1946408-6329-45EA-8E37-7D7663E77158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1946408-6329-45EA-8E37-7D7663E77158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1946408-6329-45EA-8E37-7D7663E77158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39D5D0D-BE88-4F19-A6D2-48A14EBE8F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39D5D0D-BE88-4F19-A6D2-48A14EBE8F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39D5D0D-BE88-4F19-A6D2-48A14EBE8F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39D5D0D-BE88-4F19-A6D2-48A14EBE8F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1076869C-E23D-497D-8183-9C1D76AB2790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1076869C-E23D-497D-8183-9C1D76AB2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1076869C-E23D-497D-8183-9C1D76AB2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1076869C-E23D-497D-8183-9C1D76AB2790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,185 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Core", "Robot\Robot.Core.csproj", "{3EC9FC74-6326-4E16-84C3-9E5FF6932172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.UnitTests", "Robot.UnitTests\Robot.UnitTests.csproj", "{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Visualizer\Common\Common.csproj", "{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Quik2Net", "QuikConnector.Common\Robot.Quik2Net.csproj", "{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Trans2Quik", "Trans2Quik.Core\Robot.Trans2Quik.csproj", "{9F251A20-6A98-405C-9861-1D307F2E204A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{657B5323-2543-48A2-BF38-87B96FDD8762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Strategies", "Robot.Strategies\Robot.Strategies.csproj", "{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.TesterApplication", "Robot.TesterApplication\Robot.TesterApplication.csproj", "{5DB9E27C-4709-4D77-83BB-226AFE8A1C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyTester.UnitTests", "StrategyTester.UnitTests\StrategyTester.UnitTests.csproj", "{ED7A6FAD-3C32-4F7C-B529-395D66072F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer.VisualControls", "..\Visualizer\Visualizer.VisualControls\Visualizer.VisualControls.csproj", "{BF011444-DB35-4FCA-852B-876DA26ECD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.UnitTests", "Common.UnitTests\Common.UnitTests.csproj", "{DB802390-2901-4DD0-A999-40AD4E8315A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{E30F5D30-E500-4334-8B6D-3273F6758DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributionViewer", "DistributionViewer\DistributionViewer.csproj", "{F1F7A3E2-2E08-4292-A21E-055478C2CEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortsPositionsViewer", "FortsPositionsViewer\FortsPositionsViewer.csproj", "{E6825B24-A862-48AB-892D-7CCCD06C14F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatMapViewer", "HeatMapViewer\HeatMapViewer.csproj", "{87632693-0087-4481-8058-2C552D6C19C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Strategies.UnitTests", "Robot.Strategies.UnitTests\Robot.Strategies.UnitTests.csproj", "{C3112457-913F-4089-AEE2-71475F712A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitfinexConnector", "BitfinexConnector\BitfinexConnector.csproj", "{C546A227-4846-435A-8C87-6BBA3DDEDB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoDataLoader", "CryptoDataLoader\CryptoDataLoader.csproj", "{A410583E-0E6F-4FFF-80BF-E85E5F2244F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connectors", "Connectors", "{2530E58D-123F-4CA1-A54F-008E7C848475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connector.Common", "Connectors.Common\Connector.Common.csproj", "{ABDFEF16-376E-4F8E-8437-FCCB34EA0605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMexConnector", "BitMexConnector\BitMexConnector.csproj", "{AE13EC0A-204E-4000-9871-876A5EF2BB70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC9FC74-6326-4E16-84C3-9E5FF6932172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689A8ED1-A419-4B60-89C8-10B82DE2A5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F251A20-6A98-405C-9861-1D307F2E204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22254EC-3458-4016-9EE6-5CC3AFA3FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB9E27C-4709-4D77-83BB-226AFE8A1C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB9E27C-4709-4D77-83BB-226AFE8A1C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB9E27C-4709-4D77-83BB-226AFE8A1C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB9E27C-4709-4D77-83BB-226AFE8A1C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF011444-DB35-4FCA-852B-876DA26ECD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB802390-2901-4DD0-A999-40AD4E8315A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F7A3E2-2E08-4292-A21E-055478C2CEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F7A3E2-2E08-4292-A21E-055478C2CEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F7A3E2-2E08-4292-A21E-055478C2CEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F7A3E2-2E08-4292-A21E-055478C2CEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6825B24-A862-48AB-892D-7CCCD06C14F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6825B24-A862-48AB-892D-7CCCD06C14F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6825B24-A862-48AB-892D-7CCCD06C14F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6825B24-A862-48AB-892D-7CCCD06C14F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87632693-0087-4481-8058-2C552D6C19C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87632693-0087-4481-8058-2C552D6C19C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87632693-0087-4481-8058-2C552D6C19C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87632693-0087-4481-8058-2C552D6C19C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3112457-913F-4089-AEE2-71475F712A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C546A227-4846-435A-8C87-6BBA3DDEDB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C546A227-4846-435A-8C87-6BBA3DDEDB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C546A227-4846-435A-8C87-6BBA3DDEDB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C546A227-4846-435A-8C87-6BBA3DDEDB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A410583E-0E6F-4FFF-80BF-E85E5F2244F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A410583E-0E6F-4FFF-80BF-E85E5F2244F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A410583E-0E6F-4FFF-80BF-E85E5F2244F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A410583E-0E6F-4FFF-80BF-E85E5F2244F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDFEF16-376E-4F8E-8437-FCCB34EA0605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFEF16-376E-4F8E-8437-FCCB34EA0605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFEF16-376E-4F8E-8437-FCCB34EA0605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFEF16-376E-4F8E-8437-FCCB34EA0605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE13EC0A-204E-4000-9871-876A5EF2BB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE13EC0A-204E-4000-9871-876A5EF2BB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE13EC0A-204E-4000-9871-876A5EF2BB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE13EC0A-204E-4000-9871-876A5EF2BB70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0D2ECA7-9C91-4314-B584-3C4DEDACC244} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{ED7A6FAD-3C32-4F7C-B529-395D66072F62} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{DB802390-2901-4DD0-A999-40AD4E8315A0} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{E30F5D30-E500-4334-8B6D-3273F6758DA4} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{C3112457-913F-4089-AEE2-71475F712A60} = {657B5323-2543-48A2-BF38-87B96FDD8762}
+		{C546A227-4846-435A-8C87-6BBA3DDEDB66} = {2530E58D-123F-4CA1-A54F-008E7C848475}
+		{ABDFEF16-376E-4F8E-8437-FCCB34EA0605} = {2530E58D-123F-4CA1-A54F-008E7C848475}
+		{AE13EC0A-204E-4000-9871-876A5EF2BB70} = {2530E58D-123F-4CA1-A54F-008E7C848475}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Robot.UnitTests\\Robot.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName0 = Robot.sln
+		SccProjectName0 = Robot.UnitTests
+		SccAuxPath0 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath0 = Robot.UnitTests
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\Visualizer\\Common\\Common.csproj
+		SccProjectName1 = ../Visualizer/Common
+		SccAuxPath1 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath1 = ..\\Visualizer\\Common
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Trans2Quik.Core\\Robot.Trans2Quik.csproj
+		SccProjectName2 = Trans2Quik.Core
+		SccAuxPath2 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath2 = Trans2Quik.Core
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = QuikConnector.Common\\Robot.Quik2Net.csproj
+		SccProjectName3 = QuikConnector.Common
+		SccAuxPath3 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath3 = QuikConnector.Common
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Robot.Strategies\\Robot.Strategies.csproj
+		SccProjectName4 = Robot.Strategies
+		SccAuxPath4 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath4 = Robot.Strategies
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Robot\\Robot.Core.csproj
+		SccProjectName5 = Robot
+		SccAuxPath5 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath5 = Robot
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = ..\\Visualizer\\Visualizer.VisualControls\\Visualizer.VisualControls.csproj
+		SccProjectName6 = ../Visualizer/Visualizer.VisualControls
+		SccAuxPath6 = https://alexander-zhigalov.visualstudio.com/defaultcollection
+		SccLocalPath6 = ..\\Visualizer\\Visualizer.VisualControls
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

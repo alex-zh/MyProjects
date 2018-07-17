@@ -1,0 +1,481 @@
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531486718,"3f50861762dae886fb253d3ab7b957974efff1acde0894c06c348594cb5644b0"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+15:58:39: W: Table attribute is not present in data
+15:58:39: W: Table attribute is not present in data
+15:58:39: E: Error converting value {null} to type 'System.Double'. Path 'data[0].simpleOrderQty', line 1, position 1175.
+15:58:39: W: Table attribute is not present in data
+15:58:39: W: Table attribute is not present in data
+15:58:39: W: Table attribute is not present in data
+15:58:39: W: Table attribute is not present in data
+15:58:53: E: Error while postng orders: {"error":{"message":"Bulk orders: Order price is below the liquidation price of current long position","name":"ValidationError"}}
+15:58:53: E: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526.
+15:58:53: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531486820,"8754237b859466e7644bb89749261eaf214609533df951564cee0968a15c18f9"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:00:20: W: Table attribute is not present in data
+16:00:20: W: Table attribute is not present in data
+16:00:20: W: Table attribute is not present in data
+16:00:20: E: Error converting value {null} to type 'System.Double'. Path 'data[0].simpleOrderQty', line 1, position 1175.
+16:00:20: W: Table attribute is not present in data
+16:00:20: W: Table attribute is not present in data
+16:00:20: W: Table attribute is not present in data
+16:00:49: E: Response status code does not indicate success: 400 (Bad Request).
+16:00:49: E: Error while postng orders: {"error":{"message":"Bulk orders: Order price is below the liquidation price of current long position","name":"ValidationError"}}
+16:00:49: E: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526.
+16:00:49: E: Response status code does not indicate success: 400 (Bad Request).
+16:02:23: E: System.InvalidOperationException: An ItemsControl is inconsistent with its items source.
+  See the inner exception for more information. ---> System.Exception: Information for developers (use Text Visualizer to read this):
+This exception was thrown because the generator for control 'System.Windows.Controls.DataGrid Items.Count:24' with name 'DataGrid' has received sequence of CollectionChanged events that do not agree with the current state of the Items collection.  The following differences were detected:
+  Accumulated count 12 is different from actual count 24.  [Accumulated count is (Count at last Reset + #Adds - #Removes since last Reset).]
+
+One or more of the following sources may have raised the wrong events:
+     System.Windows.Controls.ItemContainerGenerator
+      System.Windows.Controls.ItemCollection
+       System.Windows.Data.ListCollectionView
+        System.Collections.Generic.List`1[[Common.Robots.Common.LimitOrder, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+(The starred sources are considered more likely to be the cause of the problem.)
+
+The most common causes are (a) changing the collection or its Count without raising a corresponding event, and (b) raising an event with an incorrect index or item parameter.
+
+The exception's stack trace describes how the inconsistencies were detected, not how they occurred.  To get a more timely exception, set the attached property 'PresentationTraceSources.TraceLevel' on the generator to value 'High' and rerun the scenario.  One way to do this is to run a command similar to the following:
+   System.Diagnostics.PresentationTraceSources.SetTraceLevel(myItemsControl.ItemContainerGenerator, System.Diagnostics.PresentationTraceLevel.High)
+from the Immediate window.  This causes the detection logic to run after every CollectionChanged event, so it will slow down the application.
+
+   --- End of inner exception stack trace ---
+   at System.Windows.Controls.ItemContainerGenerator.Verify()
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Double& computedUniformOrAverageContainerPixelSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Nullable`1& lastPagePixelSize, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.Controls.Primitives.DataGridRowsPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Controls.TabItem.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)
+   at System.Windows.UIElement.OnPreviewGotKeyboardFocusThunk(Object sender, KeyboardFocusChangedEventArgs e)
+   at System.Windows.Input.KeyboardFocusChangedEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   at System.Windows.Input.KeyboardDevice.TryChangeFocus(DependencyObject newFocus, IKeyboardInputProvider keyboardInputProvider, Boolean askOld, Boolean askNew, Boolean forceToNullIfFailed)
+   at System.Windows.Input.KeyboardDevice.Focus(DependencyObject focus, Boolean askOld, Boolean askNew, Boolean forceToNullIfFailed)
+   at System.Windows.Input.KeyboardDevice.Focus(IInputElement element)
+   at System.Windows.UIElement.Focus()
+   at System.Windows.Controls.TabItem.SetFocus()
+   at System.Windows.Controls.TabItem.OnMouseLeftButtonDown(MouseButtonEventArgs e)
+   at System.Windows.UIElement.OnMouseLeftButtonDownThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.UIElement.OnMouseDownThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   at System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531486955,"a88134657b9a8b5a3f7434c1ac584e03252bbc2257b193d48505a1b4cd0914e0"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:02:35: W: Table attribute is not present in data
+16:02:35: W: Table attribute is not present in data
+16:02:35: E: Error converting value {null} to type 'System.Double'. Path 'data[0].simpleOrderQty', line 1, position 1175.
+16:02:35: W: Table attribute is not present in data
+16:02:35: W: Table attribute is not present in data
+16:02:58: W: Table attribute is not present in data
+16:02:59: W: Table attribute is not present in data
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531487699,"a50c1878b85a0e3a6addf158b5907585797cf85d452cbbe66f6c424ca463f87c"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:14:59: W: Table attribute is not present in data
+16:14:59: W: Table attribute is not present in data
+16:14:59: W: Table attribute is not present in data
+16:14:59: W: Table attribute is not present in data
+16:15:05: W: Table attribute is not present in data
+16:15:05: W: Table attribute is not present in data
+16:15:27: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1424312794 XBt required","name":"ValidationError"}}
+16:15:27: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:15:27: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:17:29: E: Response status code does not indicate success: 400 (Bad Request).
+16:17:29: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1421469566 XBt required","name":"ValidationError"}}
+16:17:29: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:17:29: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:19:30: E: Response status code does not indicate success: 400 (Bad Request).
+16:19:30: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1423580348 XBt required","name":"ValidationError"}}
+16:19:30: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:19:31: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:21:32: E: Response status code does not indicate success: 400 (Bad Request).
+16:21:32: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1427184460 XBt required","name":"ValidationError"}}
+16:21:32: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:21:32: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:23:34: E: Response status code does not indicate success: 400 (Bad Request).
+16:23:34: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1422964657 XBt required","name":"ValidationError"}}
+16:23:34: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:23:34: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:25:36: E: Response status code does not indicate success: 400 (Bad Request).
+16:25:36: E: Error while postng orders: {"error":{"message":"Bulk orders: Account has insufficient Available Balance, 1426246726 XBt required","name":"ValidationError"}}
+16:25:36: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Rejected" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Rejected' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+16:25:36: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531488530,"a0e8929567a12e4be088645b3e0ef6e998a671d8c39baa7c04d263faf2ddc423"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:28:51: W: Table attribute is not present in data
+16:28:51: W: Table attribute is not present in data
+16:28:51: W: Table attribute is not present in data
+16:28:51: W: Table attribute is not present in data
+16:28:51: W: Table attribute is not present in data
+16:28:51: W: Table attribute is not present in data
+16:41:14: E: Error while postng orders: {"error":{"message":"Invalid price","name":"HTTPError"}}
+16:41:14: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531489294,"c1dda95ef8db6e7d2d7011d9c89b42ccfb7b6c216694b46ad21bc16b67c2f3a5"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:41:35: W: Table attribute is not present in data
+16:41:35: W: Table attribute is not present in data
+16:41:35: W: Table attribute is not present in data
+16:41:35: W: Table attribute is not present in data
+16:41:35: W: Table attribute is not present in data
+16:41:35: W: Table attribute is not present in data
+16:43:15: E: Response status code does not indicate success: 400 (Bad Request).
+16:45:16: E: Response status code does not indicate success: 400 (Bad Request).
+16:45:16: E: Error while postng orders: {"error":{"message":"Bulk orders: Order price is below the liquidation price of current long position","name":"ValidationError"}}
+16:45:16: E: System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at BitMexConnector.BitMexRestClient.<PostOrders>d__11.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexRestClient.cs:line 152
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BitMexConnector.BitMexOperationExecutor.<SetOrders>d__5.MoveNext() in C:\MyProjects\BitMexconnector\BitMexConnector\BitMexOperationExecutor.cs:line 58
+16:48:23: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531490149,"907575838e1a5a0d7bfe2673714285da9d785d4ab05161f4dc1e0db57f42111c"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+16:55:49: W: Table attribute is not present in data
+16:55:49: W: Table attribute is not present in data
+16:55:49: W: Table attribute is not present in data
+16:55:49: W: Table attribute is not present in data
+16:55:49: W: Table attribute is not present in data
+16:55:49: W: Table attribute is not present in data
+16:58:07: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531490658,"4421cc83007b8be68528662f01886d653a2d7535b81638eee049ef8465e67182"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+17:04:18: W: Table attribute is not present in data
+17:04:18: W: Table attribute is not present in data
+17:04:19: W: Table attribute is not present in data
+17:04:19: W: Table attribute is not present in data
+17:04:19: W: Table attribute is not present in data
+17:04:19: W: Table attribute is not present in data
+17:08:29: E: Newtonsoft.Json.JsonSerializationException: Error converting value "" to type 'Common.Robots.Common.OrderSides'. Path 'data[0].side', line 1, position 166. ---> System.ArgumentException: Must specify valid information for parsing in the string.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.OrdersTable.OrdersTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\OrdersTable\OrdersTableParser.cs:line 71
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.OrdersTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\OrdersTableUpdator.cs:line 35
+   at BitMexConnector.Parsers.OrdersTable.OrdersTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\OrdersTable\OrdersTableParser.cs:line 71
+   at BitMexConnector.Parsers.OrdersTable.OrdersTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\OrdersTable\OrdersTableParser.cs:line 41
+17:08:29: E: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Double'. Path 'data[0].simpleOrderQty', line 1, position 332. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+17:08:29: E: Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Double'. Path 'data[0].simpleOrderQty', line 1, position 351. ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+17:08:32: E: Newtonsoft.Json.JsonSerializationException: Error converting value "Canceled" to type 'Common.Robots.Common.ExecutionTypes'. Path 'data[0].execType', line 1, position 526. ---> System.ArgumentException: Requested value 'Canceled' was not found.
+   at Newtonsoft.Json.Utilities.EnumUtils.ParseEnum(Type enumType, String value, Boolean disallowNumber)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.<>c.<HandleInsertData>b__6_0(JToken x) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at BitMexConnector.DataStoreUpdators.ExecutionTableUpdator.Update(IEnumerable`1 items) in C:\MyProjects\BitMexconnector\BitMexConnector\DataStoreUpdators\ExecutionTableUpdator.cs:line 34
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.HandleInsertData(JArray data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 73
+   at BitMexConnector.Parsers.ExecutionTable.ExecutionTableParser.Parse(JObject data) in C:\MyProjects\BitMexconnector\BitMexConnector\Parsers\ExecutionTable\ExecutionTableParser.cs:line 43
+17:10:55: E: Response status code does not indicate success: 400 (Bad Request).
+17:12:56: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531492130,"d09f4fff7ea591319d5103f86b22a66cd9a181a1ad4bf7f5bfd0427866d8ce12"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+17:28:50: W: Table attribute is not present in data
+17:28:50: W: Table attribute is not present in data
+17:28:50: W: Table attribute is not present in data
+17:28:50: W: Table attribute is not present in data
+17:28:50: W: Table attribute is not present in data
+17:28:50: W: Table attribute is not present in data
+17:32:01: E: Response status code does not indicate success: 400 (Bad Request).
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531513576,"763b26e4c1d244dfb3931a995acf2a0dcd5f69155f5a3690f13bbb39ecdb719a"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+23:26:16: W: Table attribute is not present in data
+23:26:16: W: Table attribute is not present in data
+23:26:16: W: Table attribute is not present in data
+{"op":"authKeyExpires","args":["3uFBfBaA6FItdS8LbNr3_k1C",1531514814,"b9a775714009f5a6ab0d356da355b306ed04c7361ad81900a522daf104d73e06"]}
+{"op":"subscribe","args":"order:"}
+{"op":"subscribe","args":"execution:"}
+{"op":"subscribe","args":"orderBookL2:XBTUSD"}
+{"op":"subscribe","args":"orderBookL2:XRPU18"}
+23:46:54: W: Table attribute is not present in data
+23:46:54: W: Table attribute is not present in data
+23:47:01: W: Table attribute is not present in data
+23:47:01: W: Table attribute is not present in data
+23:47:01: W: Table attribute is not present in data
+23:47:01: W: Table attribute is not present in data

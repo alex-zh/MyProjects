@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF011444-DB35-4FCA-852B-876DA26ECD17}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Visualizer.VisualControls</RootNamespace>
+    <AssemblyName>Visualizer.VisualControls</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AxisAlignment.cs" />
+    <Compile Include="Classes\ChartCalculator.cs" />
+    <Compile Include="Classes\ChartLine.cs" />
+    <Compile Include="Classes\ChartMovingAverage.cs" />
+    <Compile Include="Classes\ChartScale.cs" />
+    <Compile Include="Classes\DateTimeExtensions.cs" />
+    <Compile Include="Classes\DirectionConverter.cs" />
+    <Compile Include="Classes\CanvasCalculator.cs" />
+    <Compile Include="Classes\GroupingInterval.cs" />
+    <Compile Include="Classes\IChartCalculator.cs" />
+    <Compile Include="Classes\IStockChart.cs" />
+    <Compile Include="Classes\LoadedDataFormats.cs" />
+    <Compile Include="Classes\ScrollBarEx.cs" />
+    <Compile Include="Classes\SizeConverter.cs" />
+    <Compile Include="Classes\StockChartMouseEventArgs.cs" />
+    <Compile Include="Classes\AxisTicksCalculator.cs" />
+    <Compile Include="Classes\StockChartRangeSelectedEventArgs.cs" />
+    <Compile Include="Classes\TrendTypes.cs" />
+    <Compile Include="Classes\ValueRounder.cs" />
+    <Compile Include="Classes\ViewPortDataHolder.cs" />
+    <Compile Include="Controls\Classes\ChartTimeRanges.cs" />
+    <Compile Include="Controls\Classes\HeatMapChartCalculator.cs" />
+    <Compile Include="Controls\ChartCanvasCalculatorSettings.cs" />
+    <Compile Include="Controls\Classes\HeatMapColorProvider.cs" />
+    <Compile Include="Controls\HeatMaps\HeatMapChart.cs" />
+    <Compile Include="Controls\HeatMaps\DayToHourHeatMapChart.xaml.cs">
+      <DependentUpon>DayToHourHeatMapChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeGraphChart.xaml.cs">
+      <DependentUpon>TimeGraphChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PlainChart.xaml.cs">
+      <DependentUpon>PlainChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BivariateChartCalculator.cs" />
+    <Compile Include="Classes\BivariateChartPoint.cs" />
+    <Compile Include="Controls\CandleDrawOptions.cs" />
+    <Compile Include="Controls\CandleInfoBox.xaml.cs">
+      <DependentUpon>CandleInfoBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BivariateChartCanvasCalculator.cs" />
+    <Compile Include="Controls\CursorInfoBox.xaml.cs" />
+    <Compile Include="Controls\CustomIndicator.xaml.cs">
+      <DependentUpon>CustomIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DateTimeAxis.xaml.cs">
+      <DependentUpon>DateTimeAxis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DistributionChart.xaml.cs">
+      <DependentUpon>DistributionChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DynamicGridControl.xaml.cs">
+      <DependentUpon>DynamicGridControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BivariateChart.xaml.cs">
+      <DependentUpon>BivariateChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Classes\PlainChartCalculator.cs" />
+    <Compile Include="Classes\PlainChartPoint.cs" />
+    <Compile Include="Controls\Classes\ChartCanvasCalculator.cs" />
+    <Compile Include="Controls\Classes\PlainChartLablesPreparer.cs" />
+    <Compile Include="Controls\StockChart.xaml.cs">
+      <DependentUpon>StockChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StockChartRange.cs" />
+    <Compile Include="Classes\TrendLine.cs" />
+    <Compile Include="Controls\Classes\TimeGraphChartCalculator.cs" />
+    <Compile Include="Controls\TimeGraphLine.cs" />
+    <Compile Include="Controls\ValueAxis.xaml.cs">
+      <DependentUpon>ValueAxis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\HeatMaps\DayToHourHeatMapChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\TimeGraphChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PlainChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\CandleInfoBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\CursorInfoBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\CustomIndicator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\DateTimeAxis.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\DistributionChart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\DynamicGridControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\BivariateChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\StockChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ValueAxis.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

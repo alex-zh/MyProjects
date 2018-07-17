@@ -1,0 +1,26 @@
+PORTFOLIO_EX ServerTime;
+DESCRIPTION Время сервера;
+CLIENTS_LIST ALL_CLIENTS;
+FIRMS_LIST ALL_FIRMS;
+
+PROGRAM
+
+DELETE_ALL_ITEMS()
+
+serverTime = GET_INFO_PARAM("SERVERTIME")
+
+ output = CREATE_MAP()
+ output = SET_VALUE(output,"ServerTime", serverTime)
+ 
+ ADD_ITEM(0, output)	
+
+END_PROGRAM
+
+PARAMETER ServerTime;
+PARAMETER_TITLE Время сервера;
+PARAMETER_DESCRIPTION текущее время сервера QUIK;
+PARAMETER_TYPE STRING(30);
+END
+
+
+END_PORTFOLIO_EX

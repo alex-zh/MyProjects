@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Iterations>
+  <Iteration index ="0">
+    <ShouldOpen>
+      <Direction>Up</Direction>
+    </ShouldOpen>
+  </Iteration>
+  <Iteration index ="1">
+    <!-- Empty iteration. ShouldOpen -->
+  </Iteration>
+  <Iteration index ="2">
+    <!-- Empty iteration. ShouldOpen -->
+  </Iteration>
+</Iterations>

@@ -1,0 +1,44 @@
+﻿<Window x:Class="RegessionAnalisys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="540" Width="1024" SizeChanged="Window_SizeChanged_1">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_File" >
+                <MenuItem Header="_Load" Click="LoadMenuItem_OnClick" ></MenuItem>
+                <MenuItem Header="_Prepare" Click="PrepareMenuItem_OnClick" ></MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="_Tools" >
+                <MenuItem Header="_Options" Click="SettingsMenuItem_OnClick" ></MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel Grid.Row="1">
+            <ToolBarTray DockPanel.Dock="Top">
+                <ToolBar ToolBarTray.IsLocked="true" Margin="3" >
+                    <ComboBox HorizontalAlignment="Left" Name="cbDataFiles"  Margin="0" SelectionChanged="CbDataFiles_OnSelected" VerticalAlignment="Center" Width="280" />
+                    <Button Margin="9,3" BorderBrush="DarkGray" BorderThickness="2" Content="Remove all outliers" Click="ButtonBase_OnClick" ></Button>
+                    <CheckBox Margin="9,3" BorderBrush="DarkGray" IsChecked="True" BorderThickness="2" Name="cbDrawZeroAxises" Content="Draw zero axises" Click="DrawZeroAxises_OnClick" ></CheckBox>
+                    <Button Margin="9,3" Name="btnShowResiduals" BorderBrush="DarkGray" BorderThickness="2" Content="Show residuals" Click="ShowResiduals_OnClick" ></Button>                    
+                </ToolBar>
+            </ToolBarTray>
+        </DockPanel>
+        <Grid Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="497*"></ColumnDefinition>
+                <ColumnDefinition Width="52*"/>
+                <ColumnDefinition Width="142*"/>
+                <ColumnDefinition Width="125*"/>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Canvas Name="mainCanvas" MouseEnter="mainCanvas_MouseEnter" MouseDown="MainCanvas_OnMouseDown" MouseLeave="mainCanvas_MouseLeave" Grid.ColumnSpan="4"></Canvas>
+            <TextBox Margin="3" Grid.Column="4" VerticalScrollBarVisibility="Auto" Name="tbInfo"></TextBox>
+        </Grid>
+    </Grid>
+</Window>

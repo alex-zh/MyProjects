@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Trans2Quik.Adapter</id>
+    <version>1.0.0</version>
+    <title>Trans2Quik .NET adapter for Quik trade terminal</title>
+    <authors>Rootzid</authors>
+    <owners>Rootzid</owners>
+    <projectUrl>https://github.com/rootzid/trans-2-quik</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Trans2Quik .NET adapter for Quik trade terminal</description>
+    <releaseNotes>This release supports Orders and Trades.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <language>en-US</language>
+    <tags>Quik Trading</tags>
+  </metadata>
+</package>

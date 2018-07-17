@@ -1,0 +1,77 @@
+PORTFOLIO_EX CurrentTime;
+DESCRIPTION Исторические свечки;
+CLIENTS_LIST ALL_CLIENTS;
+FIRMS_LIST ALL_FIRMS;
+
+PROGRAM
+
+DELETE_ALL_ITEMS()
+
+serverTime = GET_INFO_PARAM("SERVERTIME")
+
+dateTime = GET_DATETIME()
+yearPart = GET_VALUE(dateTime, "YEAR")
+monthPart = GET_VALUE(dateTime, "MONTH")
+dayPart = GET_VALUE(dateTime, "DAY")
+hourPart = GET_VALUE(dateTime, "HOUR")
+minutePart = GET_VALUE(dateTime, "MIN")
+secondPart = GET_VALUE(dateTime, "SEC")
+
+dateString = GetDataString(yearPart, monthPart, dayPart)
+timeString = GetTimeString(hourPart, minutePart, secondPart)
+
+ output = CREATE_MAP()
+ output = SET_VALUE(output, "Date", dateString)
+ output = SET_VALUE(output, "Time", timeString)
+ output = SET_VALUE(output,"ServerTime", serverTime)
+ 
+ ADD_ITEM(0, output)	
+
+
+func GetDataString(year, month, day)
+  if (LEN(month) < 2)
+	month = "0" & month
+  end if
+  if (LEN(day) < 2)
+	day = "0" & day
+  end if
+  result = year & month & day
+end func
+
+func GetTimeString(hour, min, sec)
+  if (LEN(hour) < 2)
+	hour = "0" & hour
+  end if
+  if (LEN(min) < 2)
+	min = "0" & min
+  end if
+  if (LEN(sec) < 2)
+	sec = "0" & sec
+  end if
+
+  result = hour & min & sec
+
+end func
+
+END_PROGRAM
+
+PARAMETER Date;
+PARAMETER_TITLE Дата;
+PARAMETER_DESCRIPTION текущая Дата QUIK ;
+PARAMETER_TYPE STRING(30);
+END
+
+PARAMETER Time;
+PARAMETER_TITLE Время;
+PARAMETER_DESCRIPTION текущее Время QUIK;
+PARAMETER_TYPE STRING(30);
+END
+
+PARAMETER ServerTime;
+PARAMETER_TITLE Время сервера;
+PARAMETER_DESCRIPTION текущее время сервера QUIK;
+PARAMETER_TYPE STRING(30);
+END
+
+
+END_PORTFOLIO_EX

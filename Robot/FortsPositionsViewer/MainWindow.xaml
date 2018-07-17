@@ -1,0 +1,24 @@
+﻿<Window x:Class="FortsPositionsViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:Visualizer.VisualControls.Controls;assembly=Visualizer.VisualControls"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>            
+            <StackPanel Orientation="Horizontal">
+                <Button Click="ButtonShow_OnClick" Margin="6" Padding="6" MinWidth="80">Show</Button>
+                <ComboBox x:Name="comboDeriative" Margin="6" Padding="6" MinWidth="80" SelectionChanged="comboDeriative_OnSelectionChanged" />
+                <ComboBox x:Name="comboDataType" Margin="6" Padding="6" MinWidth="80" SelectionChanged="ComboDataType_OnSelectionChanged" />
+                <ComboBox x:Name="comboSelectRange" Margin="6" Padding="6" MinWidth="80" SelectionChanged="ComboSelectRange_OnSelectionChanged" />
+                <Button Click="Sync_OnClick" Margin="6" Padding="6" MinWidth="80" x:Name="btnSync">Synchronize data</Button>
+            </StackPanel>
+            <controls:TimeGraphChart ChartTimeRange="Day" Margin="6" UseZeroY="False"  Grid.Row="1" x:Name="ChartLegals" Title ="Legals" ></controls:TimeGraphChart>
+            <controls:TimeGraphChart ChartTimeRange="Day" Margin="6" UseZeroY="False"  Grid.Row="2" x:Name="ChartIndividuals" Title ="Individuals" ></controls:TimeGraphChart>            
+        </Grid>
+    </Grid>
+</Window>

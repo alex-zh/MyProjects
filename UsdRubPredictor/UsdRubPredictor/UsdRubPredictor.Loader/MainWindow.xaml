@@ -1,0 +1,15 @@
+﻿<Window x:Class="UsdRubPredictor.Loader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel HorizontalAlignment="Stretch" >            
+            <Button Name="btnSelect" Click="BtnSelect_OnClick" Width="100px" Margin="3" DockPanel.Dock="Right">Select</Button>
+            <TextBox BorderThickness="1" Name="tbFilePath" Margin="3" Text="C:\"  />
+            </DockPanel>
+    </Grid>
+</Window>

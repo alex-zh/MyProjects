@@ -1,0 +1,8 @@
+C:\MyProjects\Robot\Trans2Quik.Core\bin\Debug\TRANS2QUIK.dll
+C:\MyProjects\Robot\Trans2Quik.Core\bin\Debug\TRANS2QUIK.lib
+C:\MyProjects\Robot\Trans2Quik.Core\bin\Debug\Robot.Trans2Quik.dll
+C:\MyProjects\Robot\Trans2Quik.Core\bin\Debug\Robot.Trans2Quik.pdb
+C:\MyProjects\Robot\Trans2Quik.Core\obj\Debug\Robot.Trans2Quik.Resources.resources
+C:\MyProjects\Robot\Trans2Quik.Core\obj\Debug\Robot.Trans2Quik.csproj.GenerateResource.Cache
+C:\MyProjects\Robot\Trans2Quik.Core\obj\Debug\Robot.Trans2Quik.dll
+C:\MyProjects\Robot\Trans2Quik.Core\obj\Debug\Robot.Trans2Quik.pdb

@@ -1,0 +1,4 @@
+C:\MyProjects\Visualizer\RandomProcessEmulation\bin\Debug\RandomProcessEmulation.dll
+C:\MyProjects\Visualizer\RandomProcessEmulation\bin\Debug\RandomProcessEmulation.pdb
+C:\MyProjects\Visualizer\RandomProcessEmulation\obj\Debug\RandomProcessEmulation.dll
+C:\MyProjects\Visualizer\RandomProcessEmulation\obj\Debug\RandomProcessEmulation.pdb

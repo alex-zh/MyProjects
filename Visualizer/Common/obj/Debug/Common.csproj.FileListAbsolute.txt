@@ -1,0 +1,15 @@
+C:\MyProjects\Visualizer\Common\bin\Debug\Common.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\Common.pdb
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.Math.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.Statistics.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\AForge.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\AForge.Math.dll
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.xml
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.Math.xml
+C:\MyProjects\Visualizer\Common\bin\Debug\Accord.Statistics.xml
+C:\MyProjects\Visualizer\Common\bin\Debug\AForge.xml
+C:\MyProjects\Visualizer\Common\bin\Debug\AForge.Math.xml
+C:\MyProjects\Visualizer\Common\obj\Debug\Common.dll
+C:\MyProjects\Visualizer\Common\obj\Debug\Common.pdb
+C:\MyProjects\Visualizer\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,28 @@
+﻿    <Window x:Class="Robot.TradeApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:mc="clr-namespace:Robot.TradeApplication.Controls"
+        Title="R" Height="768" Width="1600" BorderBrush="Silver" BorderThickness="1" Loaded="MainWindow_OnLoaded"
+        Icon="./Resources/wally.ico">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="1" >
+          
+            <TabItem Header="Summary" >
+                <mc:SummaryControl x:Name="SummaryControl"></mc:SummaryControl>
+            </TabItem>
+            <TabItem Header="R1" >
+                <mc:RobotViewControl x:Name="R1RobotViewControl" > </mc:RobotViewControl>
+            </TabItem>
+            <TabItem Header="Logs" Width="80" >
+                <mc:LogsControl x:Name="LogsControl"></mc:LogsControl >
+
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

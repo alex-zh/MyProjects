@@ -1,0 +1,1 @@
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\TestBitMexWebSocket\bin\Debug\TestBitMexWebSocket.exe.config

@@ -1,0 +1,5 @@
+﻿1>------ Build started: Project: OpinionAnalyzer.Core, Configuration: Debug Any CPU ------
+1>  OpinionAnalyzer.Core -> C:\Users\aaz\Documents\My Projects\TradeIdeasTester\OpinionAnalyzer\OpinionAnalyzer\bin\Debug\OpinionAnalyzer.Core.dll
+2>------ Build started: Project: OpinionAnalyzer.UnitTests, Configuration: Debug Any CPU ------
+2>  OpinionAnalyzer.UnitTests -> C:\Users\aaz\Documents\My Projects\TradeIdeasTester\OpinionAnalyzer\OpinionAnalyzer.UnitTests\bin\Debug\OpinionAnalyzer.UnitTests.dll
+========== Build: 2 succeeded, 0 failed, 7 up-to-date, 0 skipped ==========

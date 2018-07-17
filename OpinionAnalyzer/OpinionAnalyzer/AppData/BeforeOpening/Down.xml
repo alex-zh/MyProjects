@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <!-- 10 максимальный приоритет, когда абсолютно что выражается паттерном, 
+      "внешний фон" должен иметь отрицательный приоритет -->
+  <Item>
+    <Regex>
+    Expect .{0,20} Market DoDecline AtOpening
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>  
+  <Item>
+    <Regex>
+      Expect Negative Opening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20}  Opening .{0,30}  Moderate OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20}  Opening .{0,5} ( Moderate )? OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20}  Opening .{0,5} Substantial OpeningDecline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} NeutralNegative Opening
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} Negative Opening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect Moderate OpeningDecline .* AtOpening
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} OpeningDecline .* AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} Market .{0,20} ниже закрытия .{0,20} AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .{0,20} новость .{0,60} пересилит позитив
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect .{0,20} Substantial OpeningDecline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      OpeningDecline является .{0,20} вероятным Opening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      OpeningDecline AtOpening ( станет | будет ) .{0,20} ( логичным | закономерным | ожидаемым )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      OpeningDecline AtOpening не ( станет | будет ) .{0,20} ( сюрпризом | неожиданностью | неожиданным )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>5</Priority>
+  </Item>
+
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect .{0,20} Moderate OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect .{0,20} OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect .{0,20} Substantial OpeningDecline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Market .* DoDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+       Market ( ничего не остается | нет выбора ).{0,20} Substantial DoDecline AtOpening
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .* OpeningDecline .* AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect Neutral OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Expect .{0,20} OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Decline .* Expect .* AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .* Market .* Begin .* OpeningDecline .* AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Expect .* Market .* Begin .* OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item> 
+  <Item>
+    <Regex>
+      Opening .{0,60} Begin ( не .{0,10} лучшим образом | негативно | с понижения | со снижения )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,20} Expect .{0,40} OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,20} Expect .{0,40} NegativeZone
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,30} Begin .{0,20}  Substantial OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,20} Begin .{0,20}  Moderate OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,30} Begin .{0,20} Moderate \W{0,3} NegativeZone
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Opening .{0,60} ( Begin | будет )  .{0,20} NegativeZone
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>  
+  <Item>
+    <Regex>
+     ( Market | торги ) .{0,60} Begin .{0,20} NegativeZone
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+     ( Market | торги ) .{0,20} Begin .{0,20} Moderate OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      торги .{0,20} Begin .{0,20} Substantional OpeningDecline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} Begin .{0,20} ( торги | торговую сессию | сессию ) .{0,40} Moderate OpeningDecline
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .* ( по\W{0,2}прежнему | все еще | продолжает ) ( смотр.{2,3} вниз )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} Begin .{0,20} ( торги | торговую сессию | сессию | день ) .{0,20} (с)? OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} ( откро.{2} | начн.{2} ) .{0,20} ( торги | торговую сессию | сессию | день )  .{0,20} (с)? Substantial OpeningDecline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .* ( на открытии ) .{0,20} ( ( могут | может  ) сохранить | сохран.{2} ) Negative тренд
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Market .{0,20} ( ждет | ожидает ) .{0,20} ( открытие | начало торгов ) ( резко вниз | с Substantial OpeningDecline )
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ( Market ( AtOpening | сегодня ) | ( AtOpening | сегодня ) Market )
+      .{0,20}  ( будет | может ) ( испытывать | почувствовать | ощутить ) .{0,10} давление со стороны ( продавцов | медведей )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+    DayOfWeek .* Begin .{0,20} в Substantial минусе 
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      DayOfWeek .* Begin .{0,20} Moderate OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      DayOfWeek .* Begin .{0,20} OpeningDecline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      DayOfWeek .{0,30} traders .{0,30} ( придется | будет ) ( нелегко | тяжело | несладко )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+       AtOpening .* Expect .{0,20} Decline
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>3</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .{0,60} Formed .{0,20} Negative Background
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Formed .{0,20} Negative Background BeforeOpening
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .{0,60} Formed ( очень | весьма ) ( Negative ) ( Background | для \W?быков\W? )
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background ( очень | весьма ) ( Negative ) для  ( \W?быков\W? | покупателей )
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening  Background .{0,30} ( Formed )? ( Moderate )? Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Negative Background Formed AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>1</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Background .{0,20} ( указывает | говорит в пользу ) .{0,20} продолжен.{2} Decline
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      AtOpening .{0,20} Background .{0,20} ( не сулит ) .{0,20} ничего ( хорошего | веселого | радостного | оптимистичного )
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background BeforeOpening  .{0,20} Substantial Negative
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>5</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening Background .{0,20} Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background BeforeOpening  .{0,20} Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background Formed BeforeOpening .{0,20} Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,30} не ( внушает оптимизм | ( дает | оставляет ) .{0,20} надежд.{0,1} | благоволит .{0,20} Positive  )
+    </Regex>
+    <Weight> 2 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,30} не ( благоволит | ( дает | оставляет )  .{0,20} надежд.{0,1} ) ( покупателям | \W?быкам\W? | инвесторам | участникам )
+    </Regex>
+    <Weight> 5 </Weight>
+    <Priority>10</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,30} ( не | вряд ли )  ( даст возможност.{0,1} | позволит ) ( покупателям | \W?быкам\W? ) перехватить инициативу
+    </Regex>
+    <Weight> 2 </Weight>
+    <Priority>5</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Negative Background .{0,30} ( не | вряд ли) ( даст возможност.{0,1} | позволит )  Begin .{0,20} PositiveZone
+    </Regex>
+    <Weight> 2 </Weight>
+    <Priority>5</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background BeforeOpening DayOfWeek ( не выглядит Positive | не радует | не внушает оптимизма )
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background BeforeOpening .{0,30} Formed .{0,30} Negative
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>п
+  </Item>
+  <Item><Regex>
+      Background .{0,20} DayOfWeek не выглядит Positive
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening .*  Background ( оставляет желать лучшего | не выглядит Positive )
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,30} AtOpening .{0,20} ( сложился | складывается ) Moderate Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background .{0,40} ( Substantial )  Negative
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background Moderate \W{0,2} Negative
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background негативен
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      ForeignBackground .{0,20}  Negative \.
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      BeforeOpening Background ( сложился )? ( весьма | сильно ) ( негативный )
+    </Regex>
+    <Weight> -3 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+      Background остается (ровно)? таким же \W* как и ( ранее | прежде | до этого ) .* нефть ( теряет в цене | дешевеет )
+    </Regex>
+    <Weight> -1 </Weight>
+    <Priority>0</Priority>
+  </Item>
+  <Item>
+    <Regex>
+    ( окажет | будет оказывать ) давление .{0,30} ( котировки ( российских бумаг | акций | бумаг ) | Market) .{0,60} AtOpening
+    </Regex>
+    <Weight> -2 </Weight>
+    <Priority>5</Priority>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+  <Item>
+    <Regex>
+
+    </Regex>
+    <Weight> 0 </Weight>
+  </Item>
+</Items>

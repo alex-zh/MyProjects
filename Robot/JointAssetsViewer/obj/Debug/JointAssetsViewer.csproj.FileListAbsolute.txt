@@ -1,0 +1,10 @@
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\JointAssetsViewer.csprojResolveAssemblyReference.cache
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\Controls\BivariateChartInfo.baml
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\Controls\QuikConnectionSummary.baml
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\Controls\BivariateChartInfo.g.cs
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\Controls\QuikConnectionSummary.g.cs
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\MainWindow.g.cs
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\App.g.cs
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\JointAssetsViewer_MarkupCompile.cache
+C:\MyProjects\Robot\JointAssetsViewer\obj\Debug\JointAssetsViewer_MarkupCompile.lref

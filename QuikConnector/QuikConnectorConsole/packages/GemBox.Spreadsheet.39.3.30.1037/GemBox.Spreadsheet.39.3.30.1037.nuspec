@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>GemBox.Spreadsheet</id>
+    <version>39.3.30.1037</version>
+    <authors>GemBox Software</authors>
+    <owners>GemBox Software</owners>
+    <licenseUrl>http://www.gemboxsoftware.com/Spreadsheet/Eula.rtf</licenseUrl>
+    <projectUrl>http://www.gemboxsoftware.com/Spreadsheet/Overview</projectUrl>
+    <iconUrl>http://www.gemboxsoftware.com/images/nugetgbs.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>GemBox.Spreadsheet is a .NET component that enables developers to read, write, convert and print spreadsheet files (XLSX, XLS, ODS, CSV, HTML, PDF or XPS) from their .NET applications using one simple API.</description>
+    <summary>GemBox.Spreadsheet is a .NET component for reading and writing spreadsheet files (XLSX, XLS, CSV, ODS, HTML, PDF and XPS).</summary>
+    <releaseNotes>- Fixed issue with picture's scaling in XLSX files.
+- Added ExcelChart.ShowEmptyCellsAs property.
+- Fixed issue with parsing custom number formats.</releaseNotes>
+    <copyright>Copyright (c) GemBox Software 2015</copyright>
+    <tags>GemBox.Spreadsheet Excel XLSX XLS CSV ODS PDF Print OpenXml</tags>
+  </metadata>
+</package>

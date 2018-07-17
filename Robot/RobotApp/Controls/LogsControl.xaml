@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="Robot.TradeApplication.Controls.LogsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:visualControls="clr-namespace:Visualizer.VisualControls.Classes;assembly=Visualizer.VisualControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+    <UserControl.Resources>
+        <ResourceDictionary>
+
+            <DataTemplate x:Key="LogTextColumnTemplate" >
+                <TextBox BorderThickness="0" MaxLines="1" TextAlignment="Left" Text="{Binding Path=Text}"></TextBox>
+                </DataTemplate>
+            
+            <Style BasedOn="{StaticResource {x:Type ToggleButton}}"  TargetType="ToggleButton">
+                <Setter Property="Margin" Value="3" ></Setter>
+                <Setter Property="Padding" Value="9" ></Setter>
+            </Style>
+
+            <Style TargetType="DataGridColumnHeader">
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                <Setter Property="MinWidth" Value="60"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="BorderThickness" Value="1"></Setter>
+                <Setter Property="Margin" Value="-1,-1,0,0" />
+            </Style>
+            <Style TargetType="DataGridRow" x:Key="RowDataGridStyle">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding IsLast}" Value="true">
+                        <Setter Property="BorderThickness" Value="0" />
+                    </DataTrigger>
+                </Style.Triggers>                
+                <Setter Property="BorderBrush" Value="Silver" />
+                <Setter Property="BorderThickness" Value="0,0,0,1" />
+            </Style>
+            <Style TargetType="DataGridCell"  x:Key="DataGridCellStyle">
+                
+                <Style.Triggers>
+                    <Trigger Property="IsSelected" Value="True">
+                        <Setter Property="Foreground" Value="Black" />
+                        <Setter Property="Background" Value="Transparent" />
+                    </Trigger>
+                </Style.Triggers>
+
+                <Setter Property="TextBlock.TextAlignment" Value="Center"></Setter>
+                <Setter Property="MinWidth" Value="80"></Setter>
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                <Setter Property="BorderBrush" Value="Silver"></Setter>
+                <Setter Property="BorderThickness" Value="0,0,1,0"></Setter>
+            </Style>
+            <visualControls:RobotNameConverter x:Key="RobotNameConverter"/>
+        </ResourceDictionary>        
+       
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <DockPanel  Margin="0,3">
+
+            <ToggleButton x:Name="tbErrors" Click="ErrorsFilterButton_OnClick" IsChecked="True" >
+                <StackPanel Orientation="Horizontal">
+                    
+                    <TextBlock VerticalAlignment="Center" Margin="3,0,6,0">Errors</TextBlock>
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton x:Name="tbWarnings"  Click="WarningsFilterButton_OnClick">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center" Margin="3,0,6,0">Warnings</TextBlock>
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton x:Name="tbInfo" Click="InfoFilterButton_OnClick">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center" Margin="3,0,6,0">Messages</TextBlock>
+                </StackPanel>
+            </ToggleButton>
+
+            <Button  HorizontalAlignment="Right" Height="24" Margin="6,0" Width="110" Click="CleanLog_OnClick">
+                <TextBlock VerticalAlignment="Center" Margin="3,0,6,0">Clean log</TextBlock>
+            </Button>
+        </DockPanel>
+
+        <DataGrid Grid.Row="1" Margin="0" Name="LogsGrid" CellStyle="{StaticResource DataGridCellStyle}" RowStyle="{StaticResource RowDataGridStyle}" HeadersVisibility="Column" IsReadOnly="true" GridLinesVisibility="None" Padding="0" CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="False" Background="Transparent"  HorizontalGridLinesBrush="Silver" BorderThickness="0" VerticalGridLinesBrush="Silver" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=DateTime}" Header="Time" Width="140"/>
+                <DataGridTextColumn Binding="{Binding Path=RobotId, Converter={StaticResource RobotNameConverter}}" Header="Robot Name"  Width="120" />
+                <DataGridTextColumn Binding="{Binding Path=MessageType}" Header="Type" Width="80"/>
+                <DataGridTemplateColumn  CellTemplate="{StaticResource LogTextColumnTemplate}" Header="Text" Width="*"/>                
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

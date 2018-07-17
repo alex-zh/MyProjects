@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="JointAssetsViewer.Controls.BivariateChartInfo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="160" d:DesignWidth="300">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto" ></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Regression:" FontWeight="SemiBold" Padding="3,6"/>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="1" x:Name="tbRegression" FontWeight="ExtraBold" Padding="6"/>
+
+        <TextBlock Grid.Row="1" Text="Coefficient:" FontWeight="SemiBold" Padding="3"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="tbCoefficient" FontWeight="Bold" Padding="3"/>
+        <TextBlock Grid.Row="2" Text="R-squared:" FontWeight="Medium" Padding="3"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="tbRSquared" FontWeight="Bold" Padding="3"/>
+        <TextBlock Grid.Row="3" Text="Standard Error:" FontWeight="SemiBold" Padding="3"/>
+        <TextBlock Grid.Row="3" Grid.Column="1" x:Name="tbSe" FontWeight="Bold" Padding="3"/>
+        <TextBlock Grid.Row="4" Text="1 % of X causes:" FontWeight="SemiBold" Padding="3"/>
+        <TextBlock Grid.Row="4" Grid.Column="1" x:Name="tbCausedPercent" FontWeight="Bold" Padding="3"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Current distance:" FontWeight="SemiBold" Padding="6,3,3,3"/>
+        <TextBlock Grid.Row="1" Grid.Column="3" x:Name="tbCurrentDistance" FontWeight="Bold" Padding="3"/>
+
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Buy 10th percentile:" FontWeight="SemiBold" Padding="6,3,3,3"/>
+        <TextBlock Grid.Row="2" Grid.Column="3" x:Name="tbUp10thPercentile" FontWeight="Bold" Padding="3"/>
+
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="Sell 10th percentile:" FontWeight="SemiBold" Padding="6,3,3,3"/>
+        <TextBlock Grid.Row="3" Grid.Column="3" x:Name="tbDown10thPercentile" FontWeight="Bold" Padding="3"/>
+
+
+
+    </Grid>
+</UserControl>

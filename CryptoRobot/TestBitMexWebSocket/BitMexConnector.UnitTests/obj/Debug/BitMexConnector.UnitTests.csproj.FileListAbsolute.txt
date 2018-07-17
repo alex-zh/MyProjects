@@ -1,0 +1,14 @@
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.csprojResolveAssemblyReference.cache
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.TestData.OrderBookL2ParserTests.resources
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.TestOrderBookL2Parser.resources
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.csproj.GenerateResource.Cache
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\BitMexConnector.UnitTests.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\BitMexConnector.UnitTests.pdb
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\BitMexConnector.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\websocket-sharp.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\BitMexConnector.pdb
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\bin\Debug\websocket-sharp.xml
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.dll
+C:\MyProjects\CryptoRobot\TestBitMexWebSocket\BitMexConnector.UnitTests\obj\Debug\BitMexConnector.UnitTests.pdb

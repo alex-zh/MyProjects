@@ -1,0 +1,92 @@
+{
+  "table": "orderBookL2",
+  "keys": [ "symbol", "id", "side" ],
+  "types": {
+    "symbol": "symbol",
+    "id": "long",
+    "side": "symbol",
+    "size": "long",
+    "price": "float"
+  },
+  "foreignKeys": {
+    "symbol": "instrument",
+    "side": "side"
+  },
+  "attributes": {
+    "symbol": "grouped",
+    "id": "sorted"
+  },
+  "action": "partial",
+  "data": [
+    {
+      "symbol": "XBTUSD",
+      "id": 1,
+      "side": "Sell",
+      "size": 1200,
+      "price": 12000
+    },   
+    {
+      "symbol": "XBTUSD",
+      "id": 2,
+      "side": "Sell",
+      "size": 1100,
+      "price": 11000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 3,
+      "side": "Sell",
+      "size": 1000,
+      "price": 10000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 4,
+      "side": "Sell",
+      "size": 900,
+      "price": 9000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 5,
+      "side": "Sell",
+      "size": 800,
+      "price": 8000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 5,
+      "side": "Buy",
+      "size": 800,
+      "price": 8000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 4,
+      "side": "Buy",
+      "size": 900,
+      "price": 9000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 3,
+      "side": "Buy",
+      "size": 1000,
+      "price": 10000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 2,
+      "side": "Buy",
+      "size": 1100,
+      "price": 11000
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 1,
+      "side": "Buy",
+      "size": 1200,
+      "price": 12000
+    }               
+  ]
+}

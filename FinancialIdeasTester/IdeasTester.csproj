@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9ECA41D0-2817-412B-B031-266183AA571B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinancialIdeasTester</RootNamespace>
+    <AssemblyName>FinancialIdeasTester</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DetrendedValueResultGenerator.cs" />
+    <Compile Include="ResultGenerators\BrentToUsdRubRatioResultGenerator.cs" />
+    <Compile Include="Classes\ChangesCalculator.cs" />
+    <Compile Include="Classes\Candle.cs" />
+    <Compile Include="Classes\CandleChange.cs" />
+    <Compile Include="Classes\Logger.cs" />
+    <Compile Include="Classes\DataHolder.cs" />
+    <Compile Include="Classes\DataLoader.cs" />
+    <Compile Include="Classes\DataWriter.cs" />
+    <Compile Include="Classes\LogScaleConverter.cs" />
+    <Compile Include="Classes\LogScaleDetrendedChangesValuator.cs" />
+    <Compile Include="ResultGenerators\MonthlyDistributionResult.cs" />
+    <Compile Include="ResultGenerators\MonthlyDistributionResultGenerator.cs" />
+    <Compile Include="Rules\DistributionInsideMonth\MonthlyDistributionRule.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\BrentToUsdRubRatio\BrentToUsdRubRatioRuleResult.cs" />
+    <Compile Include="Rules\BrentToUsdRubRatio\BrentToUsdRubRatioRule.cs" />
+    <Compile Include="Rules\BrentToUsdRubRatio\CandleByDateComparer.cs" />
+    <Compile Include="Rules\IRule.cs" />
+    <Compile Include="Rules\MondaySecondHourRule\MondaySecondHourRule.cs" />
+    <Compile Include="Rules\MondaySecondHourRule\MondaySecondHourRuleResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppData\ICE.BRN_090803_140803.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppData\RTSI_110502_140511.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppData\SBER_100526_101231.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppData\USDRUB_090803_140803.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppData\USDRUB_110502_140511.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Rules\BrentToUsdRubRatio\Description.txt" />
+    <Content Include="Rules\DistributionInsideMonth\Description.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{b4ca99f7-1a1d-4526-94b6-a86f5c218e1f}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

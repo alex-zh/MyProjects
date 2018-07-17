@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{24B1F15F-4D83-47BF-9BBE-8A4A26C3191B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord">
+      <HintPath>..\packages\Accord.2.14.0\lib\net40\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Math">
+      <HintPath>..\packages\Accord.Math.2.14.0\lib\net40\Accord.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Statistics">
+      <HintPath>..\packages\Accord.Statistics.2.14.0\lib\net40\Accord.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caclulators\PriceCorrector.cs" />
+    <Compile Include="Caclulators\TrendnessCalculator.cs" />
+    <Compile Include="Caclulators\WhipsawCalculator.cs" />
+    <Compile Include="CandlePattern\CandlePattern.cs" />
+    <Compile Include="CandlePattern\CandlePatternFinder.cs" />
+    <Compile Include="CandlePattern\CandlePatternsProvider.cs" />
+    <Compile Include="CandlesLoader - Copy.cs" />
+    <Compile Include="Classes\Analizers\MovingsAnalizer.cs" />
+    <Compile Include="Classes\Analizers\MaximumExcursionPoint.cs" />
+    <Compile Include="Classes\AtrCalculator.cs" />
+    <Compile Include="Classes\BaseLongTermParametersProvider.cs" />
+    <Compile Include="Classes\BinsCountEstimationMethods.cs" />
+    <Compile Include="Classes\Builders\StructureBuilder.cs" />
+    <Compile Include="Classes\Builders\TrendBuilderNew.cs" />
+    <Compile Include="Classes\Builders\TrendBuilderOptions.cs" />
+    <Compile Include="Classes\Builders\TrendLine.cs" />
+    <Compile Include="Classes\Builders\TrendPart.cs" />
+    <Compile Include="Classes\Builders\TrendPoint.cs" />
+    <Compile Include="Classes\Builders\TrendTypes.cs" />
+    <Compile Include="Classes\DistributionCalculator.cs" />
+    <Compile Include="Classes\Funcs.cs" />
+    <Compile Include="Classes\General\AveragingMethod.cs" />
+    <Compile Include="Classes\General\CorrelationTypes.cs" />
+    <Compile Include="Classes\General\DateRangeValue.cs" />
+    <Compile Include="Classes\General\Quote.cs" />
+    <Compile Include="Classes\General\QuoteItem.cs" />
+    <Compile Include="Classes\General\SimpleAtr.cs" />
+    <Compile Include="Classes\General\CorrelationCalculator.cs" />
+    <Compile Include="Classes\General\CandlesStatisticsCalculator.cs" />
+    <Compile Include="Classes\HeatMap.cs" />
+    <Compile Include="Classes\HeatMapChartElement.cs" />
+    <Compile Include="Classes\HeatMapTitles.cs" />
+    <Compile Include="Classes\CandlesStatistics.cs" />
+    <Compile Include="Classes\IntersectionSegment.cs" />
+    <Compile Include="Classes\Logger\LoggerToFile.cs" />
+    <Compile Include="Classes\Logger\LogMessageTypes.cs" />
+    <Compile Include="Classes\ReturnsCalculator.cs" />
+    <Compile Include="Classes\ReturnTypes.cs" />
+    <Compile Include="DataLayer\Repositories\IRobotRepository.cs" />
+    <Compile Include="DataLayer\Repositories\IRobotTradeRepository.cs" />
+    <Compile Include="Robots\Common\IRobotState.cs" />
+    <Compile Include="Robots\Common\LimitOrderOld.cs" />
+    <Compile Include="Robots\Common\OrdersCompletedEventArgs.cs" />
+    <Compile Include="Robots\Common\OrderSides.cs" />
+    <Compile Include="Robots\Common\OrderTypes.cs" />
+    <Compile Include="Robots\Common\RobotStateChangesResult.cs" />
+    <Compile Include="Robots\Common\RobotStateManager.cs" />
+    <Compile Include="Robots\Common\RobotTrade.cs" />
+    <Compile Include="Robots\Common\SecuritiesExtensions.cs" />
+    <Compile Include="Robots\Common\EnumExtensions.cs" />
+    <Compile Include="Classes\StrategyTester\ITradeItem.cs" />
+    <Compile Include="Classes\TaskExtentions.cs" />
+    <Compile Include="Classes\TestLongRangeDataProvider.cs" />
+    <Compile Include="Classes\TimeFrames.cs" />
+    <Compile Include="Classes\TradeStatisticsInfoCategories.cs" />
+    <Compile Include="Classes\TradeStatisticsInfoDealTypes.cs" />
+    <Compile Include="Classes\DistributionCharacteristics.cs" />
+    <Compile Include="Classes\DistributionParameters.cs" />
+    <Compile Include="Classes\ILongRangeDataProvider.cs" />
+    <Compile Include="Classes\LongRangeDataProvider.cs" />
+    <Compile Include="Classes\Analizers\MaximumExcursionAnalizer.cs" />
+    <Compile Include="Classes\Extensions.cs" />
+    <Compile Include="Classes\General\BivariatePoint.cs" />
+    <Compile Include="Classes\General\SignificantMovementAtr.cs" />
+    <Compile Include="Classes\General\StatisticsCalculator.cs" />
+    <Compile Include="Classes\General\TwoDimensionsDictionary.cs" />
+    <Compile Include="Classes\Logger\Logger.cs" />
+    <Compile Include="Classes\Logger\LogItem.cs" />
+    <Compile Include="Classes\Logger\LogsFilterExpressionBuilder.cs" />
+    <Compile Include="Classes\Logger\TextFileLogger.cs" />
+    <Compile Include="Classes\Quartiles.cs" />
+    <Compile Include="Robots\Common\AgentActionParams.cs" />
+    <Compile Include="Classes\Logger\IRobotRepository.cs" />
+    <Compile Include="Robots\Common\LimitOrder.cs" />
+    <Compile Include="Robots\Common\OrderParams.cs" />
+    <Compile Include="Robots\Common\OrderStatuses.cs" />
+    <Compile Include="Robots\Common\PositionStates.cs" />
+    <Compile Include="Robots\Common\RobotInfo.cs" />
+    <Compile Include="Robots\Common\RobotModes.cs" />
+    <Compile Include="Robots\Common\RobotNames.cs" />
+    <Compile Include="Robots\Common\RobotOperationaltatuses.cs" />
+    <Compile Include="Robots\Common\RobotOrderTypes.cs" />
+    <Compile Include="Robots\Common\RobotState.cs" />
+    <Compile Include="Robots\Common\RobotStateOld.cs" />
+    <Compile Include="Robots\Common\Securities.cs" />
+    <Compile Include="Robots\Common\RobotTradeOld.cs" />
+    <Compile Include="Classes\StrategyTester\Deal.cs" />
+    <Compile Include="Classes\StrategyTester\DealsAnalyzer.cs" />
+    <Compile Include="Classes\StrategyTester\TestTradeItem.cs" />
+    <Compile Include="Classes\StrategyTester\TradeDataAnalyzer.cs" />
+    <Compile Include="Classes\StrategyTester\TradeDataStatistics.cs" />
+    <Compile Include="Finders\EmaRecursiveStructureFinder .cs" />
+    <Compile Include="Finders\RecursiveStructureFinder.cs" />
+    <Compile Include="Finders\Structure.cs" />
+    <Compile Include="Finders\StructureFinder.cs" />
+    <Compile Include="Finders\StructureInfo.cs" />
+    <Compile Include="Finders\StructureInfoItem.cs" />
+    <Compile Include="Finders\EmaTrendFinder.cs" />
+    <Compile Include="Finders\StructureItem.cs" />
+    <Compile Include="Robots\Common\Symbols.cs" />
+    <Compile Include="StrategiesOptions\IStrategyOptions.cs" />
+    <Compile Include="StrategiesOptions\NetThrowerOptions.cs" />
+    <Compile Include="ObjectExporter.cs" />
+    <Compile Include="Regression\DistanceFromPointToRegressionLineGauger.cs" />
+    <Compile Include="Regression\LinearRegression.cs" />
+    <Compile Include="Regression\LinearRegressionBuilder.cs" />
+    <Compile Include="StrategiesOptions\StrategyOptions.cs" />
+    <Compile Include="TradesLoader.cs" />
+    <Compile Include="Finders\AbnormalDeviationFinder.cs" />
+    <Compile Include="AbnormalDeviationPoint.cs" />
+    <Compile Include="Classes\General\Atr.cs" />
+    <Compile Include="Classes\General\Candle.cs" />
+    <Compile Include="Classes\General\CandleExtensions.cs" />
+    <Compile Include="Classes\Logger\ILogger.cs" />
+    <Compile Include="Classes\Logger\EnumExtentions.cs" />
+    <Compile Include="CrossingPoint.cs" />
+    <Compile Include="Classes\General\DatePrice.cs" />
+    <Compile Include="Finders\AtrStatisticsFinder.cs" />
+    <Compile Include="Finders\DeviationFinder.cs" />
+    <Compile Include="Finders\AboveBelowMovingProfitFinder.cs" />
+    <Compile Include="Finders\DeviationFromMeanFinder.cs" />
+    <Compile Include="Classes\General\Direction.cs" />
+    <Compile Include="DistributionBin.cs" />
+    <Compile Include="DivergencyPoint.cs" />
+    <Compile Include="Classes\Logger\Dumper.cs" />
+    <Compile Include="CandlesLoader.cs" />
+    <Compile Include="Classes\General\MovingAverage.cs" />
+    <Compile Include="Finders\DeviationsBetweenMovingsIntersectionsFinder.cs" />
+    <Compile Include="Finders\DeviationsFromMovingFinder.cs" />
+    <Compile Include="Finders\MovingsDivergencyFinder.cs" />
+    <Compile Include="MightBeUsed.cs" />
+    <Compile Include="PriceTypes.cs" />
+    <Compile Include="Finders\MovingsIntersectionFinder.cs" />
+    <Compile Include="Classes\General\IDatePrice.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Caclulators\SpreadCalculator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Robot\" />
+    <Folder Include="Strategies\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

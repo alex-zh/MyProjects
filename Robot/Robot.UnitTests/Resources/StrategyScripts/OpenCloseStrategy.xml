@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Iterations>
+  <Iteration index ="0">
+    <ShouldOpen>
+      <Direction>Buy</Direction>
+    </ShouldOpen>
+  </Iteration>
+  <Iteration index ="1">
+    <ShouldClose>
+      <Direction>Buy</Direction>
+    </ShouldClose>
+  </Iteration>
+</Iterations>

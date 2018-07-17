@@ -1,0 +1,87 @@
+<UserControl x:Class="Robot.TradeApplication.Controls.SummaryControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="800">
+    
+    <UserControl.Resources>
+        <Style  TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"></Setter>
+        </Style>
+        <Style x:Key="ConnectionStatus" TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"></Setter>
+            <Setter Property="Foreground" Value="DarkBlue"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Grid.Column="0" Header="DDE" Margin="3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" MinWidth="60"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto" MinWidth="100"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+        
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Quik DDE:"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="tbQuikDdeStatus" Text="Not connected" Style="{StaticResource ConnectionStatus }"></TextBlock>
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Quik Time:"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="tbQuikTime" Text="" Style="{StaticResource ConnectionStatus }"></TextBlock>
+
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Robot Time:"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="1" x:Name="tbRobotTime" Text="" Style="{StaticResource ConnectionStatus }"></TextBlock>
+
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Deals Update Time:"></TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="1" x:Name="tbDealsUpdateTime" Text="" Style="{StaticResource ConnectionStatus }"></TextBlock>
+
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Trades Update Time:"></TextBlock>
+                <TextBlock Grid.Row="4" Grid.Column="1" x:Name="tbTradesUpdateTime" Text="" Style="{StaticResource ConnectionStatus }"></TextBlock>
+
+            </Grid>
+
+        </GroupBox>
+
+        <GroupBox Grid.Column="1" Header="Connections" Margin="3">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" MinWidth="100"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto" MinWidth="100"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Robot to Quik:"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="tbRobotToQuikStatus" Text="Not connected" Style="{StaticResource ConnectionStatus }" ></TextBlock>
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Quik to Server:"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="tbQuikToServerStatus" Text="Not connected" Style="{StaticResource ConnectionStatus }"></TextBlock>
+                
+            </Grid>
+
+        </GroupBox>
+
+        <Button Name="btnConnect" Grid.Column="2" Margin="5,50,5,5"  Width="120"  Click="BtnConnect_OnClick">Connect</Button>
+    </Grid>
+</UserControl>

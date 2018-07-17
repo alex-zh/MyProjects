@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Iterations>
+  <Iteration index ="0">
+    <ShouldOpen>
+      <Direction>Sell</Direction>
+    </ShouldOpen>
+  </Iteration>
+  <Iteration index ="1">
+    <ShouldTakeProfit>
+      <Direction>Buy</Direction>      
+    </ShouldTakeProfit>
+  </Iteration>
+  <Iteration index ="2">
+    <ShouldAddToPosition>
+      <Direction>Sell</Direction>      
+    </ShouldAddToPosition>
+  </Iteration>
+  <Iteration index ="3">
+    <ShouldClose>
+      <Direction>Sell</Direction>
+    </ShouldClose>
+  </Iteration>
+</Iterations>

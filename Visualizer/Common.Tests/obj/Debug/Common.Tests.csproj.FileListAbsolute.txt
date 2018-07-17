@@ -1,0 +1,7 @@
+C:\MyProjects\Visualizer\Common.Tests\bin\Debug\Common.Tests.dll
+C:\MyProjects\Visualizer\Common.Tests\bin\Debug\Common.Tests.pdb
+C:\MyProjects\Visualizer\Common.Tests\bin\Debug\Common.dll
+C:\MyProjects\Visualizer\Common.Tests\bin\Debug\Common.pdb
+C:\MyProjects\Visualizer\Common.Tests\obj\Debug\Common.Tests.csprojResolveAssemblyReference.cache
+C:\MyProjects\Visualizer\Common.Tests\obj\Debug\Common.Tests.dll
+C:\MyProjects\Visualizer\Common.Tests\obj\Debug\Common.Tests.pdb

@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestRandomForest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestRandomForest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="1024">
+    <Grid>
+        <StackPanel>
+            <Button Click="ButtonBase_OnClick" Width="200" Padding="12">Build</Button>
+            <StackPanel Orientation="Horizontal">
+                <Canvas Width="480" Height="480" x:Name ="startCanvas" Margin="6"></Canvas>
+                <Canvas Width="480" Height="480" x:Name ="resultCanvas" Margin="6"></Canvas>
+            </StackPanel>
+        </StackPanel>
+        
+    </Grid>
+</Window>

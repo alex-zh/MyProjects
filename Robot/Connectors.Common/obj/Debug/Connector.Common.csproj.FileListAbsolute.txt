@@ -1,0 +1,15 @@
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Connector.Common.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Connector.Common.pdb
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Common.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Accord.Math.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\AForge.Math.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\AForge.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Accord.dll
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Common.pdb
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Accord.Math.xml
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\AForge.Math.xml
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\AForge.xml
+C:\MyProjects\Robot\Connectors.Common\bin\Debug\Accord.xml
+C:\MyProjects\Robot\Connectors.Common\obj\Debug\Connector.Common.csprojResolveAssemblyReference.cache
+C:\MyProjects\Robot\Connectors.Common\obj\Debug\Connector.Common.dll
+C:\MyProjects\Robot\Connectors.Common\obj\Debug\Connector.Common.pdb

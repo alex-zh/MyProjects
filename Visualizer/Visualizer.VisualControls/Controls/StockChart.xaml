@@ -1,0 +1,40 @@
+﻿<UserControl 
+             x:Class="Visualizer.VisualControls.Controls.StockChart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:Visualizer.VisualControls.Controls"
+             mc:Ignorable="d" d:DesignWidth="62" d:DesignHeight="107" 
+               >
+    <Grid Name="gridChart">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <controls:CandleInfoBox x:Name="infoBox"   Panel.ZIndex="999" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" ></controls:CandleInfoBox>
+        <controls:CursorInfoBox x:Name="cursorInfoBox"   Panel.ZIndex="999" VerticalAlignment="Top" HorizontalAlignment="right" Background="Transparent" ></controls:CursorInfoBox>
+        
+        <ScrollViewer x:Name="scrollViewerCanvasChart" VerticalScrollBarVisibility="Hidden" Grid.Column="0" Grid.Row="0" HorizontalScrollBarVisibility="Hidden">
+            <Canvas Name="canvasChart"  ClipToBounds="True"  MouseMove="canvasChartMouseMove"  Background="Transparent"  />
+        </ScrollViewer>
+
+        <!--<controls:CustomIndicator Grid.Row="1" x:Name="customIndicatorChart"></controls:CustomIndicator>-->
+
+        <ScrollViewer x:Name="scrollViewerDateTimeAxis" VerticalScrollBarVisibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="0" Grid.Row="1" HorizontalScrollBarVisibility="Hidden">
+            <controls:DateTimeAxis x:Name="axisHorizontal" />
+        </ScrollViewer>
+        
+        <controls:ValueAxis Grid.Column="1" x:Name="axisVertical" Grid.Row="0" ClipToBounds="True" />
+        <ScrollBar Grid.Column="0" Grid.Row="2" Height="16" Orientation="Horizontal" x:Name="scrollBarHorizontal" HorizontalAlignment="Stretch"></ScrollBar>
+        <TextBlock Grid.Row="2" Grid.Column="1" Background="Transparent"></TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1" Background="Transparent"></TextBlock>
+    </Grid>
+
+</UserControl>
